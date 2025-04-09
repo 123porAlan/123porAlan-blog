@@ -25,6 +25,8 @@ import {
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://123porAlan.github.io/123porAlan-blog",
+  base: "/123porAlan-blog/",
   image: {
     domains: ["webmention.io"],
   },
@@ -115,7 +117,8 @@ export default defineConfig({
   // https://docs.astro.build/en/guides/prefetch/
   prefetch: true,
   // ! Please remember to replace the following site property with your own domain
-  site: "http://123porAlan.github.io/123porAlan-blog",
+  site: "https://123porAlan.github.io/123porAlan-blog",
+  base: "/123porAlan-blog/",
   vite: {
     build: {
       sourcemap: true, // Source maps generation
