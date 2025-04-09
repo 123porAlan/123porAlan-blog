@@ -2,38 +2,35 @@
 import PageLayout from "@/layouts/Base.astro";
 
 const meta = {
-	description: "I'm a starter theme for Astro.build",
-	title: "About",
+  title: "Sobre mí",
+  description: "Una breve historia sobre cómo llegué aquí.",
 };
 ---
 
 <PageLayout meta={meta}>
+  <h1 class="title mb-6">Sobre mí</h1>
 
-	<h1 class="title mb-6">About</h1>
-	<div class="prose prose-citrus max-w-none">
-		<p>
-			Hi, I’m a starter Astro. I’m particularly great for getting you started with your own blogging
-			website.
-		</p>
-		<p>Here are my some of my awesome built in features:</p>
-		<ul class="list-inside list-disc" role="list">
-			<li>I'm ultra fast as I'm a static site</li>
-			<li>I'm fully responsive</li>
-			<li>I come with a light and dark mode</li>
-			<li>I'm easy to customise and add additional content</li>
-			<li>I have Tailwind CSS styling</li>
-			<li>Shiki code syntax highlighting</li>
-			<li>Satori for auto generating OG images for blog posts</li>
-		</ul>
-		<p>
-			Clone or fork my <a
-				aria-label="github repository"
-				class="citrus-link inline-block"
-				href="https://github.com/artemkutsan/astro-citrus"
-				rel="noreferrer"
-				target="_blank">repo</a
-			> if you like me!
-		</p>
-	</div>
+  <div class="prose prose-citrus max-w-none">
+    <p>
+      Desde siempre me gustaron las matemáticas, aunque tardé en decidir qué estudiar.
+      Pasé por ideas como ingeniería automotriz (me encantan los coches) y hasta física,
+      por culpa de <em>The Big Bang Theory</em>.
+    </p>
 
+    <p>
+      Pero fue hasta el último semestre de prepa, en una materia llamada Cibernética, que conocí a un gran profesor
+      que me recomendó estudiar Ciencias de la Computación… y probar GNU/Linux.
+      Hice ambas cosas, y no me arrepiento.
+    </p>
+
+    <p>
+      Hoy trabajo como tester en una empresa con muy buen ambiente, corro por las mañanas, y en mis ratos libres
+      disfruto del teatro, la poesía y seguir aprendiendo sobre Linux (mi favorito sigue siendo Mint).
+    </p>
+
+    <p>
+      Mi meta a futuro: convertirme en QA Lead o QA Manager.
+    </p>
+  </div>
 </PageLayout>
+
