@@ -2,7 +2,7 @@
 title: "El poder de la mentalidad: Más allá de los factores externos"
 description: "Una reflexión sobre cómo la mentalidad personal puede superar las circunstancias externas."
 publishDate: "18 November 2024"
-tags: ["folosofía", "idea"]
+tags: ["filosofía", "idea"]
 draft: false
 ---
 
