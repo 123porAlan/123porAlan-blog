@@ -2,8 +2,8 @@ name: Desplegar en GitHub Pages
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -13,26 +13,27 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout código
+      - name: Clonar el repositorio
         uses: actions/checkout@v4
 
-      - name: Instalar Node
+      - name: Instalar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: pnpm
+          cache: 'pnpm'
 
-      - name: Instalar PNPM
+      - name: Instalar pnpm
         run: npm install -g pnpm
 
       - name: Instalar dependencias
         run: pnpm install
 
-      - name: Compilar sitio (Astro)
+      - name: Construir el sitio
         run: pnpm build
 
-      - name: Generar índice de búsqueda (Pagefind)
+      - name: Ejecutar postbuild (para Pagefind)
         run: pnpm postbuild
 
       - name: Subir artefacto
@@ -46,9 +47,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Desplegar
+      - name: Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
 
