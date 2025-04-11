@@ -18,14 +18,17 @@ jobs:
       - name: Clonar el repositorio
         uses: actions/checkout@v4
 
-      - name: Instalar Node.js
+      - name: Instalar Node.js y pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8 # o la que uses en tu proyecto
+          run_install: false
+
+      - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'pnpm'
-
-      - name: Instalar pnpm
-        run: npm install -g pnpm
 
       - name: Instalar dependencias
         run: pnpm install
@@ -33,7 +36,7 @@ jobs:
       - name: Construir el sitio
         run: pnpm build
 
-      - name: Ejecutar postbuild (para Pagefind)
+      - name: Ejecutar postbuild (Pagefind)
         run: pnpm postbuild
 
       - name: Subir artefacto
