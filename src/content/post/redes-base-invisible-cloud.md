@@ -4,6 +4,8 @@ description: "Este post es sobre conceptos basicos de Redes"
 publishDate: "15 April 2025"
 tags: ["nube", "redes"]
 draft: false
+seriesId: citrus-docs
+orderInSeries: 1
 ---
 ¿Por qué aprender redes?
 
