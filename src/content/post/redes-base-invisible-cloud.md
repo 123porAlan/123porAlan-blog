@@ -69,3 +69,9 @@ Tres conceptos clave en el enrutamiento:
 - **Dirección IP**: Identifica de forma única a cada dispositivo en una red.
 - **Máscara de red**: Indica al router si la dirección de destino pertenece a la misma red local o no.
 - **Puerta de enlace predeterminada**: Es la dirección IP del router dentro de la red local. Todo el tráfico hacia redes externas se envía a esta dirección, para que el router lo encamine correctamente.
+
+---
+
+¿Te gustaría profundizar con diagramas y explicaciones paso a paso?
+
+📘 Revisa la nota complementaria: [ABC de las Redes](/notes/abc-de-las-redes)
