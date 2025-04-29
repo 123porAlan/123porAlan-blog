@@ -1,6 +1,6 @@
 ---
 id: citrus-docs
-title: "Documentación cloud"
-description: "Material explicativo sobre cómo opera el ecosistema cloud."
+title: "Documentación"
+description: "Material explicativo sobre cómo funciona el mundo del software."
 featured: true
 ---
