@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	// Used as the default description meta property and webmanifest description
-	description: "An opinionated starter theme for Astro",
+	description: "Un mundo de tecnología con capas y capas de humanidad",
 	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
 	lang: "es-ES",
 	// Meta property, found in src/components/BaseHead.astro L:42
