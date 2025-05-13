@@ -14,11 +14,11 @@ En conversaciones cotidianas, se repite con fervor aquella frase: *“Quien no c
 
 ## **El guion invisible de lo inconsciente**  
 
-Carl Gustav Jung ofreció una clave reveladora:  
+Carl Gustav Jung ofreció una clave reveladora:
 
->“Hasta que lo inconsciente no se haga consciente, seguirá dirigiendo nuestra vida y lo llamaremos destino”.  
+>Hasta que lo inconsciente no se haga consciente, seguirá dirigiendo nuestra vida y lo llamaremos destino.
 
-Nuestra mente opera como un teatro: en el escenario visible están las decisiones racionales, los argumentos que creemos controlar. Tras el telón, sin embargo, se escribe otro guion. Allí habitan traumas no resueltos, mandatos culturales asumidos como verdades absolutas y patrones heredados de generaciones pasadas. Cada vez que decimos *“soy así”* o *“es mi destino”*, entregamos el control a ese guionista oculto que dirige en la sombra.  
+Nuestra mente opera como un teatro: en el escenario visible están las decisiones racionales, los argumentos que creemos controlar. Tras el telón, sin embargo, se escribe otro guion. Allí habitan traumas no resueltos, mandatos culturales asumidos como verdades absolutas y patrones heredados de generaciones pasadas. Cada vez que decimos *“soy así”* o *“es mi destino”*, entregamos el control a ese guionista oculto que dirige en la sombra.
 
 ---
 
