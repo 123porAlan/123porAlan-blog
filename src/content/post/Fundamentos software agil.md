@@ -3,7 +3,7 @@ title: "Comprendiendo el SDLC"
 description: "Compara el modelo en cascada y Scrum para entender su impacto en proyectos modernos."
 publishDate: "30 April 2025"
 series: testing-docs
-tags: ["SCRUM", "Testing101", "SoftwareTesting"]
+tags: ["SCRUM", "Testing101", "SoftwareTesting", "Computación"]
 draft: false
 seriesId: citrus-docs
 orderInSeries: 3
