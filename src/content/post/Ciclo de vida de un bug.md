@@ -4,6 +4,8 @@ description: "Conoce cada etapa del ciclo de vida de un bug, desde su detección
 publishDate: "13 May 2025"
 tags: ["Testing101", "SoftwareTesting", "Computación"]
 draft: false
+seriesId: citrus-docs
+orderInSeries: 4
 ---
 # **El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas**  
 
