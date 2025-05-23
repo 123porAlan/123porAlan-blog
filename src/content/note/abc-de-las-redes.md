@@ -6,16 +6,7 @@ draft: false
 ---
 
 
-## 🌐 Conceptos básicos
-
-```
-[PC] --[Red LAN]-- [Switch] --[Router]--> 🌍 Internet
-```
-
-- **LAN**: Red local (casa, oficina).
-- **WLAN**: LAN con Wi-Fi.
-- **WAN**: Conexión entre varias LANs, como Internet.
-- **VLAN**: LAN virtual separada lógicamente aunque esté en la misma red física.
+**🌐 Conceptos básicos**: **LAN**: Red local (casa, oficina). **WLAN**: LAN con Wi-Fi. **WAN**: Conexión entre varias LANs, como Internet. **VLAN**: LAN virtual separada lógicamente aunque esté en la misma red física.
 
 ---
 
