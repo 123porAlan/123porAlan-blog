@@ -2,7 +2,7 @@
 title: "Redes: La Base Invisible del Cloud Computing"
 description: "Este post es sobre conceptos basicos de Redes"
 publishDate: "15 April 2025"
-tags: ["nube", "redes"]
+tags: ["nube", "redes", "Computación"]
 draft: false
 seriesId: citrus-docs
 orderInSeries: 1

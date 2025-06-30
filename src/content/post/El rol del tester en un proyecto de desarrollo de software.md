@@ -3,7 +3,7 @@ title: "El rol del tester en el desarrollo de software"
 description: "El Software Testing es clave para detectar y prevenir errores en el desarrollo, asegurando la calidad del producto final."
 publishDate: "21 April 2025"
 series: testing-docs
-tags: ["Testing101", "SoftwareTesting"]
+tags: ["Testing101", "SoftwareTesting", "Computación"]
 draft: false
 seriesId: citrus-docs
 orderInSeries: 2
