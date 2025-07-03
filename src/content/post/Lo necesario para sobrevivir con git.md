@@ -246,7 +246,7 @@ Los conflictos pueden parecer difíciles al principio, pero con práctica se vue
 
 
 **Post data: 
-## ¿Y si quiero regresar a un commit anterior?**
+## ¿Y si quiero regresar a un commit anterior?
 
 A veces, después de varios cambios, te das cuenta de que algo salió mal y quieres volver a una versión anterior de tu proyecto. No te preocupes, Git también te cubre en eso.
 
