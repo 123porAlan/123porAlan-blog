@@ -245,7 +245,7 @@ Tu trabajo es elegir qué parte conservar, o incluso combinar ambas. Borra las m
 Los conflictos pueden parecer difíciles al principio, pero con práctica se vuelven parte del día a día. Lo importante es leer con calma, entender qué cambió y decidir qué versión quieres dejar. Ahora estas listo para trabajar con git. ¡Suerte!
 
 
-**Post data: 
+**Post data:** 
 ## ¿Y si quiero regresar a un commit anterior?
 
 A veces, después de varios cambios, te das cuenta de que algo salió mal y quieres volver a una versión anterior de tu proyecto. No te preocupes, Git también te cubre en eso.
