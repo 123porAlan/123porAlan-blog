@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  text-align: justify;      
+  margin-inline: 2vw;
+}
+
+.footer-copyright-text {
+  display: inline-block; 
+  position: relative;
+  font-size: 14px;
+  
+}

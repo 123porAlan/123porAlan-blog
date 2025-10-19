@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Lo necesario para sobrevivir con GIT | Alan Bellon</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Lo necesario para sobrevivir con GIT" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré." />
+<meta property="og:description" content="Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré." />
+<link rel="canonical" href="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git" />
+<meta property="og:url" content="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git" />
+<meta property="og:site_name" content="Alan Bellon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-02T06:01:35-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Lo necesario para sobrevivir con GIT" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-02T00:00:00-06:00","datePublished":"2024-07-02T06:01:35-06:00","description":"Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré.","headline":"Lo necesario para sobrevivir con GIT","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/Lo-necesario-para-sobrevivir-con-git"},"url":"http://localhost:4001/Lo-necesario-para-sobrevivir-con-git"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<meta name="keywords" content="" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" title="Alan Bellon - " href="/feed.xml" />
+<link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/typography.css">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async ></script>
+
+
+
+<script defer src="/assets/script/theme.js"></script>
+<script defer src="/assets/script/script.js"></script>
+
+</head>
+<body onload="onLoad()">
+  <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
+</select>
+
+  <div class="container-wrapper">
+    <header class="container-header">
+      <div class="header-info">
+  <span class="header-info-name"><a href="/">Alan Bellon</a></span>
+  <br>
+  <!-- <span class="header-info-desc"></span> -->
+</div>
+<nav class="header-nav">
+  <ul class="header-main-nav">
+    
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/"
+          
+        >
+          
+            Blog
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/about"
+          
+        >
+          
+            About
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/categories"
+          
+        >
+          
+            Categories
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/projects"
+          
+        >
+          
+            Projects
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+    </header>
+    <main class="container-main">
+      <article class="container-post">
+  <div class="post-title">
+    <h3>Lo necesario para sobrevivir con GIT</h3>
+  </div>
+  <div class="post-author">
+    <span>Alan Bellon</span>
+  </div>
+  <div class="post-content">
+    <p>Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré.</p>
+
+<p>Fue entonces cuando, por mi cuenta, investigué en diferentes recursos. Hoy quiero compartirte lo que considero lo más esencial y necesario para sobrevivir tanto al inicio de la universidad como a los primeros días de trabajo, o al menos para tener noción de qué está pasando.</p>
+
+<p><strong>1. Instalando Git (sin miedo padrino)</strong></p>
+
+<p>Primero lo primero: necesitas tener Git instalado. Si usas Windows, baja el instalador desde <a href="https://git-scm.com/">git-scm.com</a>. En Mac, abre la terminal y escribe:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>git
+</code></pre></div></div>
+
+<p>En Linux, lo clásico:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>git
+</code></pre></div></div>
+
+<p>Si usas la distro buena (Fedora) que por cierto ya hablaremos esa distro en el siguiente post, ya se esta cocinando eso.</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dnf <span class="nb">install </span>git
+</code></pre></div></div>
+
+<p>¿Ya? Seguimos.</p>
+
+<p><strong>2. Configura tu identidad (para que no seas “unknown”)</strong></p>
+
+<p>Git quiere saber quién eres. Así tus cambios no aparecen como “misterioso usuario”. Solo pon esto en la terminal (cambia los datos por los tuyos):</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"Tu Nombre"</span>
+git config <span class="nt">--global</span> user.email <span class="s2">"tu@email.com"</span>
+</code></pre></div></div>
+
+<p>¿Quieres ver cómo quedó? Usa:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--list</span>
+</code></pre></div></div>
+
+<p><strong>3. Inicia tu repositorio (el punto de partida)</strong></p>
+
+<p>Ve a la carpeta de tu proyecto y ejecuta:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+</code></pre></div></div>
+
+<p>Eso crea la carpeta <code class="language-plaintext highlighter-rouge">.git</code> donde Git guarda todo la configuración de tu proyecto.</p>
+
+<p><strong>4. Agrega tus archivos y haz tu primer commit</strong></p>
+
+<p>Para decirle a Git qué archivos quieres guardar, usa:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+</code></pre></div></div>
+
+<p>El punto significa “todos los archivos”. Si solo quieres uno, pon el nombre en lugar de solo poner el punto.</p>
+
+<p>Ahora, guarda ese momento con un commit:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"Primer commit"</span>
+</code></pre></div></div>
+
+<p><strong>5. Conecta con un repositorio remoto (GitHub, GitLab, etc.)</strong></p>
+
+<p>Ya tienes tu repo en GitHub (o el que uses). Copia la URL y enlázalo así:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/tuusuario/tu-repo.git
+</code></pre></div></div>
+
+<p><strong>6. Sube tu proyecto (push)</strong></p>
+
+<p>Hora de mandar todo a la nube:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-u</span> origin main
+</code></pre></div></div>
+
+<p>O si tu rama principal se llama <code class="language-plaintext highlighter-rouge">master</code>:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-u</span> origin master
+</code></pre></div></div>
+
+<p>El <code class="language-plaintext highlighter-rouge">-u</code> es para que la próxima vez solo tengas que poner <code class="language-plaintext highlighter-rouge">git push</code> y Git ya sabe a dónde.</p>
+
+<p><strong>7. Baja cambios (pull)</strong></p>
+
+<p>¿Trabajas en equipo o desde varias compus? Antes de empezar, siempre es buena idea traer los últimos cambios de tus compañeros:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull
+</code></pre></div></div>
+
+<p>Así evitas sorpresas.</p>
+
+<hr />
+
+<h2 id="cómo-funcionan-las-ramas-en-git">¿Cómo funcionan las ramas en Git?</h2>
+
+<p>Si alguna vez has escuchado frases como “haz una rama para esa nueva funcionalidad” o “no trabajes directo en main”, pero no tienes idea de qué va eso, aquí te digo, de echó es mas fácil de lo que parece.</p>
+
+<p><strong>¿Para qué sirven las ramas?</strong></p>
+
+<p>Las ramas en Git son como líneas paralelas de tiempo donde puedes trabajar en nuevas ideas, corregir errores o experimentar, sin afectar el código principal. Imagina que tu proyecto es un árbol: la rama principal (<code class="language-plaintext highlighter-rouge">main</code> o <code class="language-plaintext highlighter-rouge">master</code>) es el tronco, y cada rama nueva es una ramita donde puedes hacer cambios sin miedo a romper todo.</p>
+
+<p>Esto es útil porque te permite:</p>
+
+<ul>
+  <li>Probar cosas nuevas sin arriesgar el proyecto completo.</li>
+  <li>Trabajar en varias tareas al mismo tiempo (por ejemplo, una rama para una nueva función y otra para corregir un bug).</li>
+  <li>Colaborar con otras personas sin pisarse los cambios.</li>
+</ul>
+
+<p><strong>¿Cómo crear una rama?</strong></p>
+
+<p>Crear una rama es tan fácil como escribir:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch nombre-de-tu-rama
+</code></pre></div></div>
+
+<p>Pero lo más común es crearla y cambiarte a ella de una vez:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> nombre-de-tu-rama
+</code></pre></div></div>
+
+<p>Ahora, todo lo que hagas quedará guardado en esa rama, no en la principal.</p>
+
+<p><strong>¿Cómo moverse entre ramas?</strong></p>
+
+<p>Para cambiarte de rama, solo usa:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout nombre-de-tu-rama
+</code></pre></div></div>
+
+<p>O, si usas una versión moderna de Git, puedes usar:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git switch nombre-de-tu-rama
+</code></pre></div></div>
+
+<p>Así puedes saltar entre diferentes líneas de trabajo sin perder nada.</p>
+
+<p><strong>¿Cómo ver las ramas que tienes?</strong></p>
+
+<p>Para ver todas las ramas de tu proyecto:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch
+</code></pre></div></div>
+
+<p>La rama en la que estás parado aparecerá con un asterisco.</p>
+
+<hr />
+
+<p>¿Ves? Las ramas no son tan difíciles. Son tu mejor amigo para trabajar ordenado y sin miedo a romper nada.<br />
+ En la siguiente sección te cuento cómo unir ramas y qué hacer si Git te dice que hay conflictos.</p>
+
+<hr />
+
+<h2 id="cómo-hacer-merge-y-solucionar-conflictos">¿Cómo hacer merge y solucionar conflictos?</h2>
+
+<p>Llegó el momento de unir caminos. Cuando trabajas con ramas, tarde o temprano vas a querer juntar los cambios de una rama con otra. A eso se le llama <strong>merge</strong>. Pero, como en toda historia que valga la pena, a veces hay choques y aparecen los temidos <strong>conflictos</strong>. Aquí te explico cómo enfrentarlos sin perder la calma.</p>
+
+<p><strong>¿Qué es un merge?</strong></p>
+
+<p>Hacer un merge en Git es básicamente decir: “Quiero que los cambios de esta rama se mezclen con los de otra”. Por lo general, lo más común es unir tu rama de trabajo con la rama principal (<code class="language-plaintext highlighter-rouge">main</code> o <code class="language-plaintext highlighter-rouge">master</code>).</p>
+
+<p><strong>¿Cómo hacer un merge?</strong></p>
+
+<p>Supón que tienes una rama llamada <code class="language-plaintext highlighter-rouge">feature-x</code> y quieres unirla a <code class="language-plaintext highlighter-rouge">main</code>. Haz lo siguiente:</p>
+
+<ol>
+  <li>
+    <p>Cambia a la rama donde quieres juntar los cambios (por ejemplo, <code class="language-plaintext highlighter-rouge">main</code>):</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout main
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Haz el merge:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge feature-x
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>Si todo va bien, Git mezclará los cambios automáticamente y listo.</p>
+
+<h3 id="qué-pasa-si-hay-conflictos">¿Qué pasa si hay conflictos?</h3>
+
+<p>A veces, Git no puede decidir solo cómo unir los cambios porque dos ramas modificaron la misma parte de un archivo. Eso es un <strong>conflicto</strong>.</p>
+
+<p>Cuando esto pasa, Git te avisa y marca los archivos en conflicto. Dentro de esos archivos verás algo así:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
+Este es el contenido en tu rama actual.
+=======
+Este es el contenido en la rama que quieres unir.
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature-x
+</code></pre></div></div>
+
+<p>Tu trabajo es elegir qué parte conservar, o incluso combinar ambas. Borra las marcas (<code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code class="language-plaintext highlighter-rouge">=======</code>, <code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>) y deja el resultado final como tú quieras.</p>
+
+<h3 id="cómo-soluciono-el-conflicto">¿Cómo soluciono el conflicto?</h3>
+
+<ol>
+  <li>Abre el archivo en conflicto y edítalo hasta que quede como debe ser.</li>
+  <li>Guarda los cambios.</li>
+  <li>
+    <p>Marca el conflicto como resuelto:</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add nombre-del-archivo
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Termina el merge con un commit (si Git no lo hace solo):</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<p>¡Listo! Ya resolviste el conflicto y tus ramas están unidas.</p>
+
+<hr />
+
+<p>Los conflictos pueden parecer difíciles al principio, pero con práctica se vuelven parte del día a día. Lo importante es leer con calma, entender qué cambió y decidir qué versión quieres dejar. Ahora estas listo para trabajar con git. ¡Suerte!</p>
+
+<p><strong>Post data:</strong></p>
+
+<h2 id="y-si-quiero-regresar-a-un-commit-anterior">¿Y si quiero regresar a un commit anterior?</h2>
+
+<p>A veces, después de varios cambios, te das cuenta de que algo salió mal y quieres volver a una versión anterior de tu proyecto. No te preocupes, Git también te cubre en eso.</p>
+
+<p>Primero, para ver el historial de commits, usa:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log <span class="nt">--oneline</span>
+</code></pre></div></div>
+
+<p>Esto te mostrará una lista de commits con sus identificadores (ese código raro al inicio de cada línea).</p>
+
+<p>Si solo quieres ver cómo era tu proyecto en un commit anterior (sin perder nada), puedes moverte temporalmente con:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout id-del-commit
+</code></pre></div></div>
+
+<p>Pero si quieres regresar tu rama a ese punto (¡cuidado, esto sí cambia la historia!), puedes usar:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--hard</span> id-del-commit
+</code></pre></div></div>
+
+<p>O si solo quieres deshacer los últimos cambios pero guardarlos para después, usa:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--soft</span> id-del-commit
+</code></pre></div></div>
+
+<p><strong>Tip:</strong> Si solo quieres deshacer el último commit pero dejar los archivos como estaban, puedes hacer:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--soft</span> HEAD~1
+</code></pre></div></div>
+
+<p>Recuerda: antes de hacer un reset, asegúrate de que no tienes cambios importantes sin respaldar, porque podrías perderlos.</p>
+
+<p>¡Y listo! Así puedes viajar en el tiempo con Git y salvarte de cualquier desastre.</p>
+
+  </div>
+  <hr>
+  <div class="post-info">
+    <div class="post-date">
+      Written on 2024-07-02, updated at 2024-07-02.
+    </div>
+    <!-- <div class="post-categories">
+      <span>Categories: </span>
+      
+      <a href="/category/quality-assurance" class="post-category">Quality Assurance</a>
+      
+    </div> -->
+    <!-- <div class="post-tags">
+      <span>Tags: </span>
+      
+    </div> -->
+    <div class="post-tools">
+      
+      <div>
+        <span>Next: </span><a href="/El-poder-de-la-elecci%C3%B3n">El poder de elección</a>
+      </div>
+      
+      
+      <div>
+        <span>Previous: </span><a href="/Fundamentos-software-agil">Comprendiendo el SDLC</a>
+      </div>
+      
+    </div>
+    
+  </div>
+</article>
+    </main>
+    <footer class="container-footer">
+      <div class="footer-copyright">
+  <span class="footer-copyright-text float-left">Socials: <a href="https://www.linkedin.com/in/leonardespi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://github.com/leonardespi" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://x.com/leonardespii?mx=2" target="_blank" rel="noopener noreferrer">X</a>, <a href="https://music.youtube.com/@Leoesuncabron" target="_blank" rel="noopener noreferrer">Music</a></span>
+
+</div>
+    </footer>
+  </div>
+
+  <script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+  document.querySelectorAll('pre > code.language-mermaid').forEach((codeBlock) => {
+    codeBlock.parentElement.outerHTML = `<pre class="mermaid">${codeBlock.textContent}</pre>`;
+  });
+</script>
+
+</body>
+</html>

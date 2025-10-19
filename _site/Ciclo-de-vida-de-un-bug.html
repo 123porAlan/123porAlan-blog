@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>El ciclo de vida de un bug | Alan Bellon</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="El ciclo de vida de un bug" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas" />
+<meta property="og:description" content="El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas" />
+<link rel="canonical" href="http://localhost:4001/Ciclo-de-vida-de-un-bug" />
+<meta property="og:url" content="http://localhost:4001/Ciclo-de-vida-de-un-bug" />
+<meta property="og:site_name" content="Alan Bellon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-05-13T06:01:35-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="El ciclo de vida de un bug" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-13T00:00:00-06:00","datePublished":"2025-05-13T06:01:35-06:00","description":"El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas","headline":"El ciclo de vida de un bug","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/Ciclo-de-vida-de-un-bug"},"url":"http://localhost:4001/Ciclo-de-vida-de-un-bug"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<meta name="keywords" content="" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" title="Alan Bellon - " href="/feed.xml" />
+<link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/typography.css">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async ></script>
+
+
+
+<script defer src="/assets/script/theme.js"></script>
+<script defer src="/assets/script/script.js"></script>
+
+</head>
+<body onload="onLoad()">
+  <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
+</select>
+
+  <div class="container-wrapper">
+    <header class="container-header">
+      <div class="header-info">
+  <span class="header-info-name"><a href="/">Alan Bellon</a></span>
+  <br>
+  <!-- <span class="header-info-desc"></span> -->
+</div>
+<nav class="header-nav">
+  <ul class="header-main-nav">
+    
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/"
+          
+        >
+          
+            Blog
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/about"
+          
+        >
+          
+            About
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/categories"
+          
+        >
+          
+            Categories
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/projects"
+          
+        >
+          
+            Projects
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+    </header>
+    <main class="container-main">
+      <article class="container-post">
+  <div class="post-title">
+    <h3>El ciclo de vida de un bug</h3>
+  </div>
+  <div class="post-author">
+    <span>Alan Bellon</span>
+  </div>
+  <div class="post-content">
+    <h1 id="el-ciclo-de-vida-de-un-bug-etapas-roles-y-buenas-prácticas"><strong>El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas</strong></h1>
+
+<p>El ciclo de vida de un bug es el proceso estructurado que sigue un defecto desde su detección hasta su resolución definitiva. Cada etapa implica acciones específicas y roles claramente definidos para garantizar una gestión eficiente y una solución efectiva. A continuación, te detallo cada fase con mayor profundidad, incluyendo buenas prácticas y flujos alternativos.</p>
+
+<hr />
+
+<h2 id="1-nuevo-new"><strong>1. Nuevo (New)</strong></h2>
+
+<p><strong>Responsable</strong>: Tester o QA Engineer<br />
+<strong>Descripción</strong>:<br />
+El tester identifica un comportamiento inesperado o inconsistente durante la ejecución de pruebas (manuales o automatizadas) y lo reporta en el sistema de seguimiento de bugs.</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Documentación detallada</strong>:</p>
+
+<ul>
+  <li>Pasos exactos para reproducir el defecto.</li>
+  <li>Entorno de prueba (navegador, SO, versión del software, etc.).</li>
+  <li>Comportamiento <strong>esperado</strong> vs. <strong>comportamiento actual</strong>.</li>
+  <li>Capturas de pantalla, logs o videos si son relevantes.</li>
+</ul>
+
+<p>✔ <strong>Clasificación del bug</strong>:</p>
+
+<ul>
+  <li><strong>Prioridad</strong> (Urgente, Alta, Media, Baja): Impacto en el negocio o usuario.</li>
+  <li><strong>Severidad</strong> (Crítico, Mayor, Medio, Menor): Grado de afectación al sistema.</li>
+</ul>
+
+<p>✔ <strong>Asignación inicial</strong>:</p>
+
+<ul>
+  <li>El bug se registra como “Nuevo” y se asigna al líder de desarrollo o project manager para su revisión.</li>
+</ul>
+
+<hr />
+
+<h2 id="2-asignado-assigned"><strong>2. Asignado (Assigned)</strong></h2>
+
+<p><strong>Responsable</strong>: Líder de Desarrollo o Project Manager<br />
+<strong>Descripción</strong>:<br />
+El bug es evaluado para determinar su validez y asignado al desarrollador correspondiente.</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Validación inicial</strong>:</p>
+
+<ul>
+  <li>Confirmar si el bug es <strong>reproducible</strong> y no está duplicado.</li>
+  <li>Verificar si es un defecto real o un malentendido (ej: error de configuración).</li>
+</ul>
+
+<p>✔ <strong>Decisiones posibles</strong>:</p>
+
+<ul>
+  <li><strong>Aceptar</strong>: Asignar al desarrollador para su corrección.</li>
+  <li><strong>Rechazar</strong>: Si no es un bug válido (ej: comportamiento esperado, error del usuario).</li>
+  <li><strong>Posponer</strong>: Si no es crítico y se abordará en una futura iteración.</li>
+</ul>
+
+<hr />
+
+<h2 id="3-activo-active--in-progress"><strong>3. Activo (Active / In Progress)</strong></h2>
+
+<p><strong>Responsable</strong>: Desarrollador<br />
+<strong>Descripción</strong>:<br />
+El desarrollador investiga y corrige el defecto.</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Análisis de la causa raíz</strong>:</p>
+
+<ul>
+  <li>Revisar el código, logs y flujos relacionados.</li>
+  <li>Identificar si el error es propio del desarrollo, de integración o de un componente externo.</li>
+</ul>
+
+<p>✔ <strong>Desarrollo de la solución</strong>:</p>
+
+<ul>
+  <li>Implementar el fix y probarlo localmente.</li>
+  <li>Asegurar que no introduce nuevos defectos (pruebas unitarias).</li>
+</ul>
+
+<p>✔ <strong>Actualización del estado</strong>:</p>
+
+<ul>
+  <li>Documentar los cambios realizados en el sistema de seguimiento.</li>
+</ul>
+
+<hr />
+
+<h2 id="4-arreglado-fixed--resolved"><strong>4. Arreglado (Fixed / Resolved)</strong></h2>
+
+<p><strong>Responsable</strong>: Desarrollador<br />
+<strong>Descripción</strong>:<br />
+El desarrollador confirma que el bug ha sido corregido y lo envía para verificación.</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Subir cambios al repositorio</strong>:</p>
+
+<ul>
+  <li>Realizar commit con una descripción clara (ej: “Fix #123: Corrección de error en cálculo de impuestos”).</li>
+  <li>Fusionar en la rama correspondiente (develop, main, etc.).</li>
+</ul>
+
+<p>✔ <strong>Marcar como “Fixed” en el sistema</strong>:</p>
+
+<ul>
+  <li>Indicar la versión donde se aplicó el fix.</li>
+  <li>Proporcionar detalles adicionales si el tester necesita validar algo específico.</li>
+</ul>
+
+<hr />
+
+<h2 id="5-verificado-verified--closed"><strong>5. Verificado (Verified / Closed)</strong></h2>
+
+<p><strong>Responsable</strong>: Tester<br />
+<strong>Descripción</strong>:<br />
+El QA verifica que la corrección sea efectiva y que no genere regresiones.</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Pruebas de regresión</strong>:</p>
+
+<ul>
+  <li>Validar el escenario original del bug.</li>
+  <li>Asegurar que funcionalidades relacionadas no se vean afectadas.</li>
+</ul>
+
+<p>✔ <strong>Resultados posibles</strong>:</p>
+
+<ul>
+  <li><strong>Éxito</strong>: El bug pasa a estado “Cerrado”.</li>
+  <li><strong>Fallo</strong>: Se reabre y se devuelve a “Activo” con comentarios detallados.</li>
+</ul>
+
+<hr />
+
+<h2 id="6-cerrado-closed"><strong>6. Cerrado (Closed)</strong></h2>
+
+<p><strong>Responsable</strong>: Tester o Líder de QA<br />
+<strong>Descripción</strong>:<br />
+El bug se cierra definitivamente al confirmar su resolución.</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Documentación final</strong>:</p>
+
+<ul>
+  <li>Registrar evidencia de la prueba exitosa.</li>
+  <li>Actualizar reportes de calidad del proyecto.</li>
+</ul>
+
+<p>✔ <strong>Archivado</strong>:</p>
+
+<ul>
+  <li>El bug queda como referencia para auditorías o análisis futuros.</li>
+</ul>
+
+<hr />
+
+<h2 id="7-rechazado-rejected"><strong>7. Rechazado (Rejected)</strong></h2>
+
+<p><strong>Responsable</strong>: Líder de Desarrollo o QA Manager<br />
+<strong>Descripción</strong>:<br />
+El bug es descartado por no ser válido (duplicado, no reproducible, error de usuario, etc.).</p>
+
+<p><strong>Acciones Clave</strong>:<br />
+✔ <strong>Justificación clara</strong>:</p>
+
+<ul>
+  <li>Ejemplo: “No es un defecto, el comportamiento es el esperado según el requerimiento X”.</li>
+</ul>
+
+<p>✔ <strong>Comunicación con el tester</strong>:</p>
+
+<ul>
+  <li>Si el bug fue malinterpretado, se aclara el escenario para evitar reportes similares.</li>
+</ul>
+
+<hr />
+
+<h2 id="flujos-alternativos-y-consideraciones"><strong>Flujos Alternativos y Consideraciones</strong></h2>
+
+<p>🔄 <strong>Reapertura de un Bug</strong></p>
+
+<ul>
+  <li>Si el fix no funciona, el bug vuelve a <strong>“Activo”</strong> con observaciones detalladas.</li>
+  <li>Si se encuentra el mismo defecto en otra área, se crea un <strong>nuevo reporte</strong> vinculado al original.</li>
+</ul>
+
+<p>⚠ <strong>Bugs Duplicados o Invalidados</strong></p>
+
+<ul>
+  <li>Se marcan como <strong>“Rechazado”</strong> o <strong>“Duplicado”</strong> y se enlazan al bug principal.</li>
+</ul>
+
+<p>🛠 <strong>Buenas Prácticas</strong><br />
+✔ <strong>Comunicación constante</strong> entre Devs y QA para evitar malentendidos.<br />
+✔ <strong>Seguimiento con herramientas</strong> como Jira, Azure DevOps o Bugzilla para mantener trazabilidad.<br />
+✔ <strong>Retrospectivas</strong> para analizar bugs recurrentes y mejorar procesos.</p>
+
+<hr />
+
+<p><strong>Conclusión</strong><br />
+Un ciclo de vida de bugs bien gestionado mejora la calidad del software, optimiza el tiempo del equipo y facilita la entrega de productos más estables. La clave está en la <strong>documentación clara</strong>, la <strong>colaboración entre roles</strong> y el <strong>uso de herramientas adecuadas</strong>.</p>
+
+  </div>
+  <hr>
+  <div class="post-info">
+    <div class="post-date">
+      Written on 2025-05-13, updated at 2025-05-13.
+    </div>
+    <!-- <div class="post-categories">
+      <span>Categories: </span>
+      
+      <a href="/category/quality-assurance" class="post-category">Quality Assurance</a>
+      
+    </div> -->
+    <!-- <div class="post-tags">
+      <span>Tags: </span>
+      
+    </div> -->
+    <div class="post-tools">
+      
+      <div>
+        <span>Next: </span><a href="/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto">¿Por qué fedora?</a>
+      </div>
+      
+      
+      <div>
+        <span>Previous: </span><a href="/Condenados-a-repetir-la-historia">¿Condenados a repetir la historia?</a>
+      </div>
+      
+    </div>
+    
+  </div>
+</article>
+    </main>
+    <footer class="container-footer">
+      <div class="footer-copyright">
+  <span class="footer-copyright-text float-left">Socials: <a href="https://www.linkedin.com/in/leonardespi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://github.com/leonardespi" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://x.com/leonardespii?mx=2" target="_blank" rel="noopener noreferrer">X</a>, <a href="https://music.youtube.com/@Leoesuncabron" target="_blank" rel="noopener noreferrer">Music</a></span>
+
+</div>
+    </footer>
+  </div>
+
+  <script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+  document.querySelectorAll('pre > code.language-mermaid').forEach((codeBlock) => {
+    codeBlock.parentElement.outerHTML = `<pre class="mermaid">${codeBlock.textContent}</pre>`;
+  });
+</script>
+
+</body>
+</html>
