@@ -1,819 +1,798 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2025-10-19T00:25:51-06:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Alan Bellon</title><entry><title type="html">¿Por qué fedora?</title><link href="http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto" rel="alternate" type="text/html" title="¿Por qué fedora?" /><published>2025-08-11T06:01:35-06:00</published><updated>2025-08-11T00:00:00-06:00</updated><id>http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n:-mi-ranking-honesto</id><content type="html" xml:base="http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto"><![CDATA[<p>Aunque no fue mi primera distribución en el mundo Linux, fue la que más impacto tuvo en mi carrera. Durante el propedéutico de CC, mis profesores repetían que solo había dos distribuciones ideales para la carrera y para programar, en términos generales. Yo por dentro era escéptico: “los profes no tienen ni la menor idea”. Ellos sugerían Fedora o Debian. En mi cabeza algo no encajaba: todas las distribuciones son tipo Unix, y eso es lo que las hace tan versátiles y poderosas.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2025-10-19T15:31:38-06:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Alan Bellon</title><entry><title type="html">Why Fedora?</title><link href="http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto" rel="alternate" type="text/html" title="Why Fedora?" /><published>2025-08-11T06:01:35-06:00</published><updated>2025-08-11T00:00:00-06:00</updated><id>http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n:-mi-ranking-honesto</id><content type="html" xml:base="http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto"><![CDATA[<p>Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.</p>
 
-<p>Otro profesor, más joven y con menos años dando clase, pero no por eso menos sabio, nos recomendó probar varias distros hasta encontrar una que nos gustara. Los demás dijeron que no le hiciéramos caso, que no tenía sentido. Le hice caso al joven. Compré una laptop decente y empecé a probar todo lo que pude: desde Linux Mint, que fue la primera que instalé, hasta Arch y Deepin OS. Fue un camino largo en el que aprendí mucho, pero al final, siempre terminaba regresando a Fedora.</p>
+<p>Another professor, younger and with fewer years of teaching, but no less wise for it, recommended we try several distros until we found one we liked. The others said not to listen to him, that it made no sense. I listened to the young one. I bought a decent laptop and started trying everything I could: from Linux Mint, which was the first one I installed, to Arch and Deepin OS. It was a long road on which I learned a lot, but in the end, I always ended up coming back to Fedora.</p>
 
-<p>Este post es para rankear las mejores distribuciones para un estudiante de ciencias de la computación y áreas afines. Encontrar la mejor no es fácil: debes valorar estabilidad, si es rolling release, tus metas a futuro, si prefieres aprender a bajo nivel o productividad inmediata, y tu hardware.</p>
+<p>This post is to rank the best distributions for a computer science student and related fields. Finding the best one isn’t easy: you must value stability, if it’s a rolling release, your future goals, whether you prefer to learn at a low level or need immediate productivity, and your hardware.</p>
 
-<p>Primero, piensa en tus objetivos. Si quieres aprender sistemas y administración a fondo, una distro más “manual” te obliga a entender el sistema. Si quieres enfocarte en programar y avanzar en proyectos, prioriza estabilidad, buena compatibilidad y que “todo funcione”.</p>
+<p>First, think about your objectives. If you want to learn systems and administration in-depth, a more “manual” distro forces you to understand the system. If you want to focus on programming and moving forward with projects, prioritize stability, good compatibility, and that “everything just works.”</p>
 
-<p>Criterios clave a evaluar incluyen la compatibilidad con tu hardware (especialmente gráficas NVIDIA, Wi‑Fi y suspensión en laptops), la estabilidad y cadencia de actualizaciones (LTS o estables si no quieres sorpresas durante el semestre; rolling si quieres lo último), la disponibilidad de software y gestores de paquetes (apt en Ubuntu/Debian, dnf en Fedora, pacman en Arch; extras como Flatpak y AppImage ayudan mucho), la documentación y comunidad (cuanto más grande, más fácil solucionar problemas), el entorno de escritorio y consumo de recursos (GNOME y KDE están muy pulidos; Xfce/LXQt son más ligeros), y el soporte para las herramientas de desarrollo que usarás (Docker/Podman, virtualización con KVM/VirtualBox, toolchains de C/C++/Rust/Python, CUDA/ROCm para GPU, LaTeX, IDEs como VS Code/JetBrains). También valora cifrado de disco, backups, batería, HiDPI, Wayland vs X11 e impresoras.</p>
+<p>Key criteria to evaluate include hardware compatibility (especially NVIDIA graphics, Wi-Fi, and sleep on laptops), stability and update cadence (LTS or stable if you don’t want surprises during the semester; rolling if you want the latest), software availability and package managers (apt on Ubuntu/Debian, dnf on Fedora, pacman on Arch; extras like Flatpak and AppImage help a lot), documentation and community (the bigger, the easier it is to solve problems), desktop environment and resource consumption (GNOME and KDE are very polished; Xfce/LXQt are lighter), and support for the development tools you’ll use (Docker/Podman, virtualization with KVM/VirtualBox, C/C++/Rust/Python toolchains, CUDA/ROCm for GPU, LaTeX, IDEs like VS Code/JetBrains). Also consider disk encryption, backups, battery, HiDPI, Wayland vs X11, and printers.</p>
 
-<p>Si eres como yo y al inicio no tienes idea, lo mejor es una distro que “solo funcione” para estudiar y programar: Linux Mint es tu vieja confiable. Ahora, si quieres usar un sistema pensado de verdad para desarrollo, usa Fedora. Podría hablarte de muchas más, pero prefiero entrar directo.</p>
+<p>If you’re like me and have no idea at the beginning, the best thing is a distro that “just works” for studying and programming: Linux Mint is your old reliable. Now, if you want to use a system truly designed for development, use Fedora. I could talk about many more, but I prefer to get straight to it.</p>
 
-<p>Ya sin más, aquí está el ranking.</p>
+<p>Without further ado, here is the ranking.</p>
 
-<h3 id="ranking-de-distros-para-estudiar-ciencias-de-la-computación">Ranking de distros para estudiar Ciencias de la Computación</h3>
+<h3 id="ranking-of-distros-for-studying-computer-science">Ranking of Distros for Studying Computer Science</h3>
 
 <ol>
-  <li>Fedora Workstation<br />
-Pensada explícitamente para desarrollo: trae toolchains muy recientes (GCC/Clang, Python, Rust), SELinux por defecto y un flujo moderno con Podman/Toolbox para contenedores “rootless”. GNOME viene muy pulido, Flatpak está bien integrado y los repositorios COPR facilitan instalar software extra. Su gestor es dnf y utiliza paquetes rpm, con políticas claras de empaquetado y actualización. ¿Por qué aquí? Porque ofrece “lo último” con buena estabilidad, ideal para cursos y proyectos que requieren versiones recientes de compiladores, kernel o frameworks. Contras: su patrocinio principal es de Red Hat (propiedad de IBM). Aunque Fedora es una comunidad sólida y no es un producto comercial, depender de una empresa grande siempre introduce riesgo de cambios de rumbo. El caso de Clear Linux (impulsado por Intel) mostró cómo las prioridades corporativas pueden cambiar y reducir el foco en el escritorio; no es una predicción para Fedora, pero sí un recordatorio de que decisiones empresariales pueden impactar proyectos patrocinados. Hoy por hoy, el modelo comunitario de Fedora y su adopción mitigan bastante ese riesgo.</li>
-  <li>Linux Mint<br />
-Enfocada en “instalar y ponerse a trabajar” con una curva de aprendizaje mínima. Basada en Ubuntu LTS, hereda su enorme ecosistema y usa apt y paquetes deb, con Cinnamon como entorno por defecto: ligero, consistente y familiar si vienes de Windows. Excelente para clases, scripting, Git y compilar C/C++/Java/Python sin pelear con el sistema, con códecs y detalles de usabilidad resueltos. ¿Por qué en este puesto? Máxima productividad y estabilidad para el estudiante promedio, sin perder compatibilidad con herramientas docentes. Contras: al basarse en LTS, algunas versiones de toolchains y kernel van más lentas; si necesitas lo último (CUDA/ROCm nuevos, kernel para hardware muy reciente), tendrás que tirar de PPAs/Flatpak o esperar backports.</li>
-  <li>Pop!_OS<br />
-Hecha por System76 con enfoque práctico para laptops y desarrollo. Sobre base Ubuntu, añade un instalador muy cuidado, perfiles de energía, tiling automático, imágenes con drivers NVIDIA y utilidades de recuperación que te salvan cuando algo falla. ¿Por qué aquí? Porque equilibra facilidad con decisiones sensatas para productividad, sobre todo en portátiles con GPU dedicada. Contras: su cadencia depende de Ubuntu y del trabajo extra de System76; si buscas lo más nuevo en el stack base, Fedora suele ir delante. Además, su entorno COSMIC en evolución puede traer cambios que no todos quieren en pleno semestre.</li>
-  <li>NixOS<br />
-Potentísima para reproducibilidad: declaras tu sistema y entornos de desarrollo en archivos (nix/flakes) y puedes clonar tu setup exacto en cualquier máquina o revertir cambios en segundos. Para cursos con dependencias complejas, investigación reproducible o múltiples proyectos con toolchains distintos, es un sueño. ¿Por qué cuarto? La curva de aprendizaje es real: aprender el lenguaje de Nix y su modelo consume tiempo justo cuando necesitas avanzar en materias. Si te entusiasma la “infra como código” y puedes invertir en aprenderlo, puede pasar a tu top; si no, empieza con algo más convencional y vuelve a NixOS después.</li>
+  <li><strong>Fedora Workstation</strong> Explicitly designed for development: it brings very recent toolchains (GCC/Clang, Python, Rust), SELinux by default, and a modern workflow with Podman/Toolbox for “rootless” containers. GNOME comes very polished, Flatpak is well-integrated, and the COPR repositories make it easy to install extra software. Its manager is dnf and it uses rpm packages, with clear packaging and update policies. Why here? Because it offers “the latest” with good stability, ideal for courses and projects that require recent versions of compilers, kernels, or frameworks. Cons: Its main sponsorship is from Red Hat (owned by IBM). Although Fedora is a solid community and not a commercial product, depending on a large company always introduces the risk of a change in direction. The case of Clear Linux (driven by Intel) showed how corporate priorities can change and reduce focus on the desktop; it’s not a prediction for Fedora, but it is a reminder that business decisions can impact sponsored projects. As of today, Fedora’s community model and its adoption mitigate that risk quite a bit.</li>
+  <li><strong>Linux Mint</strong> Focused on “install and get to work” with a minimal learning curve. Based on Ubuntu LTS, it inherits its huge ecosystem and uses apt and deb packages, with Cinnamon as the default environment: light, consistent, and familiar if you come from Windows. Excellent for classes, scripting, Git, and compiling C/C++/Java/Python without fighting the system, with codecs and usability details sorted out. Why in this spot? Maximum productivity and stability for the average student, without losing compatibility with educational tools. Cons: Being based on LTS, some toolchain and kernel versions lag behind; if you need the latest (new CUDA/ROCm, kernel for very recent hardware), you’ll have to pull from PPAs/Flatpak or wait for backports.</li>
+  <li><strong>Pop!_OS</strong> Made by System76 with a practical focus on laptops and development. On an Ubuntu base, it adds a very polished installer, power profiles, automatic tiling, images with NVIDIA drivers, and recovery utilities that save you when something fails. Why here? Because it balances ease of use with sensible decisions for productivity, especially on laptops with dedicated GPUs. Cons: Its cadence depends on Ubuntu and the extra work from System76; if you’re looking for the newest base stack, Fedora is usually ahead. Also, its evolving COSMIC environment can bring changes that not everyone wants in the middle of a semester.</li>
+  <li><strong>NixOS</strong> Extremely powerful for reproducibility: you declare your system and development environments in files (nix/flakes) and can clone your exact setup on any machine or revert changes in seconds. For courses with complex dependencies, reproducible research, or multiple projects with different toolchains, it’s a dream. Why fourth? The learning curve is real: learning the Nix language and its model takes time right when you need to be making progress in your subjects. If you’re excited about “infra as code” and can invest in learning it, it might move to your top spot; if not, start with something more conventional and come back to NixOS later.</li>
 </ol>
 
-<p>No puse Debian porque, de primeras, es más probable topar con temas de compatibilidad en hardware moderno. Puede ser positivo si tu objetivo es aprender arreglando tu sistema, pero no es la experiencia que recomiendo si ya tienes suficientes problemas con las materias. Lo importante en la carrera es enfocarte en aprender; si después quieres experimentar, pruébala. Con otras distros pasa algo similar. Por ejemplo, Deepin OS sería perfecta si no se sintiera verde: le faltan detalles, algunas animaciones se traban y la experiencia se resiente.</p>
+<p>I didn’t put Debian because, right off the bat, you’re more likely to run into compatibility issues on modern hardware. This can be positive if your goal is to learn by fixing your system, but it’s not the experience I recommend if you already have enough problems with your classes. The important thing in your major is to focus on learning; if you want to experiment later, try it. Something similar happens with other distros. For example, Deepin OS would be perfect if it didn’t feel “green”: it’s missing details, some animations lag, and the experience suffers.</p>
 
-<p>Sin más, estas son mis recomendaciones. Para elegir por primera vez, esto basta. Con el tiempo te darás cuenta de que casi todas las distribuciones de Linux son más de lo mismo: la diferencia la haces tú, no la distro.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Aunque no fue mi primera distribución en el mundo Linux, fue la que más impacto tuvo en mi carrera. Durante el propedéutico de CC, mis profesores repetían que solo había dos distribuciones ideales para la carrera y para programar, en términos generales. Yo por dentro era escéptico: “los profes no tienen ni la menor idea”. Ellos sugerían Fedora o Debian. En mi cabeza algo no encajaba: todas las distribuciones son tipo Unix, y eso es lo que las hace tan versátiles y poderosas.]]></summary></entry><entry><title type="html">El ciclo de vida de un bug</title><link href="http://localhost:4001/Ciclo-de-vida-de-un-bug" rel="alternate" type="text/html" title="El ciclo de vida de un bug" /><published>2025-05-13T06:01:35-06:00</published><updated>2025-05-13T00:00:00-06:00</updated><id>http://localhost:4001/Ciclo-de-vida-de-un-bug</id><content type="html" xml:base="http://localhost:4001/Ciclo-de-vida-de-un-bug"><![CDATA[<h1 id="el-ciclo-de-vida-de-un-bug-etapas-roles-y-buenas-prácticas"><strong>El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas</strong></h1>
+<p>And that’s it, these are my recommendations. To choose for the first time, this is enough. With time you’ll realize that almost all Linux distributions are more of the same: you make the difference, not the distro.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.]]></summary></entry><entry><title type="html">The Life Cycle of a Bug</title><link href="http://localhost:4001/Ciclo-de-vida-de-un-bug" rel="alternate" type="text/html" title="The Life Cycle of a Bug" /><published>2025-05-13T06:01:35-06:00</published><updated>2025-05-13T00:00:00-06:00</updated><id>http://localhost:4001/Ciclo-de-vida-de-un-bug</id><content type="html" xml:base="http://localhost:4001/Ciclo-de-vida-de-un-bug"><![CDATA[<h1 id="the-life-cycle-of-a-bug-stages-roles-and-best-practices"><strong>The Life Cycle of a Bug: Stages, Roles, and Best Practices</strong></h1>
 
-<p>El ciclo de vida de un bug es el proceso estructurado que sigue un defecto desde su detección hasta su resolución definitiva. Cada etapa implica acciones específicas y roles claramente definidos para garantizar una gestión eficiente y una solución efectiva. A continuación, te detallo cada fase con mayor profundidad, incluyendo buenas prácticas y flujos alternativos.</p>
-
-<hr />
-
-<h2 id="1-nuevo-new"><strong>1. Nuevo (New)</strong></h2>
-
-<p><strong>Responsable</strong>: Tester o QA Engineer<br />
-<strong>Descripción</strong>:<br />
-El tester identifica un comportamiento inesperado o inconsistente durante la ejecución de pruebas (manuales o automatizadas) y lo reporta en el sistema de seguimiento de bugs.</p>
-
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Documentación detallada</strong>:</p>
-
-<ul>
-  <li>Pasos exactos para reproducir el defecto.</li>
-  <li>Entorno de prueba (navegador, SO, versión del software, etc.).</li>
-  <li>Comportamiento <strong>esperado</strong> vs. <strong>comportamiento actual</strong>.</li>
-  <li>Capturas de pantalla, logs o videos si son relevantes.</li>
-</ul>
-
-<p>✔ <strong>Clasificación del bug</strong>:</p>
-
-<ul>
-  <li><strong>Prioridad</strong> (Urgente, Alta, Media, Baja): Impacto en el negocio o usuario.</li>
-  <li><strong>Severidad</strong> (Crítico, Mayor, Medio, Menor): Grado de afectación al sistema.</li>
-</ul>
-
-<p>✔ <strong>Asignación inicial</strong>:</p>
-
-<ul>
-  <li>El bug se registra como “Nuevo” y se asigna al líder de desarrollo o project manager para su revisión.</li>
-</ul>
+<p>The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.</p>
 
 <hr />
 
-<h2 id="2-asignado-assigned"><strong>2. Asignado (Assigned)</strong></h2>
+<h2 id="1-new-new"><strong>1. New (New)</strong></h2>
 
-<p><strong>Responsable</strong>: Líder de Desarrollo o Project Manager<br />
-<strong>Descripción</strong>:<br />
-El bug es evaluado para determinar su validez y asignado al desarrollador correspondiente.</p>
+<p><strong>Responsible</strong>: Tester or QA Engineer<br />
+<strong>Description</strong>:<br />
+The tester identifies unexpected or inconsistent behavior during test execution (manual or automated) and reports it in the bug tracking system.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Validación inicial</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Detailed documentation</strong>:</p>
 
 <ul>
-  <li>Confirmar si el bug es <strong>reproducible</strong> y no está duplicado.</li>
-  <li>Verificar si es un defecto real o un malentendido (ej: error de configuración).</li>
+  <li>Exact steps to reproduce the defect.</li>
+  <li>Test environment (browser, OS, software version, etc.).</li>
+  <li><strong>Expected</strong> behavior vs. <strong>actual behavior</strong>.</li>
+  <li>Screenshots, logs, or videos if relevant.</li>
 </ul>
 
-<p>✔ <strong>Decisiones posibles</strong>:</p>
+<p>✔ <strong>Bug classification</strong>:</p>
 
 <ul>
-  <li><strong>Aceptar</strong>: Asignar al desarrollador para su corrección.</li>
-  <li><strong>Rechazar</strong>: Si no es un bug válido (ej: comportamiento esperado, error del usuario).</li>
-  <li><strong>Posponer</strong>: Si no es crítico y se abordará en una futura iteración.</li>
+  <li><strong>Priority</strong> (Urgent, High, Medium, Low): Impact on the business or user.</li>
+  <li><strong>Severity</strong> (Critical, Major, Medium, Minor): Degree to which the system is affected.</li>
+</ul>
+
+<p>✔ <strong>Initial assignment</strong>:</p>
+
+<ul>
+  <li>The bug is logged as “New” and assigned to the development lead or project manager for review.</li>
 </ul>
 
 <hr />
 
-<h2 id="3-activo-active--in-progress"><strong>3. Activo (Active / In Progress)</strong></h2>
+<h2 id="2-assigned-assigned"><strong>2. Assigned (Assigned)</strong></h2>
 
-<p><strong>Responsable</strong>: Desarrollador<br />
-<strong>Descripción</strong>:<br />
-El desarrollador investiga y corrige el defecto.</p>
+<p><strong>Responsible</strong>: Development Lead or Project Manager<br />
+<strong>Description</strong>:<br />
+The bug is evaluated to determine its validity and assigned to the corresponding developer.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Análisis de la causa raíz</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Initial validation</strong>:</p>
 
 <ul>
-  <li>Revisar el código, logs y flujos relacionados.</li>
-  <li>Identificar si el error es propio del desarrollo, de integración o de un componente externo.</li>
+  <li>Confirm if the bug is <strong>reproducible</strong> and not duplicated.</li>
+  <li>Verify if it is a real defect or a misunderstanding (e.g., configuration error).</li>
 </ul>
 
-<p>✔ <strong>Desarrollo de la solución</strong>:</p>
+<p>✔ <strong>Possible decisions</strong>:</p>
 
 <ul>
-  <li>Implementar el fix y probarlo localmente.</li>
-  <li>Asegurar que no introduce nuevos defectos (pruebas unitarias).</li>
-</ul>
-
-<p>✔ <strong>Actualización del estado</strong>:</p>
-
-<ul>
-  <li>Documentar los cambios realizados en el sistema de seguimiento.</li>
+  <li><strong>Accept</strong>: Assign to the developer for correction.</li>
+  <li><strong>Reject</strong>: If it is not a valid bug (e.g., expected behavior, user error).</li>
+  <li><strong>Defer</strong>: If it is not critical and will be addressed in a future iteration.</li>
 </ul>
 
 <hr />
 
-<h2 id="4-arreglado-fixed--resolved"><strong>4. Arreglado (Fixed / Resolved)</strong></h2>
+<h2 id="3-active-active--in-progress"><strong>3. Active (Active / In Progress)</strong></h2>
 
-<p><strong>Responsable</strong>: Desarrollador<br />
-<strong>Descripción</strong>:<br />
-El desarrollador confirma que el bug ha sido corregido y lo envía para verificación.</p>
+<p><strong>Responsible</strong>: Developer<br />
+<strong>Description</strong>:<br />
+The developer investigates and corrects the defect.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Subir cambios al repositorio</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Root cause analysis</strong>:</p>
 
 <ul>
-  <li>Realizar commit con una descripción clara (ej: “Fix #123: Corrección de error en cálculo de impuestos”).</li>
-  <li>Fusionar en la rama correspondiente (develop, main, etc.).</li>
+  <li>Review the code, logs, and related flows.</li>
+  <li>Identify if the error is from the development itself, integration, or an external component.</li>
 </ul>
 
-<p>✔ <strong>Marcar como “Fixed” en el sistema</strong>:</p>
+<p>✔ <strong>Solution development</strong>:</p>
 
 <ul>
-  <li>Indicar la versión donde se aplicó el fix.</li>
-  <li>Proporcionar detalles adicionales si el tester necesita validar algo específico.</li>
+  <li>Implement the fix and test it locally.</li>
+  <li>Ensure it does not introduce new defects (unit tests).</li>
 </ul>
 
-<hr />
-
-<h2 id="5-verificado-verified--closed"><strong>5. Verificado (Verified / Closed)</strong></h2>
-
-<p><strong>Responsable</strong>: Tester<br />
-<strong>Descripción</strong>:<br />
-El QA verifica que la corrección sea efectiva y que no genere regresiones.</p>
-
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Pruebas de regresión</strong>:</p>
+<p>✔ <strong>Status update</strong>:</p>
 
 <ul>
-  <li>Validar el escenario original del bug.</li>
-  <li>Asegurar que funcionalidades relacionadas no se vean afectadas.</li>
-</ul>
-
-<p>✔ <strong>Resultados posibles</strong>:</p>
-
-<ul>
-  <li><strong>Éxito</strong>: El bug pasa a estado “Cerrado”.</li>
-  <li><strong>Fallo</strong>: Se reabre y se devuelve a “Activo” con comentarios detallados.</li>
+  <li>Document the changes made in the tracking system.</li>
 </ul>
 
 <hr />
 
-<h2 id="6-cerrado-closed"><strong>6. Cerrado (Closed)</strong></h2>
+<h2 id="4-fixed-fixed--resolved"><strong>4. Fixed (Fixed / Resolved)</strong></h2>
 
-<p><strong>Responsable</strong>: Tester o Líder de QA<br />
-<strong>Descripción</strong>:<br />
-El bug se cierra definitivamente al confirmar su resolución.</p>
+<p><strong>Responsible</strong>: Developer<br />
+<strong>Description</strong>:<br />
+The developer confirms the bug has been corrected and sends it for verification.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Documentación final</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Push changes to the repository</strong>:</p>
 
 <ul>
-  <li>Registrar evidencia de la prueba exitosa.</li>
-  <li>Actualizar reportes de calidad del proyecto.</li>
+  <li>Make a commit with a clear description (e.g., “Fix #123: Correction of tax calculation error”).</li>
+  <li>Merge into the corresponding branch (develop, main, etc.).</li>
 </ul>
 
-<p>✔ <strong>Archivado</strong>:</p>
+<p>✔ <strong>Mark as “Fixed” in the system</strong>:</p>
 
 <ul>
-  <li>El bug queda como referencia para auditorías o análisis futuros.</li>
-</ul>
-
-<hr />
-
-<h2 id="7-rechazado-rejected"><strong>7. Rechazado (Rejected)</strong></h2>
-
-<p><strong>Responsable</strong>: Líder de Desarrollo o QA Manager<br />
-<strong>Descripción</strong>:<br />
-El bug es descartado por no ser válido (duplicado, no reproducible, error de usuario, etc.).</p>
-
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Justificación clara</strong>:</p>
-
-<ul>
-  <li>Ejemplo: “No es un defecto, el comportamiento es el esperado según el requerimiento X”.</li>
-</ul>
-
-<p>✔ <strong>Comunicación con el tester</strong>:</p>
-
-<ul>
-  <li>Si el bug fue malinterpretado, se aclara el escenario para evitar reportes similares.</li>
+  <li>Indicate the version where the fix was applied.</li>
+  <li>Provide additional details if the tester needs to validate something specific.</li>
 </ul>
 
 <hr />
 
-<h2 id="flujos-alternativos-y-consideraciones"><strong>Flujos Alternativos y Consideraciones</strong></h2>
+<h2 id="5-verified-verified--closed"><strong>5. Verified (Verified / Closed)</strong></h2>
 
-<p>🔄 <strong>Reapertura de un Bug</strong></p>
+<p><strong>Responsible</strong>: Tester<br />
+<strong>Description</strong>:<br />
+The QA verifies that the fix is effective and does not cause regressions.</p>
 
-<ul>
-  <li>Si el fix no funciona, el bug vuelve a <strong>“Activo”</strong> con observaciones detalladas.</li>
-  <li>Si se encuentra el mismo defecto en otra área, se crea un <strong>nuevo reporte</strong> vinculado al original.</li>
-</ul>
-
-<p>⚠ <strong>Bugs Duplicados o Invalidados</strong></p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Regression testing</strong>:</p>
 
 <ul>
-  <li>Se marcan como <strong>“Rechazado”</strong> o <strong>“Duplicado”</strong> y se enlazan al bug principal.</li>
+  <li>Validate the original bug scenario.</li>
+  <li>Ensure that related functionalities are not affected.</li>
 </ul>
 
-<p>🛠 <strong>Buenas Prácticas</strong><br />
-✔ <strong>Comunicación constante</strong> entre Devs y QA para evitar malentendidos.<br />
-✔ <strong>Seguimiento con herramientas</strong> como Jira, Azure DevOps o Bugzilla para mantener trazabilidad.<br />
-✔ <strong>Retrospectivas</strong> para analizar bugs recurrentes y mejorar procesos.</p>
+<p>✔ <strong>Possible outcomes</strong>:</p>
+
+<ul>
+  <li><strong>Success</strong>: The bug moves to “Closed” status.</li>
+  <li><strong>Failure</strong>: It is reopened and returned to “Active” with detailed comments.</li>
+</ul>
 
 <hr />
 
-<p><strong>Conclusión</strong><br />
-Un ciclo de vida de bugs bien gestionado mejora la calidad del software, optimiza el tiempo del equipo y facilita la entrega de productos más estables. La clave está en la <strong>documentación clara</strong>, la <strong>colaboración entre roles</strong> y el <strong>uso de herramientas adecuadas</strong>.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas]]></summary></entry><entry><title type="html">¿Condenados a repetir la historia?</title><link href="http://localhost:4001/Condenados-a-repetir-la-historia" rel="alternate" type="text/html" title="¿Condenados a repetir la historia?" /><published>2025-05-09T06:01:35-06:00</published><updated>2025-05-09T00:00:00-06:00</updated><id>http://localhost:4001/Condenados-a-repetir-la-historia</id><content type="html" xml:base="http://localhost:4001/Condenados-a-repetir-la-historia"><![CDATA[<h2 id="la-ilusión-del-conocimiento-consciente"><strong>La ilusión del conocimiento consciente</strong></h2>
+<h2 id="6-closed-closed"><strong>6. Closed (Closed)</strong></h2>
 
-<p>En conversaciones cotidianas, se repite con fervor aquella frase: <em>“Quien no conoce su historia está condenado a repetirla”</em>. Se presenta como una verdad incuestionable, una fórmula mágica para evitar errores. Pero surge una contradicción evidente: quienes la predican —adultos con décadas de experiencia— siguen repitiendo los mismos patrones. ¿Por qué la teoría no se traduce en práctica?</p>
+<p><strong>Responsible</strong>: Tester or QA Lead<br />
+<strong>Description</strong>:<br />
+The bug is permanently closed upon confirming its resolution.</p>
+
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Final documentation</strong>:</p>
+
+<ul>
+  <li>Log evidence of the successful test.</li>
+  <li>Update project quality reports.</li>
+</ul>
+
+<p>✔ <strong>Archiving</strong>:</p>
+
+<ul>
+  <li>The bug remains as a reference for future audits or analysis.</li>
+</ul>
 
 <hr />
 
-<h2 id="el-guion-invisible-de-lo-inconsciente"><strong>El guion invisible de lo inconsciente</strong></h2>
+<h2 id="7-rejected-rejected"><strong>7. Rejected (Rejected)</strong></h2>
 
-<p>Carl Gustav Jung ofreció una clave reveladora:</p>
+<p><strong>Responsible</strong>: Development Lead or QA Manager<br />
+<strong>Description</strong>:<br />
+The bug is discarded for not being valid (duplicate, not reproducible, user error, etc.).</p>
+
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Clear justification</strong>:</p>
+
+<ul>
+  <li>Example: “Not a defect, the behavior is as expected per requirement X.”</li>
+</ul>
+
+<p>✔ <strong>Communication with the tester</strong>:</p>
+
+<ul>
+  <li>If the bug was misinterpreted, the scenario is clarified to avoid similar reports.</li>
+</ul>
+
+<hr />
+
+<h2 id="alternative-flows-and-considerations"><strong>Alternative Flows and Considerations</strong></h2>
+
+<p>🔄 <strong>Reopening a Bug</strong></p>
+
+<ul>
+  <li>If the fix does not work, the bug returns to <strong>“Active”</strong> with detailed observations.</li>
+  <li>If the same defect is found in another area, a <strong>new report</strong> is created and linked to the original one.</li>
+</ul>
+
+<p>⚠ <strong>Duplicate or Invalid Bugs</strong></p>
+
+<ul>
+  <li>They are marked as <strong>“Rejected”</strong> or <strong>“Duplicate”</strong> and linked to the main bug.</li>
+</ul>
+
+<p>🛠 <strong>Best Practices</strong> ✔ <strong>Constant communication</strong> between Devs and QA to avoid misunderstandings.<br />
+✔ <strong>Tracking with tools</strong> like Jira, Azure DevOps, or Bugzilla to maintain traceability.<br />
+✔ <strong>Retrospectives</strong> to analyze recurring bugs and improve processes.</p>
+
+<hr />
+
+<p><strong>Conclusion</strong> A well-managed bug life cycle improves software quality, optimizes the team’s time, and facilitates the delivery of more stable products. The key lies in <strong>clear documentation</strong>, <strong>collaboration between roles</strong>, and the <strong>use of appropriate tools</strong>.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[The Life Cycle of a Bug: Stages, Roles, and Best Practices]]></summary></entry><entry><title type="html">Doomed to Repeat History?</title><link href="http://localhost:4001/Condenados-a-repetir-la-historia" rel="alternate" type="text/html" title="Doomed to Repeat History?" /><published>2025-05-09T06:01:35-06:00</published><updated>2025-05-09T00:00:00-06:00</updated><id>http://localhost:4001/Condenados-a-repetir-la-historia</id><content type="html" xml:base="http://localhost:4001/Condenados-a-repetir-la-historia"><![CDATA[<h2 id="the-illusion-of-conscious-knowledge"><strong>The Illusion of Conscious Knowledge</strong></h2>
+
+<p>In everyday conversations, one phrase is fervently repeated: <em>“Those who do not know their history are doomed to repeat it.”</em> It’s presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn’t theory translate into practice?</p>
+
+<hr />
+
+<h2 id="the-invisible-script-of-the-unconscious"><strong>The Invisible Script of the Unconscious</strong></h2>
+
+<p>Carl Gustav Jung offered a revealing key:</p>
 
 <blockquote>
-  <p>Hasta que lo inconsciente no se haga consciente, seguirá dirigiendo nuestra vida y lo llamaremos destino.</p>
+  <p>Until you make the unconscious conscious, it will direct your life and you will call it fate.</p>
 </blockquote>
 
-<p>Nuestra mente opera como un teatro: en el escenario visible están las decisiones racionales, los argumentos que creemos controlar. Tras el telón, sin embargo, se escribe otro guion. Allí habitan traumas no resueltos, mandatos culturales asumidos como verdades absolutas y patrones heredados de generaciones pasadas. Cada vez que decimos <em>“soy así”</em> o <em>“es mi destino”</em>, entregamos el control a ese guionista oculto que dirige en la sombra.</p>
+<p>Our mind operates like a theater: on the visible stage are the rational decisions, the arguments we believe we control. Behind the curtain, however, another script is being written. There dwell unresolved traumas, cultural mandates accepted as absolute truths, and patterns inherited from past generations. Every time we say <em>“that’s just how I am”</em> or <em>“it’s my destiny”</em>, we hand over control to that hidden scriptwriter directing from the shadows.</p>
 
 <hr />
 
-<h2 id="la-normalización-del-fracaso"><strong>La normalización del fracaso</strong></h2>
+<h2 id="the-normalization-of-failure"><strong>The Normalization of Failure</strong></h2>
 
-<p>Tropezar no es el problema. Lo verdaderamente peligroso es justificar la caída como algo inevitable. ¿Cuántas veces repetimos relaciones que nos hieren, disfrazando el miedo a la soledad de <em>“amor incondicional”</em>? ¿Cuántos hábitos destructivos normalizamos bajo el lema <em>“así es la vida”</em>? El costo no es abstracto: días convertidos en rutina vacía, salud deteriorada, potencial desperdiciado.</p>
+<p>Stumbling isn’t the problem. What is truly dangerous is justifying the fall as inevitable. How many times do we repeat relationships that hurt us, disguising the fear of loneliness as <em>“unconditional love”</em>? How many destructive habits do we normalize under the slogan <em>“that’s life”</em>? The cost is not abstract: days turned into empty routine, deteriorating health, wasted potential.</p>
 
-<p>Aquí yace la paradoja: conocer los errores no basta. Como señala la filosofía estoica, <em>“el conocimiento que no se aplica es mera información”</em>. Podemos memorizar cada error histórico, pero si no indagamos en las fuerzas ocultas que nos llevan a repetirlos, seguiremos siendo marionetas de lo no examinado.</p>
-
-<hr />
-
-<h2 id="el-verdadero-aprendizaje-desenterrar-las-raíces"><strong>El verdadero aprendizaje: desenterrar las raíces</strong></h2>
-
-<p>El camino no es la introspección superficial ni seguir técnicas de autoayuda efímeras. Se trata de una excavación profunda, casi arqueológica, en las capas de nuestra psique. ¿Qué heridas infantiles nos hacen buscar validación en lugares tóxicos? ¿Qué voces internas repetimos como propias, aunque en realidad sean ecos de expectativas ajenas?</p>
-
-<p>Este proceso duele. Exige confrontar lo que hemos enterrado por décadas: vergüenzas, culpas, miedos. Pero, como bien ilustra el mito griego de la caja de Pandora, solo al enfrentar lo oculto encontramos la esperanza de transformación.</p>
+<p>Herein lies the paradox: knowing the mistakes is not enough. As Stoic philosophy points out, <em>“knowledge that is not applied is mere information.”</em> We can memorize every historical error, but if we do not inquire into the hidden forces that lead us to repeat them, we will remain puppets of the unexamined.</p>
 
 <hr />
 
-<h2 id="preguntas-que-despiertan"><strong>Preguntas que despiertan</strong></h2>
+<h2 id="true-learning-unearthing-the-roots"><strong>True Learning: Unearthing the Roots</strong></h2>
 
-<p>La próxima vez que repitas el cliché sobre la historia, haz una pausa. En lugar de citarlo como un mantra vacío, conviértelo en un espejo:</p>
+<p>The path is not superficial introspection or following fleeting self-help techniques. It is about a deep, almost archaeological, excavation into the layers of our psyche. What childhood wounds make us seek validation in toxic places? What internal voices do we repeat as our own, when in reality they are echoes of others’ expectations?</p>
+
+<p>This process hurts. It demands confronting what we have buried for decades: shame, guilt, fear. But, as the Greek myth of Pandora’s box aptly illustrates, only by confronting what is hidden do we find the hope for transformation.</p>
+
+<hr />
+
+<h2 id="questions-that-awaken"><strong>Questions That Awaken</strong></h2>
+
+<p>The next time you repeat the cliché about history, pause. Instead of citing it as an empty mantra, turn it into a mirror:</p>
 
 <ol>
-  <li><em>¿Qué patrones heredados —familiares, culturales, sociales— operan en mí sin cuestionamiento?</em></li>
-  <li><em>¿Qué acciones concretas tomo hoy para reescribir ese guion invisible?</em></li>
+  <li><em>What inherited patterns—familial, cultural, social—are operating in me without question?</em></li>
+  <li><em>What concrete actions am I taking today to rewrite that invisible script?</em></li>
 </ol>
 
-<p>Porque la historia personal no se estudia en libros: se vive en cada elección. Y solo cuando iluminamos las sombras que nos gobiernan, dejamos de repetir el pasado para empezar a crearlo.</p>
+<p>Because personal history isn’t studied in books: it is lived in every choice. And only when we illuminate the shadows that govern us do we stop repeating the past and start creating it.</p>
 
-<p>La verdadera liberación no está en conocer el destino, sino en dejar de usarlo como excusa.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[La ilusión del conocimiento consciente]]></summary></entry><entry><title type="html">Redes, la Base Invisible del Cloud Computing</title><link href="http://localhost:4001/Redes-base-invisible-cloud" rel="alternate" type="text/html" title="Redes, la Base Invisible del Cloud Computing" /><published>2025-04-15T06:01:35-06:00</published><updated>2025-04-15T00:00:00-06:00</updated><id>http://localhost:4001/Redes-base-invisible-cloud</id><content type="html" xml:base="http://localhost:4001/Redes-base-invisible-cloud"><![CDATA[<p>¿Por qué aprender redes?</p>
+<p>True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Illusion of Conscious Knowledge]]></summary></entry><entry><title type="html">Networking, the Invisible Foundation of Cloud Computing</title><link href="http://localhost:4001/Redes-base-invisible-cloud" rel="alternate" type="text/html" title="Networking, the Invisible Foundation of Cloud Computing" /><published>2025-04-15T06:01:35-06:00</published><updated>2025-04-15T00:00:00-06:00</updated><id>http://localhost:4001/Redes-base-invisible-cloud</id><content type="html" xml:base="http://localhost:4001/Redes-base-invisible-cloud"><![CDATA[<p>Why learn networking?</p>
 
-<p>Todo lo que haces en la nube, desde ejecutar una máquina virtual hasta desplegar una aplicación, ocurre en servidores que se comunican a través de la red.</p>
+<p>Everything you do in the cloud, from running a virtual machine to deploying an application, occurs on servers that communicate over the network.</p>
 
-<p>Además, el hecho de que una correcta configuración de redes virtuales, balanceadores de carga, gateways y rutas optimizadas mejora significativamente el rendimiento de tus aplicaciones, son razones más que suficientes para aprender los conceptos básicos de redes.</p>
+<p>Furthermore, the fact that a correct configuration of virtual networks, load balancers, gateways, and optimized routes significantly improves the performance of your applications, are more than enough reasons to learn the basics of networking.</p>
 
-<p>Por eso, aquí te los muestro.</p>
+<p>That’s why I’m showing them to you here.</p>
 
-<h2 id="conceptos-basicos">Conceptos basicos</h2>
+<h2 id="basic-concepts">Basic Concepts</h2>
 
 <ul>
-  <li><strong>Protocolo</strong>: Es el conjunto de reglas que las computadoras deben seguir para poder comunicarse.</li>
-  <li><strong>Paquete</strong>: Es la forma en que se dividen los datos para ser enviados por la red.</li>
-  <li><strong>Nodo</strong>: Cada computadora o dispositivo conectado a la red.</li>
-  <li><strong>Puertos</strong>: Son interfaces lógicas que permiten la conexión y diferenciación de servicios en una red.</li>
-  <li><strong>Latencia</strong>: El tiempo que demora un paquete en llegar a su destino.</li>
-  <li><strong>LAN</strong>: Red de Área Local. Es la red más básica, generalmente en un entorno doméstico o de oficina.</li>
-  <li><strong>WLAN</strong>: Es similar a la LAN, pero los dispositivos están conectados mediante Wi-Fi.</li>
-  <li><strong>WAN</strong>: Red de Área Amplia. Conecta distintas redes locales a través de grandes distancias, como lo hace Internet.</li>
-  <li><strong>VLAN</strong>: Red de Área Local Virtual. Permite segmentar una red física en múltiples redes lógicas.</li>
-  <li><strong>Internet</strong>: Es la interconexión de múltiples redes entre sí, a nivel mundial.</li>
+  <li><strong>Protocol</strong>: It’s the set of rules that computers must follow to be able to communicate.</li>
+  <li><strong>Packet</strong>: It’s the way data is divided to be sent over the network.</li>
+  <li><strong>Node</strong>: Each computer or device connected to the network.</li>
+  <li><strong>Ports</strong>: These are logical interfaces that allow the connection and differentiation of services on a network.</li>
+  <li><strong>Latency</strong>: The time it takes for a packet to reach its destination.</li>
+  <li><strong>LAN</strong>: Local Area Network. It’s the most basic network, usually in a home or office environment.</li>
+  <li><strong>WLAN</strong>: It’s similar to LAN, but the devices are connected via Wi-Fi.</li>
+  <li><strong>WAN</strong>: Wide Area Network. Connects different local networks over large distances, as the Internet does.</li>
+  <li><strong>VLAN</strong>: Virtual Local Area Network. Allows segmenting a physical network into multiple logical networks.</li>
+  <li><strong>Internet</strong>: It is the interconnection of multiple networks with each other, worldwide.</li>
   <li><strong>Hardware</strong>:
     <ul>
-      <li><strong>Host</strong>: Dispositivos con los que el usuario interactúa (computadoras, teléfonos, etc.).</li>
-      <li><strong>Dispositivos de red</strong>: Equipos que permiten la conexión (antenas, routers, switches, etc.).</li>
-      <li><strong>Adaptadores de red (NIC)</strong>: Traducen la señal eléctrica o inalámbrica a un formato que la computadora puede procesar.</li>
+      <li><strong>Host</strong>: Devices the user interacts with (computers, phones, etc.).</li>
+      <li><strong>Network devices</strong>: Equipment that allows connection (antennas, routers, switches, etc.).</li>
+      <li><strong>Network Interface Controllers (NIC)</strong>: They translate the electrical or wireless signal into a format the computer can process.</li>
     </ul>
   </li>
 </ul>
 
 <hr />
 
-<h2 id="protocolos">Protocolos</h2>
+<h2 id="protocols">Protocols</h2>
 
 <ul>
-  <li><strong>Modelo OSI</strong>: Modelo teórico compuesto por 7 capas que describen las etapas de una conexión de red.</li>
-  <li><strong>Modelo TCP/IP</strong>: Modelo práctico utilizado en redes reales.
+  <li><strong>OSI Model</strong>: A theoretical model composed of 7 layers that describe the stages of a network connection.</li>
+  <li><strong>TCP/IP Model</strong>: A practical model used in real networks.
     <ul>
-      <li><strong>TCP (Protocolo de Control de Transmisión)</strong>: Se asegura de que los paquetes lleguen correctamente y establece la conexión.</li>
-      <li><strong>IP (Protocolo de Internet)</strong>: Se encarga del enrutamiento, es decir, de encontrar la mejor ruta hacia el destino.</li>
+      <li><strong>TCP (Transmission Control Protocol)</strong>: It ensures that packets arrive correctly and establishes the connection.</li>
+      <li><strong>IP (Internet Protocol)</strong>: It is responsible for routing, that is, finding the best path to the destination.</li>
     </ul>
   </li>
-  <li>Existen direcciones <strong>IP dinámicas</strong> y <strong>estáticas</strong>:
+  <li>There are <strong>dynamic</strong> and <strong>static</strong> IP addresses:
     <ul>
-      <li>Las <strong>estáticas</strong> se usan en servicios o servidores que requieren una IP fija.</li>
-      <li>Las <strong>dinámicas</strong> se asignan automáticamente y suelen usarse en redes domésticas.</li>
+      <li><strong>Static</strong> ones are used for services or servers that require a fixed IP.</li>
+      <li><strong>Dynamic</strong> ones are assigned automatically and are usually used in home networks.</li>
     </ul>
   </li>
-  <li><strong>DNS (Sistema de Nombres de Dominio)</strong>: Traduce nombres de dominio (como <code class="language-plaintext highlighter-rouge">google.com</code>) a direcciones IP que los dispositivos pueden entender.</li>
+  <li><strong>DNS (Domain Name System)</strong>: Translates domain names (like <code class="language-plaintext highlighter-rouge">google.com</code>) into IP addresses that devices can understand.</li>
 </ul>
 
 <hr />
 
-<h2 id="conmutación">Conmutación</h2>
+<h2 id="switching">Switching</h2>
 
-<p>La <strong>conmutación</strong> es el proceso que permite interconectar dos hosts mediante un dispositivo de red, como un switch. Un <strong>switch</strong> recibe paquetes de datos de un dispositivo y los reenvía al destino correcto dentro de la misma red local.</p>
+<p><strong>Switching</strong> is the process that allows two hosts to be interconnected using a network device, such as a switch. A <strong>switch</strong> receives data packets from one device and forwards them to the correct destination within the same local network.</p>
 
-<p>La conmutación utiliza las <strong>direcciones MAC</strong>, que son códigos alfanuméricos únicos asignados de fábrica a cada dispositivo de red. Gracias a ellas, el switch sabe a qué dispositivo debe enviar los datos.</p>
+<p>Switching uses <strong>MAC addresses</strong>, which are unique alphanumeric codes assigned at the factory to each network device. Thanks to them, the switch knows which device to send the data to.</p>
 
-<p>Las redes locales se diseñan de forma <strong>jerárquica</strong>, no horizontal, porque un diseño jerárquico permite que la red sea más escalable, ordenada y eficiente.</p>
+<p>Local networks are designed <strong>hierarchically</strong>, not horizontally, because a hierarchical design allows the network to be more scalable, orderly, and efficient.</p>
 
 <hr />
 
-<h2 id="enrutamiento">Enrutamiento</h2>
+<h2 id="routing">Routing</h2>
 
-<p>Mientras la conmutación se usa dentro de una red local, el <strong>enrutamiento</strong> se encarga de conectar distintas redes entre sí.</p>
+<p>While switching is used within a local network, <strong>routing</strong> is responsible for connecting different networks to each other.</p>
 
-<p>Por ejemplo, si una red local A quiere comunicarse con una red local B o con Internet, ya no puede usar direcciones MAC. En ese caso, entra en juego el <strong>router</strong>, que utiliza una <strong>tabla de enrutamiento</strong> para decidir a dónde enviar los paquetes.</p>
+<p>For example, if a local network A wants to communicate with a local network B or with the Internet, it can no longer use MAC addresses. In that case, the <strong>router</strong> comes into play, which uses a <strong>routing table</strong> to decide where to send the packets.</p>
 
-<p>Tres conceptos clave en el enrutamiento:</p>
+<p>Three key concepts in routing:</p>
 
 <ul>
-  <li><strong>Dirección IP</strong>: Identifica de forma única a cada dispositivo en una red.</li>
-  <li><strong>Máscara de red</strong>: Indica al router si la dirección de destino pertenece a la misma red local o no.</li>
-  <li><strong>Puerta de enlace predeterminada</strong>: Es la dirección IP del router dentro de la red local. Todo el tráfico hacia redes externas se envía a esta dirección, para que el router lo encamine correctamente.</li>
-</ul>
+  <li><strong>IP Address</strong>: Uniquely identifies each device on a network.</li>
+  <li><strong>Subnet Mask</strong>: Tells the router whether the destination address belongs to the same local network or not.</li>
+  <li><strong>Default Gateway</strong>: It is the router’s IP address within the local network. All traffic to external networks is sent to this address, so the router can route it correctly.</li>
+</ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Why learn networking?]]></summary></entry><entry><title type="html">Heroes or Villains? The Story We Choose to Tell</title><link href="http://localhost:4001/La-historia-que-elegimos-contar" rel="alternate" type="text/html" title="Heroes or Villains? The Story We Choose to Tell" /><published>2024-11-27T06:01:35-06:00</published><updated>2024-11-27T00:00:00-06:00</updated><id>http://localhost:4001/La-historia-que-elegimos-contar</id><content type="html" xml:base="http://localhost:4001/La-historia-que-elegimos-contar"><![CDATA[<p>When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.</p>
 
-<hr />
+<h2 id="shaping-the-narrative">Shaping the Narrative</h2>
 
-<p>¿Te gustaría profundizar con diagramas y explicaciones paso a paso?</p>
+<p>When we tell our story, we might omit certain details, lean into ambiguity, or even add small embellishments that aren’t entirely true. Why do we do this? The answer lies in a deeply human tendency: the desire to control how others perceive us. It’s not necessarily with ill intent—often, it’s not even conscious. Instead, it’s born from an innate aversion to being the villain of our own story. After all, no one likes to feel guilty; we all want to be the hero.</p>
 
-<p>📘 Revisa la nota complementaria: <a href="/notes/abc-de-las-redes">ABC de las Redes</a></p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[¿Por qué aprender redes?]]></summary></entry><entry><title type="html">¿Héroes o villanos? La historia que elegimos contar</title><link href="http://localhost:4001/La-historia-que-elegimos-contar" rel="alternate" type="text/html" title="¿Héroes o villanos? La historia que elegimos contar" /><published>2024-11-27T06:01:35-06:00</published><updated>2024-11-27T00:00:00-06:00</updated><id>http://localhost:4001/La-historia-que-elegimos-contar</id><content type="html" xml:base="http://localhost:4001/La-historia-que-elegimos-contar"><![CDATA[<p>Cuando la vida se vuelve abrumadora y enfrentamos situaciones difíciles, nuestro instinto suele ser compartir nuestras luchas con alguien en quien confiamos. Este acto de desahogo puede ser catártico, pero hay un fenómeno interesante que a menudo lo acompaña: la sutil, y a veces inconsciente, alteración de nuestra propia narrativa. Ya sea una ruptura amorosa, una disputa con un profesor por una calificación, o una discusión acalorada con un hermano, nuestra forma de contar los hechos tiende a cambiar para dejarnos en una mejor posición.</p>
+<p>This narrative shaping serves a function: it allows us to seek validation, comfort, or support from the listener. However, in doing so, we run the risk of distorting the truth, not only for others but also for ourselves. Over time, these altered versions can take root in our minds, making it difficult to face the uncomfortable reality of our own mistakes.</p>
 
-<h2 id="moldeando-la-narrativa">Moldeando la narrativa</h2>
+<h2 id="the-fear-of-facing-ourselves">The Fear of Facing Ourselves</h2>
 
-<p>Cuando contamos nuestra historia, podemos omitir ciertos detalles, inclinarnos hacia la ambigüedad o incluso añadir pequeños adornos que no son del todo ciertos. ¿Por qué hacemos esto? La respuesta radica en una tendencia profundamente humana: el deseo de controlar cómo nos perciben los demás. No es necesariamente con mala intención—muchas veces, ni siquiera es consciente. En cambio, nace de una aversión innata a ser el villano de nuestra propia historia. Después de todo, a nadie le gusta sentirse culpable; todos queremos ser el héroe.</p>
+<p>At its core, this tendency reveals a universal truth: it hurts to face reality, especially when that reality points to us as responsible. Admitting mistakes or acknowledging our flaws challenges the image we have of ourselves. But growth begins at that very point: when we dare to face the unadorned truth.</p>
 
-<p>Este moldeado narrativo cumple una función: nos permite buscar validación, consuelo o apoyo en el oyente. Sin embargo, al hacerlo, corremos el riesgo de distorsionar la verdad, no solo para los demás, sino también para nosotros mismos. Con el tiempo, estas versiones alteradas pueden echar raíces en nuestra mente, dificultando el enfrentarnos a la incómoda realidad de nuestros propios errores.</p>
+<p>Having the courage to own up to our mistakes, not just outwardly but also internally, is a profound act of wisdom. It’s accepting that we are not perfect, and that’s okay. In fact, it is in acknowledging our imperfections that we find the greatest opportunities to learn and grow.</p>
 
-<h2 id="el-miedo-a-enfrentarnos-a-nosotros-mismos">El miedo a enfrentarnos a nosotros mismos</h2>
+<h2 id="choosing-honesty">Choosing Honesty</h2>
 
-<p>En el fondo, esta tendencia revela una verdad universal: duele enfrentar la realidad, especialmente cuando esa realidad nos señala como responsables. Admitir errores o reconocer nuestras fallas desafía la imagen que tenemos de nosotros mismos. Pero el crecimiento comienza justamente en ese punto: cuando nos atrevemos a enfrentar la verdad sin adornos.</p>
+<p>To break this cycle of self-deception, we must begin with honesty—first with ourselves and then with others. This doesn’t mean getting stuck in guilt or shame, but rather embracing the lessons our mistakes have to offer. By telling ourselves the complete truth, without filters or embellishments, we gain clarity and the ability to make better decisions in the future.</p>
 
-<p>Tener el valor de asumir nuestros errores, no solo hacia afuera sino también internamente, es un acto profundo de sabiduría. Es aceptar que no somos perfectos, y eso está bien. De hecho, es en el reconocimiento de nuestras imperfecciones donde encontramos las mayores oportunidades para aprender y crecer.</p>
+<p>Being the hero of our story doesn’t mean being perfect; it means having the strength to admit when we are wrong and the determination to grow from it. True wisdom is found in that vulnerability, in the willingness to look ourselves in the mirror and say, “I made a mistake, and I am going to learn from it.”</p>
 
-<h2 id="elegir-la-honestidad">Elegir la honestidad</h2>
+<h2 id="why-does-it-matter">Why Does It Matter?</h2>
 
-<p>Para romper este ciclo de autoengaño, debemos comenzar con la honestidad—primero con nosotros mismos y luego con los demás. Esto no significa quedarnos atrapados en la culpa o la vergüenza, sino más bien abrazar las lecciones que nuestros errores tienen para ofrecernos. Al contarnos la verdad completa, sin filtros ni adornos, ganamos claridad y la capacidad de tomar mejores decisiones en el futuro.</p>
+<p>The stories we tell ourselves shape the way we navigate life. When we choose to tell the truth, even when it’s difficult, we not only foster stronger relationships, but we also build a stronger identity. Growth is impossible without accountability, and accountability begins with acknowledging the full picture of our experiences.</p>
 
-<p>Ser el héroe de nuestra historia no significa ser perfecto; significa tener la fuerza para admitir cuando estamos equivocados y la determinación de crecer a partir de ello. La verdadera sabiduría se encuentra en esa vulnerabilidad, en la disposición de mirarnos al espejo y decir: “Cometí un error, y voy a aprender de ello.”</p>
+<p>In the end, true triumph isn’t about avoiding mistakes, but about having the courage to face them, learn from them, and become better.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.]]></summary></entry><entry><title type="html">The Power of Mindset, Beyond External Factors</title><link href="http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos" rel="alternate" type="text/html" title="The Power of Mindset, Beyond External Factors" /><published>2024-11-18T06:01:35-06:00</published><updated>2024-11-18T00:00:00-06:00</updated><id>http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos</id><content type="html" xml:base="http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos"><![CDATA[<h2 id="the-common-focus-on-the-external">The Common Focus on the External</h2>
 
-<h2 id="por-qué-importa">¿Por qué importa?</h2>
+<p>On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.</p>
 
-<p>Las historias que nos contamos a nosotros mismos moldean la forma en que navegamos por la vida. Cuando elegimos decir la verdad, incluso cuando es difícil, no solo fomentamos relaciones más fuertes, sino que también construimos una identidad más sólida. El crecimiento es imposible sin responsabilidad, y la responsabilidad comienza reconociendo el panorama completo de nuestras experiencias.</p>
+<h2 id="two-types-of-mindsets">Two Types of Mindsets</h2>
 
-<p>Al final, el verdadero triunfo no está en evitar los errores, sino en tener el valor de enfrentarlos, aprender de ellos y ser mejores.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[Cuando la vida se vuelve abrumadora y enfrentamos situaciones difíciles, nuestro instinto suele ser compartir nuestras luchas con alguien en quien confiamos. Este acto de desahogo puede ser catártico, pero hay un fenómeno interesante que a menudo lo acompaña: la sutil, y a veces inconsciente, alteración de nuestra propia narrativa. Ya sea una ruptura amorosa, una disputa con un profesor por una calificación, o una discusión acalorada con un hermano, nuestra forma de contar los hechos tiende a cambiar para dejarnos en una mejor posición.]]></summary></entry><entry><title type="html">El poder de la mentalidad, Más allá de los factores externos</title><link href="http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos" rel="alternate" type="text/html" title="El poder de la mentalidad, Más allá de los factores externos" /><published>2024-11-18T06:01:35-06:00</published><updated>2024-11-18T00:00:00-06:00</updated><id>http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos</id><content type="html" xml:base="http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos"><![CDATA[<h2 id="el-enfoque-común-en-lo-externo">El enfoque común en lo externo</h2>
+<p>When meeting someone, we usually distinguish between two fundamental types of people. On one hand, there are those who, despite facing adversity, seek to move forward without victimizing themselves. They adopt a resilient mindset, similar to the Japanese concept of <em>gambaru</em>. This term goes beyond simply trying; it implies an unwavering dedication until reaching the final goal. <em>Gambaru</em> means giving it your all, without excuses or rest, until you have nothing left to offer. It is a philosophy of life that values perseverance and absolute commitment.</p>
 
-<p>En el camino de la vida, es común observar cómo la mayoría de las personas centran su atención en factores externos para explicar sus circunstancias. Desde el tráfico matutino hasta las oportunidades laborales, existe una tendencia a atribuir los acontecimientos al azar o a fuerzas fuera de nuestro control. Sin embargo, esta perspectiva puede nublar la comprensión de que, en muchas ocasiones, somos nosotros mismos quienes, consciente o inconscientemente, moldeamos nuestro propio destino.</p>
+<h2 id="the-trap-of-victimization">The Trap of Victimization</h2>
 
-<h2 id="dos-tipos-de-mentalidades">Dos tipos de mentalidades</h2>
+<p>On the other hand, there are people who choose to victimize themselves in the face of every obstacle. These individuals tend to adopt a mediocre mindset, avoiding personal responsibility and denying their own mistakes. Carl Jung expressed it clearly: “People could learn from their mistakes if they weren’t so busy denying them.” This denial not only prevents personal growth but also creates barriers to establishing meaningful relationships and surrounding oneself with positive influences.</p>
 
-<p>Al conocer a alguien, solemos distinguir entre dos tipos fundamentales de personas. Por un lado, están aquellos que, a pesar de enfrentar adversidades, buscan seguir adelante sin victimizarse. Adoptan una mentalidad resiliente, similar al concepto japonés de gambaru. Este término va más allá de simplemente intentarlo; implica una dedicación inquebrantable hasta alcanzar la meta final. Gambaru significa darlo todo, sin excusas ni descanso, hasta no tener nada más que ofrecer. Es una filosofía de vida que valora la perseverancia y el compromiso absoluto.</p>
+<p>From a philosophical perspective, this duality reflects the eternal struggle between determinism and free will. While some recognize their ability to influence their own destiny, others feel trapped by external circumstances. The way we choose to interpret and respond to life’s events defines our essence and our path.</p>
 
-<h2 id="la-trampa-de-la-victimización">La trampa de la victimización</h2>
+<h2 id="what-do-you-choose">What Do You Choose?</h2>
 
-<p>Por otro lado, hay personas que eligen victimizarse ante cada obstáculo. Estos individuos tienden a adoptar una mentalidad mediocre, evitando la responsabilidad personal y negando sus propios errores. Carl Jung lo expresó con claridad: “Las personas podrían aprender de sus errores si no estuvieran tan ocupadas negándolos”. Esta negación no solo impide el crecimiento personal, sino que también crea barreras para establecer relaciones significativas y rodearse de influencias positivas.</p>
+<p>In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Common Focus on the External]]></summary></entry><entry><title type="html">The Power of Choice</title><link href="http://localhost:4001/El-poder-de-la-elecci%C3%B3n" rel="alternate" type="text/html" title="The Power of Choice" /><published>2024-11-16T06:01:35-06:00</published><updated>2024-11-16T00:00:00-06:00</updated><id>http://localhost:4001/El-poder-de-la-elecci%C3%B3n</id><content type="html" xml:base="http://localhost:4001/El-poder-de-la-elecci%C3%B3n"><![CDATA[<h2 id="doing-good-a-choice-beyond-circumstance">Doing Good: A Choice Beyond Circumstance</h2>
 
-<p>Desde una perspectiva filosófica, esta dualidad refleja la lucha eterna entre el determinismo y el libre albedrío. Mientras algunos reconocen su capacidad para influir en su propio destino, otros se sienten atrapados por las circunstancias externas. La forma en que elegimos interpretar y responder a los acontecimientos de la vida define nuestra esencia y nuestro camino.</p>
+<p>In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.</p>
 
-<h2 id="qué-eliges">¿Qué eliges?</h2>
+<h2 id="fidelity-in-relationships">Fidelity in Relationships</h2>
 
-<p>En conclusión, la mentalidad que adoptamos es un factor crucial que determina nuestro éxito y bienestar. Rodearnos de personas que valoran la responsabilidad personal y la perseverancia puede inspirarnos a desarrollar una mentalidad más fuerte y resiliente. Al final, la verdadera transformación comienza desde dentro, y reconocer nuestro propio poder para cambiar es el primer paso hacia una vida más plena y significativa.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[El enfoque común en lo externo]]></summary></entry><entry><title type="html">El poder de elección</title><link href="http://localhost:4001/El-poder-de-la-elecci%C3%B3n" rel="alternate" type="text/html" title="El poder de elección" /><published>2024-11-16T06:01:35-06:00</published><updated>2024-11-16T00:00:00-06:00</updated><id>http://localhost:4001/El-poder-de-la-elecci%C3%B3n</id><content type="html" xml:base="http://localhost:4001/El-poder-de-la-elecci%C3%B3n"><![CDATA[<h2 id="hacer-el-bien-una-elección-más-allá-de-las-circunstancias">Hacer el Bien: Una Elección Más Allá de las circunstancias</h2>
+<p>Let’s consider the concept of fidelity in a relationship. Is someone truly faithful just because they don’t have the opportunity to be unfaithful? Or does fidelity acquire greater value when one has options but consciously chooses to remain loyal? This latter situation demonstrates a deeper commitment, rooted in respect and love for one’s partner. When fidelity is a deliberate decision, it becomes a testament to personal values, rather than a result of circumstance.</p>
 
-<p>En un mundo lleno de desafíos y complejidades morales, la importancia de elegir hacer el bien no puede ser subestimada. En esencia, hacer el bien trasciende la mera circunstancia; refleja la profundidad de nuestro carácter y los valores que defendemos. Este principio se vuelve especialmente evidente cuando examinamos escenarios donde la bondad es una elección y no simplemente la ausencia de alternativas.</p>
+<h2 id="peace-and-power">Peace and Power</h2>
 
-<h2 id="fidelidad-en-las-relaciones">Fidelidad en las Relaciones</h2>
+<p>Similarly, the dynamic between peace and power reveals profound insights. There is a big difference between a pacifist who advocates for peace but lacks the means to wage war, and a peaceful person who has the capacity to do harm but chooses restraint. The latter exercises their strength with responsibility, actively deciding not to cause harm. Their peace is born from empowerment and self-control, not from a lack of capability.</p>
 
-<p>Consideremos el concepto de fidelidad en una relación. ¿Alguien es verdaderamente fiel solo porque no tiene la oportunidad de ser infiel? ¿O la fidelidad adquiere un valor mayor cuando se tienen opciones pero se elige conscientemente permanecer leal? Esta última situación demuestra un compromiso más profundo, arraigado en el respeto y el amor por la pareja. Cuando la fidelidad es una decisión deliberada, se convierte en un testimonio de los valores personales, más que en un resultado de las circunstancias.</p>
+<h2 id="the-difference-between-inability-and-integrity">The Difference Between Inability and Integrity</h2>
 
-<h2 id="paz-y-poder">Paz y Poder</h2>
+<p>The distinction lies in agency. A person who cannot harm or betray does not truly embody goodness; they simply lack the means to do otherwise. True goodness arises when someone has the capacity to act otherwise, but consistently chooses the moral path. This choice elevates goodness from a passive state to an active and conscious commitment.</p>
 
-<p>De manera similar, la dinámica entre paz y poder revela ideas profundas. Hay una gran diferencia entre un pacifista que aboga por la paz pero carece de medios para hacer la guerra, y una persona pacífica que tiene la capacidad de hacer daño pero elige la contención. Esta última ejerce su fuerza con responsabilidad, decidiendo activamente no causar daño. Su paz nace del empoderamiento y el autocontrol, no de la falta de capacidad.</p>
+<h2 id="why-does-it-matter">Why Does It Matter?</h2>
 
-<h2 id="la-diferencia-entre-incapacidad-e-integridad">La Diferencia entre Incapacidad e Integridad</h2>
+<p>When we recognize that doing good is a choice, we empower ourselves to act with purpose. This fosters introspection and growth, and allows us to build stronger relationships and contribute to a more just and compassionate world. Whether in love, in conflict, or in daily interactions, the decision to do good despite having other options highlights the strength of our character.</p>
 
-<p>La distinción radica en la agencia. Una persona que no puede dañar o traicionar no encarna verdaderamente la bondad; simplemente carece de los medios para hacer otra cosa. La verdadera bondad surge cuando alguien tiene la capacidad de actuar de forma contraria, pero elige consistentemente el camino moral. Esta elección eleva la bondad de un estado pasivo a un compromiso activo y consciente.</p>
+<p>Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[Doing Good: A Choice Beyond Circumstance]]></summary></entry><entry><title type="html">The Essentials for Surviving with GIT</title><link href="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git" rel="alternate" type="text/html" title="The Essentials for Surviving with GIT" /><published>2024-07-02T06:01:35-06:00</published><updated>2024-07-02T00:00:00-06:00</updated><id>http://localhost:4001/Lo-necesario-para-sobrevivir-con-git</id><content type="html" xml:base="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git"><![CDATA[<p>When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.</p>
 
-<h2 id="por-qué-importa">¿Por qué importa?</h2>
+<p>It was then that I researched different resources on my own. Today I want to share what I consider the most essential and necessary things to survive both the start of college and the first days of work, or at least to have a clue about what’s going on.</p>
 
-<p>Cuando reconocemos que hacer el bien es una elección, nos damos el poder de actuar con propósito. Esto fomenta la introspección y el crecimiento, y nos permite construir relaciones más fuertes y contribuir a un mundo más justo y compasivo. Ya sea en el amor, en el conflicto o en las interacciones cotidianas, la decisión de hacer el bien a pesar de tener otras opciones resalta la fortaleza de nuestro carácter.</p>
+<p><strong>1. Installing Git (No Fear)</strong></p>
 
-<p>En última instancia, hacer el bien no se trata de lo que podemos o no podemos hacer, sino de quién elegimos ser cuando tenemos la libertad de decidir.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[Hacer el Bien: Una Elección Más Allá de las circunstancias]]></summary></entry><entry><title type="html">Lo necesario para sobrevivir con GIT</title><link href="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git" rel="alternate" type="text/html" title="Lo necesario para sobrevivir con GIT" /><published>2024-07-02T06:01:35-06:00</published><updated>2024-07-02T00:00:00-06:00</updated><id>http://localhost:4001/Lo-necesario-para-sobrevivir-con-git</id><content type="html" xml:base="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git"><![CDATA[<p>Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré.</p>
-
-<p>Fue entonces cuando, por mi cuenta, investigué en diferentes recursos. Hoy quiero compartirte lo que considero lo más esencial y necesario para sobrevivir tanto al inicio de la universidad como a los primeros días de trabajo, o al menos para tener noción de qué está pasando.</p>
-
-<p><strong>1. Instalando Git (sin miedo padrino)</strong></p>
-
-<p>Primero lo primero: necesitas tener Git instalado. Si usas Windows, baja el instalador desde <a href="https://git-scm.com/">git-scm.com</a>. En Mac, abre la terminal y escribe:</p>
+<p>First things first: you need to have Git installed. If you use Windows, download the installer from <a href="https://git-scm.com/">git-scm.com</a>. On Mac, open the terminal and type:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew <span class="nb">install </span>git
 </code></pre></div></div>
 
-<p>En Linux, lo clásico:</p>
+<p>On Linux, the classic:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>git
 </code></pre></div></div>
 
-<p>Si usas la distro buena (Fedora) que por cierto ya hablaremos esa distro en el siguiente post, ya se esta cocinando eso.</p>
+<p>If you use the good distro (Fedora)—which, by the way, we’ll talk about in the next post, that’s already in the works.</p>
 
 <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>dnf <span class="nb">install </span>git
 </code></pre></div></div>
 
-<p>¿Ya? Seguimos.</p>
+<p>Done? Let’s continue.</p>
 
-<p><strong>2. Configura tu identidad (para que no seas “unknown”)</strong></p>
+<p><strong>2. Configure your identity (so you’re not “unknown”)</strong></p>
 
-<p>Git quiere saber quién eres. Así tus cambios no aparecen como “misterioso usuario”. Solo pon esto en la terminal (cambia los datos por los tuyos):</p>
+<p>Git wants to know who you are. This way your changes don’t show up as “mysterious user”. Just put this in the terminal (change the data to your own):</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"Tu Nombre"</span>
-git config <span class="nt">--global</span> user.email <span class="s2">"tu@email.com"</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> user.name <span class="s2">"Your Name"</span>
+git config <span class="nt">--global</span> user.email <span class="s2">"you@email.com"</span>
 </code></pre></div></div>
 
-<p>¿Quieres ver cómo quedó? Usa:</p>
+<p>Want to see how it looks? Use:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--list</span>
 </code></pre></div></div>
 
-<p><strong>3. Inicia tu repositorio (el punto de partida)</strong></p>
+<p><strong>3. Initialize your repository (the starting point)</strong></p>
 
-<p>Ve a la carpeta de tu proyecto y ejecuta:</p>
+<p>Go to your project folder and run:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
 </code></pre></div></div>
 
-<p>Eso crea la carpeta <code class="language-plaintext highlighter-rouge">.git</code> donde Git guarda todo la configuración de tu proyecto.</p>
+<p>This creates the <code class="language-plaintext highlighter-rouge">.git</code> folder where Git saves all your project’s configuration.</p>
 
-<p><strong>4. Agrega tus archivos y haz tu primer commit</strong></p>
+<p><strong>4. Add your files and make your first commit</strong></p>
 
-<p>Para decirle a Git qué archivos quieres guardar, usa:</p>
+<p>To tell Git which files you want to save, use:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
 </code></pre></div></div>
 
-<p>El punto significa “todos los archivos”. Si solo quieres uno, pon el nombre en lugar de solo poner el punto.</p>
+<p>The dot means “all files”. If you only want one, put the name instead of just the dot.</p>
 
-<p>Ahora, guarda ese momento con un commit:</p>
+<p>Now, save that moment with a commit:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"Primer commit"</span>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"First commit"</span>
 </code></pre></div></div>
 
-<p><strong>5. Conecta con un repositorio remoto (GitHub, GitLab, etc.)</strong></p>
+<p><strong>5. Connect to a remote repository (GitHub, GitLab, etc.)</strong></p>
 
-<p>Ya tienes tu repo en GitHub (o el que uses). Copia la URL y enlázalo así:</p>
+<p>You already have your repo on GitHub (or whichever one you use). Copy the URL and link it like this:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/tuusuario/tu-repo.git
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin <span class="o">[</span>https://github.com/your-user/your-repo.git]<span class="o">(</span>https://github.com/your-user/your-repo.git<span class="o">)</span>
 </code></pre></div></div>
 
-<p><strong>6. Sube tu proyecto (push)</strong></p>
+<p><strong>6. Upload your project (push)</strong></p>
 
-<p>Hora de mandar todo a la nube:</p>
+<p>Time to send everything to the cloud:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-u</span> origin main
 </code></pre></div></div>
 
-<p>O si tu rama principal se llama <code class="language-plaintext highlighter-rouge">master</code>:</p>
+<p>Or if your main branch is called <code class="language-plaintext highlighter-rouge">master</code>:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">-u</span> origin master
 </code></pre></div></div>
 
-<p>El <code class="language-plaintext highlighter-rouge">-u</code> es para que la próxima vez solo tengas que poner <code class="language-plaintext highlighter-rouge">git push</code> y Git ya sabe a dónde.</p>
+<p>The <code class="language-plaintext highlighter-rouge">-u</code> is so that next time you only have to type <code class="language-plaintext highlighter-rouge">git push</code> and Git already knows where.</p>
 
-<p><strong>7. Baja cambios (pull)</strong></p>
+<p><strong>7. Download changes (pull)</strong></p>
 
-<p>¿Trabajas en equipo o desde varias compus? Antes de empezar, siempre es buena idea traer los últimos cambios de tus compañeros:</p>
+<p>Working in a team or from multiple computers? Before starting, it’s always a good idea to bring in the latest changes from your teammates:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull
 </code></pre></div></div>
 
-<p>Así evitas sorpresas.</p>
+<p>This way you avoid surprises.</p>
 
 <hr />
 
-<h2 id="cómo-funcionan-las-ramas-en-git">¿Cómo funcionan las ramas en Git?</h2>
+<h2 id="how-do-branches-work-in-git">How do branches work in Git?</h2>
 
-<p>Si alguna vez has escuchado frases como “haz una rama para esa nueva funcionalidad” o “no trabajes directo en main”, pero no tienes idea de qué va eso, aquí te digo, de echó es mas fácil de lo que parece.</p>
+<p>If you’ve ever heard phrases like “make a branch for that new feature” or “don’t work directly on main”, but you have no idea what that’s about, I’ll tell you here. In fact, it’s easier than it looks.</p>
 
-<p><strong>¿Para qué sirven las ramas?</strong></p>
+<p><strong>What are branches for?</strong></p>
 
-<p>Las ramas en Git son como líneas paralelas de tiempo donde puedes trabajar en nuevas ideas, corregir errores o experimentar, sin afectar el código principal. Imagina que tu proyecto es un árbol: la rama principal (<code class="language-plaintext highlighter-rouge">main</code> o <code class="language-plaintext highlighter-rouge">master</code>) es el tronco, y cada rama nueva es una ramita donde puedes hacer cambios sin miedo a romper todo.</p>
+<p>Branches in Git are like parallel timelines where you can work on new ideas, fix bugs, or experiment, without affecting the main code. Imagine your project is a tree: the main branch (<code class="language-plaintext highlighter-rouge">main</code> or <code class="language-plaintext highlighter-rouge">master</code>) is the trunk, and each new branch is a little twig where you can make changes without fear of breaking everything.</p>
 
-<p>Esto es útil porque te permite:</p>
+<p>This is useful because it allows you to:</p>
 
 <ul>
-  <li>Probar cosas nuevas sin arriesgar el proyecto completo.</li>
-  <li>Trabajar en varias tareas al mismo tiempo (por ejemplo, una rama para una nueva función y otra para corregir un bug).</li>
-  <li>Colaborar con otras personas sin pisarse los cambios.</li>
+  <li>Test new things without risking the entire project.</li>
+  <li>Work on several tasks at the same time (e.g., one branch for a new feature and another to fix a bug).</li>
+  <li>Collaborate with other people without overwriting each other’s changes.</li>
 </ul>
 
-<p><strong>¿Cómo crear una rama?</strong></p>
+<p><strong>How to create a branch?</strong></p>
 
-<p>Crear una rama es tan fácil como escribir:</p>
+<p>Creating a branch is as easy as typing:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch nombre-de-tu-rama
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch your-branch-name
 </code></pre></div></div>
 
-<p>Pero lo más común es crearla y cambiarte a ella de una vez:</p>
+<p>But the most common way is to create it and switch to it at the same time:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> nombre-de-tu-rama
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> your-branch-name
 </code></pre></div></div>
 
-<p>Ahora, todo lo que hagas quedará guardado en esa rama, no en la principal.</p>
+<p>Now, everything you do will be saved in that branch, not in the main one.</p>
 
-<p><strong>¿Cómo moverse entre ramas?</strong></p>
+<p><strong>How to move between branches?</strong></p>
 
-<p>Para cambiarte de rama, solo usa:</p>
+<p>To switch branches, just use:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout nombre-de-tu-rama
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout your-branch-name
 </code></pre></div></div>
 
-<p>O, si usas una versión moderna de Git, puedes usar:</p>
+<p>Or, if you use a modern version of Git, you can use:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git switch nombre-de-tu-rama
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git switch your-branch-name
 </code></pre></div></div>
 
-<p>Así puedes saltar entre diferentes líneas de trabajo sin perder nada.</p>
+<p>This way you can jump between different lines of work without losing anything.</p>
 
-<p><strong>¿Cómo ver las ramas que tienes?</strong></p>
+<p><strong>How to see the branches you have?</strong></p>
 
-<p>Para ver todas las ramas de tu proyecto:</p>
+<p>To see all the branches in your project:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git branch
 </code></pre></div></div>
 
-<p>La rama en la que estás parado aparecerá con un asterisco.</p>
+<p>The branch you are currently on will appear with an asterisk.</p>
 
 <hr />
 
-<p>¿Ves? Las ramas no son tan difíciles. Son tu mejor amigo para trabajar ordenado y sin miedo a romper nada.<br />
- En la siguiente sección te cuento cómo unir ramas y qué hacer si Git te dice que hay conflictos.</p>
+<p>See? Branches aren’t that difficult. They are your best friend for working in an organized way and without fear of breaking anything.
+In the next section, I’ll tell you how to merge branches and what to do if Git tells you there are conflicts.</p>
 
 <hr />
 
-<h2 id="cómo-hacer-merge-y-solucionar-conflictos">¿Cómo hacer merge y solucionar conflictos?</h2>
+<h2 id="how-to-merge-and-resolve-conflicts">How to merge and resolve conflicts?</h2>
 
-<p>Llegó el momento de unir caminos. Cuando trabajas con ramas, tarde o temprano vas a querer juntar los cambios de una rama con otra. A eso se le llama <strong>merge</strong>. Pero, como en toda historia que valga la pena, a veces hay choques y aparecen los temidos <strong>conflictos</strong>. Aquí te explico cómo enfrentarlos sin perder la calma.</p>
+<p>The time has come to join paths. When you work with branches, sooner or later you’ll want to join the changes from one branch with another. This is called a <strong>merge</strong>. But, as in any story worth telling, sometimes there are clashes and the dreaded <strong>conflicts</strong> appear. Here’s how to face them without losing your cool.</p>
 
-<p><strong>¿Qué es un merge?</strong></p>
+<p><strong>What is a merge?</strong></p>
 
-<p>Hacer un merge en Git es básicamente decir: “Quiero que los cambios de esta rama se mezclen con los de otra”. Por lo general, lo más común es unir tu rama de trabajo con la rama principal (<code class="language-plaintext highlighter-rouge">main</code> o <code class="language-plaintext highlighter-rouge">master</code>).</p>
+<p>Doing a merge in Git is basically saying: “I want the changes from this branch to be mixed with those of another.” Usually, the most common thing is to merge your working branch into the main branch (<code class="language-plaintext highlighter-rouge">main</code> or <code class="language-plaintext highlighter-rouge">master</code>).</p>
 
-<p><strong>¿Cómo hacer un merge?</strong></p>
+<p><strong>How to do a merge?</strong></p>
 
-<p>Supón que tienes una rama llamada <code class="language-plaintext highlighter-rouge">feature-x</code> y quieres unirla a <code class="language-plaintext highlighter-rouge">main</code>. Haz lo siguiente:</p>
+<p>Suppose you have a branch called <code class="language-plaintext highlighter-rouge">feature-x</code> and you want to merge it into <code class="language-plaintext highlighter-rouge">main</code>. Do the following:</p>
 
 <ol>
   <li>
-    <p>Cambia a la rama donde quieres juntar los cambios (por ejemplo, <code class="language-plaintext highlighter-rouge">main</code>):</p>
+    <p>Switch to the branch where you want to join the changes (e.g., <code class="language-plaintext highlighter-rouge">main</code>):</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout main
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>Haz el merge:</p>
+    <p>Do the merge:</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git merge feature-x
 </code></pre></div>    </div>
   </li>
 </ol>
 
-<p>Si todo va bien, Git mezclará los cambios automáticamente y listo.</p>
+<p>If all goes well, Git will mix the changes automatically, and that’s it.</p>
 
-<h3 id="qué-pasa-si-hay-conflictos">¿Qué pasa si hay conflictos?</h3>
+<h3 id="what-happens-if-there-are-conflicts">What happens if there are conflicts?</h3>
 
-<p>A veces, Git no puede decidir solo cómo unir los cambios porque dos ramas modificaron la misma parte de un archivo. Eso es un <strong>conflicto</strong>.</p>
+<p>Sometimes, Git can’t decide on its own how to join the changes because two branches modified the same part of a file. That is a <strong>conflict</strong>.</p>
 
-<p>Cuando esto pasa, Git te avisa y marca los archivos en conflicto. Dentro de esos archivos verás algo así:</p>
+<p>When this happens, Git notifies you and marks the conflicting files. Inside those files, you will see something like this:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-Este es el contenido en tu rama actual.
-=======
-Este es el contenido en la rama que quieres unir.
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; feature-x
-</code></pre></div></div>
+<p>Your job is to choose which part to keep, or even combine both. Delete the markers (<code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code class="language-plaintext highlighter-rouge">=======</code>, <code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>) and leave the final result as you wish.</p>
 
-<p>Tu trabajo es elegir qué parte conservar, o incluso combinar ambas. Borra las marcas (<code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code class="language-plaintext highlighter-rouge">=======</code>, <code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>) y deja el resultado final como tú quieras.</p>
-
-<h3 id="cómo-soluciono-el-conflicto">¿Cómo soluciono el conflicto?</h3>
+<h3 id="how-do-i-solve-the-conflict">How do I solve the conflict?</h3>
 
 <ol>
-  <li>Abre el archivo en conflicto y edítalo hasta que quede como debe ser.</li>
-  <li>Guarda los cambios.</li>
   <li>
-    <p>Marca el conflicto como resuelto:</p>
+    <p>Open the conflicting file and edit it until it’s correct.</p>
+  </li>
+  <li>
+    <p>Save the changes.</p>
+  </li>
+  <li>
+    <p>Mark the conflict as resolved:</p>
 
-    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add nombre-del-archivo
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add name-of-the-file
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>Termina el merge con un commit (si Git no lo hace solo):</p>
+    <p>Finish the merge with a commit (if Git doesn’t do it on its own):</p>
 
     <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit
 </code></pre></div>    </div>
   </li>
 </ol>
 
-<p>¡Listo! Ya resolviste el conflicto y tus ramas están unidas.</p>
+<p>Done! You’ve resolved the conflict and your branches are merged.</p>
 
 <hr />
 
-<p>Los conflictos pueden parecer difíciles al principio, pero con práctica se vuelven parte del día a día. Lo importante es leer con calma, entender qué cambió y decidir qué versión quieres dejar. Ahora estas listo para trabajar con git. ¡Suerte!</p>
+<p>Conflicts might seem difficult at first, but with practice, they become part of the daily routine. The important thing is to read calmly, understand what changed, and decide which version you want to keep. Now you are ready to work with Git. Good luck!</p>
 
-<p><strong>Post data:</strong></p>
+<p><strong>P.S.:</strong></p>
 
-<h2 id="y-si-quiero-regresar-a-un-commit-anterior">¿Y si quiero regresar a un commit anterior?</h2>
+<h2 id="what-if-i-want-to-go-back-to-a-previous-commit">What if I want to go back to a previous commit?</h2>
 
-<p>A veces, después de varios cambios, te das cuenta de que algo salió mal y quieres volver a una versión anterior de tu proyecto. No te preocupes, Git también te cubre en eso.</p>
+<p>Sometimes, after several changes, you realize something went wrong and you want to go back to a previous version of your project. Don’t worry, Git has you covered there too.</p>
 
-<p>Primero, para ver el historial de commits, usa:</p>
+<p>First, to see the commit history, use:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git log <span class="nt">--oneline</span>
 </code></pre></div></div>
 
-<p>Esto te mostrará una lista de commits con sus identificadores (ese código raro al inicio de cada línea).</p>
+<p>This will show you a list of commits with their identifiers (that weird code at the beginning of each line).</p>
 
-<p>Si solo quieres ver cómo era tu proyecto en un commit anterior (sin perder nada), puedes moverte temporalmente con:</p>
+<p>If you just want to see what your project was like at a previous commit (without losing anything), you can temporarily move with:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout id-del-commit
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout commit-id
 </code></pre></div></div>
 
-<p>Pero si quieres regresar tu rama a ese punto (¡cuidado, esto sí cambia la historia!), puedes usar:</p>
+<p>But if you want to reset your branch to that point (be careful, this <em>does</em> change history!), you can use:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--hard</span> id-del-commit
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--hard</span> commit-id
 </code></pre></div></div>
 
-<p>O si solo quieres deshacer los últimos cambios pero guardarlos para después, usa:</p>
+<p>Or if you just want to undo the last changes but save them for later, use:</p>
 
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--soft</span> id-del-commit
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--soft</span> commit-id
 </code></pre></div></div>
 
-<p><strong>Tip:</strong> Si solo quieres deshacer el último commit pero dejar los archivos como estaban, puedes hacer:</p>
+<p><strong>Tip:</strong> If you just want to undo the last commit but leave the files as they were, you can do:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git reset <span class="nt">--soft</span> HEAD~1
 </code></pre></div></div>
 
-<p>Recuerda: antes de hacer un reset, asegúrate de que no tienes cambios importantes sin respaldar, porque podrías perderlos.</p>
+<p>Remember: before doing a reset, make sure you don’t have important changes un-backed-up, because you could lose them.</p>
 
-<p>¡Y listo! Así puedes viajar en el tiempo con Git y salvarte de cualquier desastre.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré.]]></summary></entry><entry><title type="html">Comprendiendo el SDLC</title><link href="http://localhost:4001/Fundamentos-software-agil" rel="alternate" type="text/html" title="Comprendiendo el SDLC" /><published>2024-04-30T06:01:35-06:00</published><updated>2024-04-30T00:00:00-06:00</updated><id>http://localhost:4001/Fundamentos%20software%20agil</id><content type="html" xml:base="http://localhost:4001/Fundamentos-software-agil"><![CDATA[<h1 id="ciclo-del-desarrollo-de-software-sdlc">Ciclo del desarrollo de software. (SDLC).</h1>
+<p>And that’s it! Now you can time-travel with Git and save yourself from any disaster.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.]]></summary></entry><entry><title type="html">Understanding the SDLC</title><link href="http://localhost:4001/Fundamentos-software-agil" rel="alternate" type="text/html" title="Understanding the SDLC" /><published>2024-04-30T06:01:35-06:00</published><updated>2024-04-30T00:00:00-06:00</updated><id>http://localhost:4001/Fundamentos%20software%20agil</id><content type="html" xml:base="http://localhost:4001/Fundamentos-software-agil"><![CDATA[<h1 id="software-development-life-cycle-sdlc">Software Development Life Cycle (SDLC).</h1>
 
-<h2 id="modelo-casacada">Modelo Casacada</h2>
+<h2 id="waterfall-model">Waterfall Model</h2>
 
-<p><img src="https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg" alt="Modelo de cascada" /></p>
+<p><img src="https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg" alt="Waterfall Model" /></p>
 
-<h2 id="desventajas-del-modelo-cascada">Desventajas del modelo Cascada</h2>
+<h2 id="disadvantages-of-the-waterfall-model">Disadvantages of the Waterfall Model</h2>
 
 <ul>
-  <li>No permite cambios de requisitos.</li>
-  <li>No se obtiene un producto funcional hasta casi la finalización del proyecto.</li>
-  <li>En ocasiones, los fallos solo se detectan al finalizar el proceso de desarrollo.</li>
-  <li>El usuario final no participa en el proceso de producción hasta que termina la programación.</li>
+  <li>It does not allow for changes in requirements.</li>
+  <li>A functional product is not obtained until almost the end of the project.</li>
+  <li>Sometimes, flaws are only detected at the end of the development process.</li>
+  <li>The end-user does not participate in the production process until programming is finished.</li>
 </ul>
 
-<h1 id="metodologías-de-desarrollo-ágil">Metodologías de Desarrollo Ágil</h1>
+<h1 id="agile-development-methodologies">Agile Development Methodologies</h1>
 
-<h2 id="modelo-de-desarrollo-scrum">Modelo de desarrollo “SCRUM”</h2>
+<h2 id="scrum-development-model">“SCRUM” Development Model</h2>
 
 <p><img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="SCRUM" /></p>
 
-<h2 id="qué-es-scrum">¿Qué es SCRUM?</h2>
+<h2 id="what-is-scrum">What is SCRUM?</h2>
 
-<p>SCRUM es un marco de trabajo dentro del desarrollo ágil de software que facilita el trabajo colaborativo en equipos. Se basa en la aplicación continua de buenas prácticas, roles definidos (como Scrum Master, Product Owner y equipo de desarrollo), eventos regulares (como sprints, reuniones diarias, revisiones y retrospectivas) y artefactos que permiten lograr el mejor resultado posible en los proyectos.</p>
+<p>SCRUM is a framework within agile software development that facilitates collaborative work in teams. It is based on the continuous application of good practices, defined roles (like Scrum Master, Product Owner, and Development Team), regular events (like sprints, daily meetings, reviews, and retrospectives), and artifacts that help achieve the best possible project outcome.</p>
 
-<h2 id="ventajas-de-scrum">Ventajas de Scrum</h2>
+<h2 id="advantages-of-scrum">Advantages of Scrum</h2>
 
 <ul>
-  <li><strong>Flexibilidad y adaptación</strong> a un mercado cambiante.</li>
-  <li><strong>Resultados anticipados</strong> en iteraciones cortas.</li>
-  <li><strong>Obtención de un producto mínimo viable (MVP)</strong> en etapas tempranas.</li>
-  <li><strong>Feedbacks rápidos y precisos</strong> gracias a la colaboración continua.</li>
-  <li><strong>Fecha de entrega del proyecto realista</strong>, basada en sprints planificados.</li>
-  <li><strong>Rápido aprendizaje del equipo</strong> mediante retrospectivas y mejora continua.</li>
-  <li><strong>Autonomía y responsabilidad</strong> en un entorno auto-organizado.</li>
+  <li><strong>Flexibility and adaptation</strong> to a changing market.</li>
+  <li><strong>Early results</strong> in short iterations.</li>
+  <li><strong>Obtaining a Minimum Viable Product (MVP)</strong> in early stages.</li>
+  <li><strong>Quick and accurate feedback</strong> thanks to continuous collaboration.</li>
+  <li><strong>Realistic project delivery date</strong>, based on planned sprints.</li>
+  <li><strong>Rapid team learning</strong> through retrospectives and continuous improvement.</li>
+  <li><strong>Autonomy and responsibility</strong> in a self-organized environment.</li>
 </ul>
 
-<h2 id="roles-en-scrum">Roles en SCRUM</h2>
+<h2 id="roles-in-scrum">Roles in SCRUM</h2>
 
-<p><img src="https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png" alt="Roles en scrum" /></p>
+<p><img src="https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png" alt="Roles in scrum" /></p>
 
 <ul>
   <li>
     <p><strong>Scrum Master</strong>:</p>
 
     <ul>
-      <li>Experto en metodología Scrum.</li>
-      <li>Facilita el trabajo del equipo y elimina impedimentos.</li>
-      <li>No es un Project Manager (PM), sino un guía del proceso.</li>
+      <li>An expert in the Scrum methodology.</li>
+      <li>Facilitates the team’s work and removes impediments.</li>
+      <li>Is not a Project Manager (PM), but a guide for the process.</li>
     </ul>
   </li>
   <li>
-    <p><strong>Dueño de Producto (Product Owner - PO)</strong>:</p>
+    <p><strong>Product Owner (PO)</strong>:</p>
 
     <ul>
-      <li>Representa la voz del cliente o del negocio.</li>
-      <li>Define las prioridades y gestiona el Backlog del producto.</li>
-      <li>Decide qué se debe desarrollar y en qué orden.</li>
+      <li>Represents the voice of the customer or the business.</li>
+      <li>Defines priorities and manages the Product Backlog.</li>
+      <li>Decides what should be developed and in what order.</li>
     </ul>
   </li>
   <li>
-    <p><strong>Equipo de Desarrollo</strong>:</p>
+    <p><strong>Development Team</strong>:</p>
     <ul>
-      <li>Multidisciplinario, incluye roles como:
+      <li>Cross-functional, includes roles such as:
         <ul>
-          <li>Desarrolladores (Devs).</li>
-          <li>Analistas de Negocio/Requisitos (BAs).</li>
-          <li>Testers/Control de Calidad (QA).</li>
-          <li>Arquitectos.</li>
+          <li>Developers (Devs).</li>
+          <li>Business/Requirements Analysts (BAs).</li>
+          <li>Testers/Quality Assurance (QA).</li>
+          <li>Architects.</li>
         </ul>
       </li>
-      <li>Responsables de entregar incrementos funcionales en cada Sprint.</li>
+      <li>Responsible for delivering functional increments in each Sprint.</li>
     </ul>
   </li>
 </ul>
 
-<h2 id="eventos-de-scrum">Eventos de SCRUM</h2>
+<h2 id="scrum-events">SCRUM Events</h2>
 
 <p><img src="https://www.invensislearning.com/blog/wp-content/uploads/2020/09/What-are-Scrum-Ceremonies-Why-is-it-Required-1068x552-1.jpg" alt="SCRUM ceremonies" /></p>
 
 <h3 id="sprint"><strong>Sprint</strong></h3>
 
-<p>El corazón del SCRUM es el sprint y un sprint es un periodo de tiempo (ciclo o iteración) y puede ser de 2 o 4 semanas y durante ese mes se van a llevar varias reuniones (eventos). ¿Cuales son esas reuniones?</p>
+<p>The heart of SCRUM is the Sprint, and a Sprint is a period of time (cycle or iteration)—it can be 2 or 4 weeks—and during that time, several meetings (events) will be held. What are those meetings?</p>
 
 <ul>
   <li>
-    <p><strong>Planeación Sprint:</strong> Es la primera reunión que se realiza al inicio del sprint, sirve para seleccionar los ítems en los que se va a trabajar y cómo se van a hacer.</p>
+    <p><strong>Sprint Planning:</strong> This is the first meeting held at the beginning of the sprint, used to select the items that will be worked on and how they will be done.</p>
   </li>
   <li>
-    <p><strong>Reunión Diaria (Daily):</strong> Es una reunión diaria de 15 minutos en la que cada miembro del equipo de Desarrollo da un update de lo que está haciendo, así como los impedimentos que tiene.</p>
+    <p><strong>Daily Meeting (Daily):</strong> This is a 15-minute daily meeting where each member of the Development Team gives an update on what they are doing, as well as any impediments they have.</p>
   </li>
   <li>
-    <p><strong>Revisión Sprint:</strong> Es una reunión que ocurre al final del sprint donde el PO y el equipo presentan a los usuarios (stakeholders) el incremento terminado del producto para su inspección y adaptación.</p>
+    <p><strong>Sprint Review:</strong> This is a meeting that occurs at the end of the sprint where the PO and the team present the finished product increment to the users (stakeholders) for their inspection and adaptation.</p>
   </li>
   <li>
-    <p><strong>Retrospectiva:</strong> Reunión que ocurre al final del sprint donde se hace una reflexión del sprint y se discuten oportunidades de mejora para el próximo sprint.</p>
+    <p><strong>Retrospective:</strong> A meeting that occurs at the end of the sprint where a reflection on the sprint is done, and opportunities for improvement for the next sprint are discussed.</p>
   </li>
-</ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Ciclo del desarrollo de software. (SDLC).]]></summary></entry><entry><title type="html">El rol del tester en el desarrollo de software</title><link href="http://localhost:4001/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software" rel="alternate" type="text/html" title="El rol del tester en el desarrollo de software" /><published>2024-04-21T06:01:35-06:00</published><updated>2024-04-21T00:00:00-06:00</updated><id>http://localhost:4001/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software</id><content type="html" xml:base="http://localhost:4001/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software"><![CDATA[<hr />
+</ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Software Development Life Cycle (SDLC).]]></summary></entry><entry><title type="html">The Role of the Tester in Software Development</title><link href="http://localhost:4001/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software" rel="alternate" type="text/html" title="The Role of the Tester in Software Development" /><published>2024-04-21T06:01:35-06:00</published><updated>2024-04-21T00:00:00-06:00</updated><id>http://localhost:4001/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software</id><content type="html" xml:base="http://localhost:4001/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software"><![CDATA[<hr />
 
-<h2 id="qué-es-el-software-testing-y-su-importancia-en-el-desarrollo-de-software">¿Qué es el software testing y su importancia en el desarrollo de software?</h2>
+<h2 id="what-is-software-testing-and-its-importance-in-software-development">What is software testing and its importance in software development?</h2>
 
 <ul>
-  <li><strong>El Testing</strong> es una disciplina en la ingeniería de software que se realiza mediante una metodología de verificación y validación cuyo principal objetivo es localizar los errores en un <strong>software</strong> para ser corregidos por el equipo de desarrollo y de esta manera aumentar la confianza en el nivel de calidad del sistema.</li>
-  <li>La importancia radica en que es mucho mejor y mas barato la detección de estos errores tan temprano como sea posible 1en el proceso de desarrollo de la aplicación antes que ésta sea detectada cuando ya este en funcionamiento.</li>
+  <li><strong>Testing</strong> is a discipline in software engineering carried out through a verification and validation methodology whose main objective is to locate errors in <strong>software</strong> so they can be corrected by the development team, thereby increasing confidence in the system’s quality level.</li>
+  <li>Its importance lies in that it is much better and cheaper to detect these errors as early as possible in the application’s development process, rather than after it is already in operation.</li>
 </ul>
 
 <hr />
 
-<h2 id="qué-habilidades-necesita-un-tester">¿Qué habilidades necesita un tester?</h2>
+<h2 id="what-skills-does-a-tester-need">What skills does a tester need?</h2>
 
-<p><strong>Pensamiento Lógico</strong><br />
-Debe saber como desglosar un Sistema en unidades más pequeñas para poder crear casos de prueba</p>
+<p><strong>Logical Thinking</strong> Must know how to break down a system into smaller units to create test cases.</p>
 
-<p><strong>Ser organizado y metódico</strong><br />
-Esto es clave para poder ejecutar los casos de prueba en un orden y poder encontrar la mayor cantidad de errores</p>
+<p><strong>Being organized and methodical</strong> This is key to executing test cases in order and finding the greatest number of errors.</p>
 
-<p><strong>Muy buena comunicación</strong><br />
-Excelente comunicación verbal y escrita para comunicar los errores y documentarlos.</p>
+<p><strong>Very good communication</strong> Excellent verbal and written communication to communicate errors and document them.</p>
 
-<p><strong>Apasionado por la tecnología</strong><br />
-Todo Tester tiene que tener un gusto por la Informática, ser curioso y creativo</p>
+<p><strong>Passionate about technology</strong> Every Tester must have a liking for IT, be curious, and creative.</p>
 
-<p><strong>Atención a detalles, curiosidad y sentido común</strong><br />
-Se requiere tener un pensamiento crítico con atención a detalles desde el punto de vista de u usuario final</p>
+<p><strong>Attention to detail, curiosity, and common sense</strong> It requires critical thinking with attention to detail from an end-user’s point of view.</p>
 
-<p><strong>Paciencia y persistencia</strong><br />
-El Desarrollo de software es un proceso que requiere flexibilidad y mucha paciencia.</p>
+<p><strong>Patience and persistence</strong> Software development is a process that requires flexibility and a lot of patience.</p>
 
 <hr />
 
-<h2 id="responsabilidad-del-tester--qa">Responsabilidad del Tester / QA</h2>
+<h2 id="responsibilities-of-the-tester--qa">Responsibilities of the Tester / QA</h2>
 
-<p><strong>Principales responsabilidades</strong></p>
+<p><strong>Main responsibilities</strong></p>
 
 <ol>
-  <li>Diseñar un plan de pruebas</li>
-  <li>Definir los casos de prueba con base a los requisitos</li>
-  <li>Gestionar el ambiente y los datos de prueba</li>
-  <li>Ejecutar los casos de prueba</li>
-  <li>Realizar la documentación de las pruebas realizadas</li>
-  <li>Reportar los errores encontrados y realizar seguimiento para su corrección y re-validación</li>
-  <li>Participar en las reuniones de seguimiento diarias y todas las de Scrum</li>
-  <li>Realizar informes de calidad del producto</li>
-  <li>Ayudar a resolver dudas a los Analistas de requisitos o POs</li>
-  <li>Ayudar a los programadores a replicar los errores y a investigar su solución</li>
-  <li>Implementar prácticas de aseguramiento de calidad para prevenir errores en el código</li>
+  <li>Design a test plan</li>
+  <li>Define test cases based on requirements</li>
+  <li>Manage the test environment and test data</li>
+  <li>Execute the test cases</li>
+  <li>Create documentation for the tests performed</li>
+  <li>Report the errors found and follow up on their correction and re-validation</li>
+  <li>Participate in daily follow-up meetings and all Scrum meetings</li>
+  <li>Create product quality reports</li>
+  <li>Help resolve questions for Requirements Analysts or POs (Product Owners)</li>
+  <li>Help programmers replicate errors and investigate their solution</li>
+  <li>Implement quality assurance practices to prevent errors in the code</li>
 </ol>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[]]></summary></entry></feed>

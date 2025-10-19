@@ -1,29 +1,29 @@
 ---
 layout: post
-title: El poder de elección
+title: The Power of Choice
 date: 2024-11-16 15:01:35 +0300
 last_modified_at: 2024-11-16
 categories: [Mindset]
 ---
 
-## Hacer el Bien: Una Elección Más Allá de las circunstancias
+## Doing Good: A Choice Beyond Circumstance
 
-En un mundo lleno de desafíos y complejidades morales, la importancia de elegir hacer el bien no puede ser subestimada. En esencia, hacer el bien trasciende la mera circunstancia; refleja la profundidad de nuestro carácter y los valores que defendemos. Este principio se vuelve especialmente evidente cuando examinamos escenarios donde la bondad es una elección y no simplemente la ausencia de alternativas.
+In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.
 
-## Fidelidad en las Relaciones
+## Fidelity in Relationships
 
-Consideremos el concepto de fidelidad en una relación. ¿Alguien es verdaderamente fiel solo porque no tiene la oportunidad de ser infiel? ¿O la fidelidad adquiere un valor mayor cuando se tienen opciones pero se elige conscientemente permanecer leal? Esta última situación demuestra un compromiso más profundo, arraigado en el respeto y el amor por la pareja. Cuando la fidelidad es una decisión deliberada, se convierte en un testimonio de los valores personales, más que en un resultado de las circunstancias.
+Let's consider the concept of fidelity in a relationship. Is someone truly faithful just because they don't have the opportunity to be unfaithful? Or does fidelity acquire greater value when one has options but consciously chooses to remain loyal? This latter situation demonstrates a deeper commitment, rooted in respect and love for one's partner. When fidelity is a deliberate decision, it becomes a testament to personal values, rather than a result of circumstance.
 
-## Paz y Poder
+## Peace and Power
 
-De manera similar, la dinámica entre paz y poder revela ideas profundas. Hay una gran diferencia entre un pacifista que aboga por la paz pero carece de medios para hacer la guerra, y una persona pacífica que tiene la capacidad de hacer daño pero elige la contención. Esta última ejerce su fuerza con responsabilidad, decidiendo activamente no causar daño. Su paz nace del empoderamiento y el autocontrol, no de la falta de capacidad.
+Similarly, the dynamic between peace and power reveals profound insights. There is a big difference between a pacifist who advocates for peace but lacks the means to wage war, and a peaceful person who has the capacity to do harm but chooses restraint. The latter exercises their strength with responsibility, actively deciding not to cause harm. Their peace is born from empowerment and self-control, not from a lack of capability.
 
-## La Diferencia entre Incapacidad e Integridad
+## The Difference Between Inability and Integrity
 
-La distinción radica en la agencia. Una persona que no puede dañar o traicionar no encarna verdaderamente la bondad; simplemente carece de los medios para hacer otra cosa. La verdadera bondad surge cuando alguien tiene la capacidad de actuar de forma contraria, pero elige consistentemente el camino moral. Esta elección eleva la bondad de un estado pasivo a un compromiso activo y consciente.
+The distinction lies in agency. A person who cannot harm or betray does not truly embody goodness; they simply lack the means to do otherwise. True goodness arises when someone has the capacity to act otherwise, but consistently chooses the moral path. This choice elevates goodness from a passive state to an active and conscious commitment.
 
-## ¿Por qué importa?
+## Why Does It Matter?
 
-Cuando reconocemos que hacer el bien es una elección, nos damos el poder de actuar con propósito. Esto fomenta la introspección y el crecimiento, y nos permite construir relaciones más fuertes y contribuir a un mundo más justo y compasivo. Ya sea en el amor, en el conflicto o en las interacciones cotidianas, la decisión de hacer el bien a pesar de tener otras opciones resalta la fortaleza de nuestro carácter.
+When we recognize that doing good is a choice, we empower ourselves to act with purpose. This fosters introspection and growth, and allows us to build stronger relationships and contribute to a more just and compassionate world. Whether in love, in conflict, or in daily interactions, the decision to do good despite having other options highlights the strength of our character.
 
-En última instancia, hacer el bien no se trata de lo que podemos o no podemos hacer, sino de quién elegimos ser cuando tenemos la libertad de decidir.
+Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.

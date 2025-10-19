@@ -5,21 +5,21 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>El ciclo de vida de un bug | Alan Bellon</title>
+<title>The Life Cycle of a Bug | Alan Bellon</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="El ciclo de vida de un bug" />
+<meta property="og:title" content="The Life Cycle of a Bug" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas" />
-<meta property="og:description" content="El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas" />
+<meta name="description" content="The Life Cycle of a Bug: Stages, Roles, and Best Practices" />
+<meta property="og:description" content="The Life Cycle of a Bug: Stages, Roles, and Best Practices" />
 <link rel="canonical" href="http://localhost:4001/Ciclo-de-vida-de-un-bug" />
 <meta property="og:url" content="http://localhost:4001/Ciclo-de-vida-de-un-bug" />
 <meta property="og:site_name" content="Alan Bellon" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-05-13T06:01:35-06:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="El ciclo de vida de un bug" />
+<meta property="twitter:title" content="The Life Cycle of a Bug" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-13T00:00:00-06:00","datePublished":"2025-05-13T06:01:35-06:00","description":"El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas","headline":"El ciclo de vida de un bug","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/Ciclo-de-vida-de-un-bug"},"url":"http://localhost:4001/Ciclo-de-vida-de-un-bug"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-13T00:00:00-06:00","datePublished":"2025-05-13T06:01:35-06:00","description":"The Life Cycle of a Bug: Stages, Roles, and Best Practices","headline":"The Life Cycle of a Bug","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/Ciclo-de-vida-de-un-bug"},"url":"http://localhost:4001/Ciclo-de-vida-de-un-bug"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -132,215 +132,213 @@
     <main class="container-main">
       <article class="container-post">
   <div class="post-title">
-    <h3>El ciclo de vida de un bug</h3>
+    <h3>The Life Cycle of a Bug</h3>
   </div>
   <div class="post-author">
     <span>Alan Bellon</span>
   </div>
   <div class="post-content">
-    <h1 id="el-ciclo-de-vida-de-un-bug-etapas-roles-y-buenas-prácticas"><strong>El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas</strong></h1>
+    <h1 id="the-life-cycle-of-a-bug-stages-roles-and-best-practices"><strong>The Life Cycle of a Bug: Stages, Roles, and Best Practices</strong></h1>
 
-<p>El ciclo de vida de un bug es el proceso estructurado que sigue un defecto desde su detección hasta su resolución definitiva. Cada etapa implica acciones específicas y roles claramente definidos para garantizar una gestión eficiente y una solución efectiva. A continuación, te detallo cada fase con mayor profundidad, incluyendo buenas prácticas y flujos alternativos.</p>
-
-<hr />
-
-<h2 id="1-nuevo-new"><strong>1. Nuevo (New)</strong></h2>
-
-<p><strong>Responsable</strong>: Tester o QA Engineer<br />
-<strong>Descripción</strong>:<br />
-El tester identifica un comportamiento inesperado o inconsistente durante la ejecución de pruebas (manuales o automatizadas) y lo reporta en el sistema de seguimiento de bugs.</p>
-
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Documentación detallada</strong>:</p>
-
-<ul>
-  <li>Pasos exactos para reproducir el defecto.</li>
-  <li>Entorno de prueba (navegador, SO, versión del software, etc.).</li>
-  <li>Comportamiento <strong>esperado</strong> vs. <strong>comportamiento actual</strong>.</li>
-  <li>Capturas de pantalla, logs o videos si son relevantes.</li>
-</ul>
-
-<p>✔ <strong>Clasificación del bug</strong>:</p>
-
-<ul>
-  <li><strong>Prioridad</strong> (Urgente, Alta, Media, Baja): Impacto en el negocio o usuario.</li>
-  <li><strong>Severidad</strong> (Crítico, Mayor, Medio, Menor): Grado de afectación al sistema.</li>
-</ul>
-
-<p>✔ <strong>Asignación inicial</strong>:</p>
-
-<ul>
-  <li>El bug se registra como “Nuevo” y se asigna al líder de desarrollo o project manager para su revisión.</li>
-</ul>
+<p>The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.</p>
 
 <hr />
 
-<h2 id="2-asignado-assigned"><strong>2. Asignado (Assigned)</strong></h2>
+<h2 id="1-new-new"><strong>1. New (New)</strong></h2>
 
-<p><strong>Responsable</strong>: Líder de Desarrollo o Project Manager<br />
-<strong>Descripción</strong>:<br />
-El bug es evaluado para determinar su validez y asignado al desarrollador correspondiente.</p>
+<p><strong>Responsible</strong>: Tester or QA Engineer<br />
+<strong>Description</strong>:<br />
+The tester identifies unexpected or inconsistent behavior during test execution (manual or automated) and reports it in the bug tracking system.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Validación inicial</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Detailed documentation</strong>:</p>
 
 <ul>
-  <li>Confirmar si el bug es <strong>reproducible</strong> y no está duplicado.</li>
-  <li>Verificar si es un defecto real o un malentendido (ej: error de configuración).</li>
+  <li>Exact steps to reproduce the defect.</li>
+  <li>Test environment (browser, OS, software version, etc.).</li>
+  <li><strong>Expected</strong> behavior vs. <strong>actual behavior</strong>.</li>
+  <li>Screenshots, logs, or videos if relevant.</li>
 </ul>
 
-<p>✔ <strong>Decisiones posibles</strong>:</p>
+<p>✔ <strong>Bug classification</strong>:</p>
 
 <ul>
-  <li><strong>Aceptar</strong>: Asignar al desarrollador para su corrección.</li>
-  <li><strong>Rechazar</strong>: Si no es un bug válido (ej: comportamiento esperado, error del usuario).</li>
-  <li><strong>Posponer</strong>: Si no es crítico y se abordará en una futura iteración.</li>
+  <li><strong>Priority</strong> (Urgent, High, Medium, Low): Impact on the business or user.</li>
+  <li><strong>Severity</strong> (Critical, Major, Medium, Minor): Degree to which the system is affected.</li>
+</ul>
+
+<p>✔ <strong>Initial assignment</strong>:</p>
+
+<ul>
+  <li>The bug is logged as “New” and assigned to the development lead or project manager for review.</li>
 </ul>
 
 <hr />
 
-<h2 id="3-activo-active--in-progress"><strong>3. Activo (Active / In Progress)</strong></h2>
+<h2 id="2-assigned-assigned"><strong>2. Assigned (Assigned)</strong></h2>
 
-<p><strong>Responsable</strong>: Desarrollador<br />
-<strong>Descripción</strong>:<br />
-El desarrollador investiga y corrige el defecto.</p>
+<p><strong>Responsible</strong>: Development Lead or Project Manager<br />
+<strong>Description</strong>:<br />
+The bug is evaluated to determine its validity and assigned to the corresponding developer.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Análisis de la causa raíz</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Initial validation</strong>:</p>
 
 <ul>
-  <li>Revisar el código, logs y flujos relacionados.</li>
-  <li>Identificar si el error es propio del desarrollo, de integración o de un componente externo.</li>
+  <li>Confirm if the bug is <strong>reproducible</strong> and not duplicated.</li>
+  <li>Verify if it is a real defect or a misunderstanding (e.g., configuration error).</li>
 </ul>
 
-<p>✔ <strong>Desarrollo de la solución</strong>:</p>
+<p>✔ <strong>Possible decisions</strong>:</p>
 
 <ul>
-  <li>Implementar el fix y probarlo localmente.</li>
-  <li>Asegurar que no introduce nuevos defectos (pruebas unitarias).</li>
-</ul>
-
-<p>✔ <strong>Actualización del estado</strong>:</p>
-
-<ul>
-  <li>Documentar los cambios realizados en el sistema de seguimiento.</li>
+  <li><strong>Accept</strong>: Assign to the developer for correction.</li>
+  <li><strong>Reject</strong>: If it is not a valid bug (e.g., expected behavior, user error).</li>
+  <li><strong>Defer</strong>: If it is not critical and will be addressed in a future iteration.</li>
 </ul>
 
 <hr />
 
-<h2 id="4-arreglado-fixed--resolved"><strong>4. Arreglado (Fixed / Resolved)</strong></h2>
+<h2 id="3-active-active--in-progress"><strong>3. Active (Active / In Progress)</strong></h2>
 
-<p><strong>Responsable</strong>: Desarrollador<br />
-<strong>Descripción</strong>:<br />
-El desarrollador confirma que el bug ha sido corregido y lo envía para verificación.</p>
+<p><strong>Responsible</strong>: Developer<br />
+<strong>Description</strong>:<br />
+The developer investigates and corrects the defect.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Subir cambios al repositorio</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Root cause analysis</strong>:</p>
 
 <ul>
-  <li>Realizar commit con una descripción clara (ej: “Fix #123: Corrección de error en cálculo de impuestos”).</li>
-  <li>Fusionar en la rama correspondiente (develop, main, etc.).</li>
+  <li>Review the code, logs, and related flows.</li>
+  <li>Identify if the error is from the development itself, integration, or an external component.</li>
 </ul>
 
-<p>✔ <strong>Marcar como “Fixed” en el sistema</strong>:</p>
+<p>✔ <strong>Solution development</strong>:</p>
 
 <ul>
-  <li>Indicar la versión donde se aplicó el fix.</li>
-  <li>Proporcionar detalles adicionales si el tester necesita validar algo específico.</li>
+  <li>Implement the fix and test it locally.</li>
+  <li>Ensure it does not introduce new defects (unit tests).</li>
 </ul>
 
-<hr />
-
-<h2 id="5-verificado-verified--closed"><strong>5. Verificado (Verified / Closed)</strong></h2>
-
-<p><strong>Responsable</strong>: Tester<br />
-<strong>Descripción</strong>:<br />
-El QA verifica que la corrección sea efectiva y que no genere regresiones.</p>
-
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Pruebas de regresión</strong>:</p>
+<p>✔ <strong>Status update</strong>:</p>
 
 <ul>
-  <li>Validar el escenario original del bug.</li>
-  <li>Asegurar que funcionalidades relacionadas no se vean afectadas.</li>
-</ul>
-
-<p>✔ <strong>Resultados posibles</strong>:</p>
-
-<ul>
-  <li><strong>Éxito</strong>: El bug pasa a estado “Cerrado”.</li>
-  <li><strong>Fallo</strong>: Se reabre y se devuelve a “Activo” con comentarios detallados.</li>
+  <li>Document the changes made in the tracking system.</li>
 </ul>
 
 <hr />
 
-<h2 id="6-cerrado-closed"><strong>6. Cerrado (Closed)</strong></h2>
+<h2 id="4-fixed-fixed--resolved"><strong>4. Fixed (Fixed / Resolved)</strong></h2>
 
-<p><strong>Responsable</strong>: Tester o Líder de QA<br />
-<strong>Descripción</strong>:<br />
-El bug se cierra definitivamente al confirmar su resolución.</p>
+<p><strong>Responsible</strong>: Developer<br />
+<strong>Description</strong>:<br />
+The developer confirms the bug has been corrected and sends it for verification.</p>
 
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Documentación final</strong>:</p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Push changes to the repository</strong>:</p>
 
 <ul>
-  <li>Registrar evidencia de la prueba exitosa.</li>
-  <li>Actualizar reportes de calidad del proyecto.</li>
+  <li>Make a commit with a clear description (e.g., “Fix #123: Correction of tax calculation error”).</li>
+  <li>Merge into the corresponding branch (develop, main, etc.).</li>
 </ul>
 
-<p>✔ <strong>Archivado</strong>:</p>
+<p>✔ <strong>Mark as “Fixed” in the system</strong>:</p>
 
 <ul>
-  <li>El bug queda como referencia para auditorías o análisis futuros.</li>
-</ul>
-
-<hr />
-
-<h2 id="7-rechazado-rejected"><strong>7. Rechazado (Rejected)</strong></h2>
-
-<p><strong>Responsable</strong>: Líder de Desarrollo o QA Manager<br />
-<strong>Descripción</strong>:<br />
-El bug es descartado por no ser válido (duplicado, no reproducible, error de usuario, etc.).</p>
-
-<p><strong>Acciones Clave</strong>:<br />
-✔ <strong>Justificación clara</strong>:</p>
-
-<ul>
-  <li>Ejemplo: “No es un defecto, el comportamiento es el esperado según el requerimiento X”.</li>
-</ul>
-
-<p>✔ <strong>Comunicación con el tester</strong>:</p>
-
-<ul>
-  <li>Si el bug fue malinterpretado, se aclara el escenario para evitar reportes similares.</li>
+  <li>Indicate the version where the fix was applied.</li>
+  <li>Provide additional details if the tester needs to validate something specific.</li>
 </ul>
 
 <hr />
 
-<h2 id="flujos-alternativos-y-consideraciones"><strong>Flujos Alternativos y Consideraciones</strong></h2>
+<h2 id="5-verified-verified--closed"><strong>5. Verified (Verified / Closed)</strong></h2>
 
-<p>🔄 <strong>Reapertura de un Bug</strong></p>
+<p><strong>Responsible</strong>: Tester<br />
+<strong>Description</strong>:<br />
+The QA verifies that the fix is effective and does not cause regressions.</p>
 
-<ul>
-  <li>Si el fix no funciona, el bug vuelve a <strong>“Activo”</strong> con observaciones detalladas.</li>
-  <li>Si se encuentra el mismo defecto en otra área, se crea un <strong>nuevo reporte</strong> vinculado al original.</li>
-</ul>
-
-<p>⚠ <strong>Bugs Duplicados o Invalidados</strong></p>
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Regression testing</strong>:</p>
 
 <ul>
-  <li>Se marcan como <strong>“Rechazado”</strong> o <strong>“Duplicado”</strong> y se enlazan al bug principal.</li>
+  <li>Validate the original bug scenario.</li>
+  <li>Ensure that related functionalities are not affected.</li>
 </ul>
 
-<p>🛠 <strong>Buenas Prácticas</strong><br />
-✔ <strong>Comunicación constante</strong> entre Devs y QA para evitar malentendidos.<br />
-✔ <strong>Seguimiento con herramientas</strong> como Jira, Azure DevOps o Bugzilla para mantener trazabilidad.<br />
-✔ <strong>Retrospectivas</strong> para analizar bugs recurrentes y mejorar procesos.</p>
+<p>✔ <strong>Possible outcomes</strong>:</p>
+
+<ul>
+  <li><strong>Success</strong>: The bug moves to “Closed” status.</li>
+  <li><strong>Failure</strong>: It is reopened and returned to “Active” with detailed comments.</li>
+</ul>
 
 <hr />
 
-<p><strong>Conclusión</strong><br />
-Un ciclo de vida de bugs bien gestionado mejora la calidad del software, optimiza el tiempo del equipo y facilita la entrega de productos más estables. La clave está en la <strong>documentación clara</strong>, la <strong>colaboración entre roles</strong> y el <strong>uso de herramientas adecuadas</strong>.</p>
+<h2 id="6-closed-closed"><strong>6. Closed (Closed)</strong></h2>
+
+<p><strong>Responsible</strong>: Tester or QA Lead<br />
+<strong>Description</strong>:<br />
+The bug is permanently closed upon confirming its resolution.</p>
+
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Final documentation</strong>:</p>
+
+<ul>
+  <li>Log evidence of the successful test.</li>
+  <li>Update project quality reports.</li>
+</ul>
+
+<p>✔ <strong>Archiving</strong>:</p>
+
+<ul>
+  <li>The bug remains as a reference for future audits or analysis.</li>
+</ul>
+
+<hr />
+
+<h2 id="7-rejected-rejected"><strong>7. Rejected (Rejected)</strong></h2>
+
+<p><strong>Responsible</strong>: Development Lead or QA Manager<br />
+<strong>Description</strong>:<br />
+The bug is discarded for not being valid (duplicate, not reproducible, user error, etc.).</p>
+
+<p><strong>Key Actions</strong>:<br />
+✔ <strong>Clear justification</strong>:</p>
+
+<ul>
+  <li>Example: “Not a defect, the behavior is as expected per requirement X.”</li>
+</ul>
+
+<p>✔ <strong>Communication with the tester</strong>:</p>
+
+<ul>
+  <li>If the bug was misinterpreted, the scenario is clarified to avoid similar reports.</li>
+</ul>
+
+<hr />
+
+<h2 id="alternative-flows-and-considerations"><strong>Alternative Flows and Considerations</strong></h2>
+
+<p>🔄 <strong>Reopening a Bug</strong></p>
+
+<ul>
+  <li>If the fix does not work, the bug returns to <strong>“Active”</strong> with detailed observations.</li>
+  <li>If the same defect is found in another area, a <strong>new report</strong> is created and linked to the original one.</li>
+</ul>
+
+<p>⚠ <strong>Duplicate or Invalid Bugs</strong></p>
+
+<ul>
+  <li>They are marked as <strong>“Rejected”</strong> or <strong>“Duplicate”</strong> and linked to the main bug.</li>
+</ul>
+
+<p>🛠 <strong>Best Practices</strong> ✔ <strong>Constant communication</strong> between Devs and QA to avoid misunderstandings.<br />
+✔ <strong>Tracking with tools</strong> like Jira, Azure DevOps, or Bugzilla to maintain traceability.<br />
+✔ <strong>Retrospectives</strong> to analyze recurring bugs and improve processes.</p>
+
+<hr />
+
+<p><strong>Conclusion</strong> A well-managed bug life cycle improves software quality, optimizes the team’s time, and facilitates the delivery of more stable products. The key lies in <strong>clear documentation</strong>, <strong>collaboration between roles</strong>, and the <strong>use of appropriate tools</strong>.</p>
 
   </div>
   <hr>
@@ -361,12 +359,12 @@ Un ciclo de vida de bugs bien gestionado mejora la calidad del software, optimiz
     <div class="post-tools">
       
       <div>
-        <span>Next: </span><a href="/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto">¿Por qué fedora?</a>
+        <span>Next: </span><a href="/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto">Why Fedora?</a>
       </div>
       
       
       <div>
-        <span>Previous: </span><a href="/Condenados-a-repetir-la-historia">¿Condenados a repetir la historia?</a>
+        <span>Previous: </span><a href="/Condenados-a-repetir-la-historia">Doomed to Repeat History?</a>
       </div>
       
     </div>
@@ -376,9 +374,23 @@ Un ciclo de vida de bugs bien gestionado mejora la calidad del software, optimiz
     </main>
     <footer class="container-footer">
       <div class="footer-copyright">
-  <span class="footer-copyright-text float-left">Socials: <a href="https://www.linkedin.com/in/leonardespi/" target="_blank" rel="noopener noreferrer">LinkedIn</a>, <a href="https://github.com/leonardespi" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://x.com/leonardespii?mx=2" target="_blank" rel="noopener noreferrer">X</a>, <a href="https://music.youtube.com/@Leoesuncabron" target="_blank" rel="noopener noreferrer">Music</a></span>
-
+  <span class="footer-copyright-text float-left"
+    >Socials:
+    <a
+      href="https://www.linkedin.com/in/alan-bellon/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >LinkedIn</a
+    >,
+    <a
+      href="https://github.com/123poralan"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Github</a
+    ></span
+  >
 </div>
+
     </footer>
   </div>
 

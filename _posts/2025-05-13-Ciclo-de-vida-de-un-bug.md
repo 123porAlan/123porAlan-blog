@@ -1,175 +1,173 @@
 ---
 layout: post
-title: El ciclo de vida de un bug
+title: The Life Cycle of a Bug
 date: 2025-05-13 15:01:35 +0300
 last_modified_at: 2025-05-13
 categories: [Quality Assurance]
 ---
 
-# **El Ciclo de Vida de un Bug: Etapas, Roles y Buenas Prácticas**
+# **The Life Cycle of a Bug: Stages, Roles, and Best Practices**
 
-El ciclo de vida de un bug es el proceso estructurado que sigue un defecto desde su detección hasta su resolución definitiva. Cada etapa implica acciones específicas y roles claramente definidos para garantizar una gestión eficiente y una solución efectiva. A continuación, te detallo cada fase con mayor profundidad, incluyendo buenas prácticas y flujos alternativos.
-
----
-
-## **1. Nuevo (New)**
-
-**Responsable**: Tester o QA Engineer  
-**Descripción**:  
-El tester identifica un comportamiento inesperado o inconsistente durante la ejecución de pruebas (manuales o automatizadas) y lo reporta en el sistema de seguimiento de bugs.
-
-**Acciones Clave**:  
-✔ **Documentación detallada**:
-
-- Pasos exactos para reproducir el defecto.
-- Entorno de prueba (navegador, SO, versión del software, etc.).
-- Comportamiento **esperado** vs. **comportamiento actual**.
-- Capturas de pantalla, logs o videos si son relevantes.
-
-✔ **Clasificación del bug**:
-
-- **Prioridad** (Urgente, Alta, Media, Baja): Impacto en el negocio o usuario.
-- **Severidad** (Crítico, Mayor, Medio, Menor): Grado de afectación al sistema.
-
-✔ **Asignación inicial**:
-
-- El bug se registra como "Nuevo" y se asigna al líder de desarrollo o project manager para su revisión.
+The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.
 
 ---
 
-## **2. Asignado (Assigned)**
+## **1. New (New)**
 
-**Responsable**: Líder de Desarrollo o Project Manager  
-**Descripción**:  
-El bug es evaluado para determinar su validez y asignado al desarrollador correspondiente.
+**Responsible**: Tester or QA Engineer  
+**Description**:  
+The tester identifies unexpected or inconsistent behavior during test execution (manual or automated) and reports it in the bug tracking system.
 
-**Acciones Clave**:  
-✔ **Validación inicial**:
+**Key Actions**:  
+✔ **Detailed documentation**:
 
-- Confirmar si el bug es **reproducible** y no está duplicado.
-- Verificar si es un defecto real o un malentendido (ej: error de configuración).
+- Exact steps to reproduce the defect.
+- Test environment (browser, OS, software version, etc.).
+- **Expected** behavior vs. **actual behavior**.
+- Screenshots, logs, or videos if relevant.
 
-✔ **Decisiones posibles**:
+✔ **Bug classification**:
 
-- **Aceptar**: Asignar al desarrollador para su corrección.
-- **Rechazar**: Si no es un bug válido (ej: comportamiento esperado, error del usuario).
-- **Posponer**: Si no es crítico y se abordará en una futura iteración.
+- **Priority** (Urgent, High, Medium, Low): Impact on the business or user.
+- **Severity** (Critical, Major, Medium, Minor): Degree to which the system is affected.
 
----
+✔ **Initial assignment**:
 
-## **3. Activo (Active / In Progress)**
-
-**Responsable**: Desarrollador  
-**Descripción**:  
-El desarrollador investiga y corrige el defecto.
-
-**Acciones Clave**:  
-✔ **Análisis de la causa raíz**:
-
-- Revisar el código, logs y flujos relacionados.
-- Identificar si el error es propio del desarrollo, de integración o de un componente externo.
-
-✔ **Desarrollo de la solución**:
-
-- Implementar el fix y probarlo localmente.
-- Asegurar que no introduce nuevos defectos (pruebas unitarias).
-
-✔ **Actualización del estado**:
-
-- Documentar los cambios realizados en el sistema de seguimiento.
+- The bug is logged as "New" and assigned to the development lead or project manager for review.
 
 ---
 
-## **4. Arreglado (Fixed / Resolved)**
+## **2. Assigned (Assigned)**
 
-**Responsable**: Desarrollador  
-**Descripción**:  
-El desarrollador confirma que el bug ha sido corregido y lo envía para verificación.
+**Responsible**: Development Lead or Project Manager  
+**Description**:  
+The bug is evaluated to determine its validity and assigned to the corresponding developer.
 
-**Acciones Clave**:  
-✔ **Subir cambios al repositorio**:
+**Key Actions**:  
+✔ **Initial validation**:
 
-- Realizar commit con una descripción clara (ej: "Fix #123: Corrección de error en cálculo de impuestos").
-- Fusionar en la rama correspondiente (develop, main, etc.).
+- Confirm if the bug is **reproducible** and not duplicated.
+- Verify if it is a real defect or a misunderstanding (e.g., configuration error).
 
-✔ **Marcar como "Fixed" en el sistema**:
+✔ **Possible decisions**:
 
-- Indicar la versión donde se aplicó el fix.
-- Proporcionar detalles adicionales si el tester necesita validar algo específico.
-
----
-
-## **5. Verificado (Verified / Closed)**
-
-**Responsable**: Tester  
-**Descripción**:  
-El QA verifica que la corrección sea efectiva y que no genere regresiones.
-
-**Acciones Clave**:  
-✔ **Pruebas de regresión**:
-
-- Validar el escenario original del bug.
-- Asegurar que funcionalidades relacionadas no se vean afectadas.
-
-✔ **Resultados posibles**:
-
-- **Éxito**: El bug pasa a estado "Cerrado".
-- **Fallo**: Se reabre y se devuelve a "Activo" con comentarios detallados.
+- **Accept**: Assign to the developer for correction.
+- **Reject**: If it is not a valid bug (e.g., expected behavior, user error).
+- **Defer**: If it is not critical and will be addressed in a future iteration.
 
 ---
 
-## **6. Cerrado (Closed)**
+## **3. Active (Active / In Progress)**
 
-**Responsable**: Tester o Líder de QA  
-**Descripción**:  
-El bug se cierra definitivamente al confirmar su resolución.
+**Responsible**: Developer  
+**Description**:  
+The developer investigates and corrects the defect.
 
-**Acciones Clave**:  
-✔ **Documentación final**:
+**Key Actions**:  
+✔ **Root cause analysis**:
 
-- Registrar evidencia de la prueba exitosa.
-- Actualizar reportes de calidad del proyecto.
+- Review the code, logs, and related flows.
+- Identify if the error is from the development itself, integration, or an external component.
 
-✔ **Archivado**:
+✔ **Solution development**:
 
-- El bug queda como referencia para auditorías o análisis futuros.
+- Implement the fix and test it locally.
+- Ensure it does not introduce new defects (unit tests).
 
----
+✔ **Status update**:
 
-## **7. Rechazado (Rejected)**
-
-**Responsable**: Líder de Desarrollo o QA Manager  
-**Descripción**:  
-El bug es descartado por no ser válido (duplicado, no reproducible, error de usuario, etc.).
-
-**Acciones Clave**:  
-✔ **Justificación clara**:
-
-- Ejemplo: "No es un defecto, el comportamiento es el esperado según el requerimiento X".
-
-✔ **Comunicación con el tester**:
-
-- Si el bug fue malinterpretado, se aclara el escenario para evitar reportes similares.
+- Document the changes made in the tracking system.
 
 ---
 
-## **Flujos Alternativos y Consideraciones**
+## **4. Fixed (Fixed / Resolved)**
 
-🔄 **Reapertura de un Bug**
+**Responsible**: Developer  
+**Description**:  
+The developer confirms the bug has been corrected and sends it for verification.
 
-- Si el fix no funciona, el bug vuelve a **"Activo"** con observaciones detalladas.
-- Si se encuentra el mismo defecto en otra área, se crea un **nuevo reporte** vinculado al original.
+**Key Actions**:  
+✔ **Push changes to the repository**:
 
-⚠ **Bugs Duplicados o Invalidados**
+- Make a commit with a clear description (e.g., "Fix #123: Correction of tax calculation error").
+- Merge into the corresponding branch (develop, main, etc.).
 
-- Se marcan como **"Rechazado"** o **"Duplicado"** y se enlazan al bug principal.
+✔ **Mark as "Fixed" in the system**:
 
-🛠 **Buenas Prácticas**  
-✔ **Comunicación constante** entre Devs y QA para evitar malentendidos.  
-✔ **Seguimiento con herramientas** como Jira, Azure DevOps o Bugzilla para mantener trazabilidad.  
-✔ **Retrospectivas** para analizar bugs recurrentes y mejorar procesos.
+- Indicate the version where the fix was applied.
+- Provide additional details if the tester needs to validate something specific.
 
 ---
 
-**Conclusión**  
-Un ciclo de vida de bugs bien gestionado mejora la calidad del software, optimiza el tiempo del equipo y facilita la entrega de productos más estables. La clave está en la **documentación clara**, la **colaboración entre roles** y el **uso de herramientas adecuadas**.
+## **5. Verified (Verified / Closed)**
+
+**Responsible**: Tester  
+**Description**:  
+The QA verifies that the fix is effective and does not cause regressions.
+
+**Key Actions**:  
+✔ **Regression testing**:
+
+- Validate the original bug scenario.
+- Ensure that related functionalities are not affected.
+
+✔ **Possible outcomes**:
+
+- **Success**: The bug moves to "Closed" status.
+- **Failure**: It is reopened and returned to "Active" with detailed comments.
+
+---
+
+## **6. Closed (Closed)**
+
+**Responsible**: Tester or QA Lead  
+**Description**:  
+The bug is permanently closed upon confirming its resolution.
+
+**Key Actions**:  
+✔ **Final documentation**:
+
+- Log evidence of the successful test.
+- Update project quality reports.
+
+✔ **Archiving**:
+
+- The bug remains as a reference for future audits or analysis.
+
+---
+
+## **7. Rejected (Rejected)**
+
+**Responsible**: Development Lead or QA Manager  
+**Description**:  
+The bug is discarded for not being valid (duplicate, not reproducible, user error, etc.).
+
+**Key Actions**:  
+✔ **Clear justification**:
+
+- Example: "Not a defect, the behavior is as expected per requirement X."
+
+✔ **Communication with the tester**:
+
+- If the bug was misinterpreted, the scenario is clarified to avoid similar reports.
+
+---
+
+## **Alternative Flows and Considerations**
+
+🔄 **Reopening a Bug**
+
+- If the fix does not work, the bug returns to **"Active"** with detailed observations.
+- If the same defect is found in another area, a **new report** is created and linked to the original one.
+
+⚠ **Duplicate or Invalid Bugs**
+
+- They are marked as **"Rejected"** or **"Duplicate"** and linked to the main bug.
+
+🛠 **Best Practices** ✔ **Constant communication** between Devs and QA to avoid misunderstandings.  
+✔ **Tracking with tools** like Jira, Azure DevOps, or Bugzilla to maintain traceability.  
+✔ **Retrospectives** to analyze recurring bugs and improve processes.
+
+---
+
+**Conclusion** A well-managed bug life cycle improves software quality, optimizes the team's time, and facilitates the delivery of more stable products. The key lies in **clear documentation**, **collaboration between roles**, and the **use of appropriate tools**.

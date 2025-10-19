@@ -1,25 +1,25 @@
 ---
 layout: post
-title: El poder de la mentalidad, Más allá de los factores externos
+title: The Power of Mindset, Beyond External Factors
 date: 2024-11-18 15:01:35 +0300
 last_modified_at: 2024-11-18
 categories: [Mindset]
 ---
 
-## El enfoque común en lo externo
+## The Common Focus on the External
 
-En el camino de la vida, es común observar cómo la mayoría de las personas centran su atención en factores externos para explicar sus circunstancias. Desde el tráfico matutino hasta las oportunidades laborales, existe una tendencia a atribuir los acontecimientos al azar o a fuerzas fuera de nuestro control. Sin embargo, esta perspectiva puede nublar la comprensión de que, en muchas ocasiones, somos nosotros mismos quienes, consciente o inconscientemente, moldeamos nuestro propio destino.
+On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.
 
-## Dos tipos de mentalidades
+## Two Types of Mindsets
 
-Al conocer a alguien, solemos distinguir entre dos tipos fundamentales de personas. Por un lado, están aquellos que, a pesar de enfrentar adversidades, buscan seguir adelante sin victimizarse. Adoptan una mentalidad resiliente, similar al concepto japonés de gambaru. Este término va más allá de simplemente intentarlo; implica una dedicación inquebrantable hasta alcanzar la meta final. Gambaru significa darlo todo, sin excusas ni descanso, hasta no tener nada más que ofrecer. Es una filosofía de vida que valora la perseverancia y el compromiso absoluto.
+When meeting someone, we usually distinguish between two fundamental types of people. On one hand, there are those who, despite facing adversity, seek to move forward without victimizing themselves. They adopt a resilient mindset, similar to the Japanese concept of _gambaru_. This term goes beyond simply trying; it implies an unwavering dedication until reaching the final goal. _Gambaru_ means giving it your all, without excuses or rest, until you have nothing left to offer. It is a philosophy of life that values perseverance and absolute commitment.
 
-## La trampa de la victimización
+## The Trap of Victimization
 
-Por otro lado, hay personas que eligen victimizarse ante cada obstáculo. Estos individuos tienden a adoptar una mentalidad mediocre, evitando la responsabilidad personal y negando sus propios errores. Carl Jung lo expresó con claridad: "Las personas podrían aprender de sus errores si no estuvieran tan ocupadas negándolos". Esta negación no solo impide el crecimiento personal, sino que también crea barreras para establecer relaciones significativas y rodearse de influencias positivas.
+On the other hand, there are people who choose to victimize themselves in the face of every obstacle. These individuals tend to adopt a mediocre mindset, avoiding personal responsibility and denying their own mistakes. Carl Jung expressed it clearly: "People could learn from their mistakes if they weren't so busy denying them." This denial not only prevents personal growth but also creates barriers to establishing meaningful relationships and surrounding oneself with positive influences.
 
-Desde una perspectiva filosófica, esta dualidad refleja la lucha eterna entre el determinismo y el libre albedrío. Mientras algunos reconocen su capacidad para influir en su propio destino, otros se sienten atrapados por las circunstancias externas. La forma en que elegimos interpretar y responder a los acontecimientos de la vida define nuestra esencia y nuestro camino.
+From a philosophical perspective, this duality reflects the eternal struggle between determinism and free will. While some recognize their ability to influence their own destiny, others feel trapped by external circumstances. The way we choose to interpret and respond to life's events defines our essence and our path.
 
-## ¿Qué eliges?
+## What Do You Choose?
 
-En conclusión, la mentalidad que adoptamos es un factor crucial que determina nuestro éxito y bienestar. Rodearnos de personas que valoran la responsabilidad personal y la perseverancia puede inspirarnos a desarrollar una mentalidad más fuerte y resiliente. Al final, la verdadera transformación comienza desde dentro, y reconocer nuestro propio poder para cambiar es el primer paso hacia una vida más plena y significativa.
+In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.

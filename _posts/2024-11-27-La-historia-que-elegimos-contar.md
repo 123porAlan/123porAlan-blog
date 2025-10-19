@@ -1,33 +1,33 @@
 ---
 layout: post
-title: ¿Héroes o villanos? La historia que elegimos contar
+title: Heroes or Villains? The Story We Choose to Tell
 date: 2024-11-27 15:01:35 +0300
 last_modified_at: 2024-11-27
 categories: [Mindset]
 ---
 
-Cuando la vida se vuelve abrumadora y enfrentamos situaciones difíciles, nuestro instinto suele ser compartir nuestras luchas con alguien en quien confiamos. Este acto de desahogo puede ser catártico, pero hay un fenómeno interesante que a menudo lo acompaña: la sutil, y a veces inconsciente, alteración de nuestra propia narrativa. Ya sea una ruptura amorosa, una disputa con un profesor por una calificación, o una discusión acalorada con un hermano, nuestra forma de contar los hechos tiende a cambiar para dejarnos en una mejor posición.
+When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it's a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.
 
-## Moldeando la narrativa
+## Shaping the Narrative
 
-Cuando contamos nuestra historia, podemos omitir ciertos detalles, inclinarnos hacia la ambigüedad o incluso añadir pequeños adornos que no son del todo ciertos. ¿Por qué hacemos esto? La respuesta radica en una tendencia profundamente humana: el deseo de controlar cómo nos perciben los demás. No es necesariamente con mala intención—muchas veces, ni siquiera es consciente. En cambio, nace de una aversión innata a ser el villano de nuestra propia historia. Después de todo, a nadie le gusta sentirse culpable; todos queremos ser el héroe.
+When we tell our story, we might omit certain details, lean into ambiguity, or even add small embellishments that aren't entirely true. Why do we do this? The answer lies in a deeply human tendency: the desire to control how others perceive us. It's not necessarily with ill intent—often, it's not even conscious. Instead, it's born from an innate aversion to being the villain of our own story. After all, no one likes to feel guilty; we all want to be the hero.
 
-Este moldeado narrativo cumple una función: nos permite buscar validación, consuelo o apoyo en el oyente. Sin embargo, al hacerlo, corremos el riesgo de distorsionar la verdad, no solo para los demás, sino también para nosotros mismos. Con el tiempo, estas versiones alteradas pueden echar raíces en nuestra mente, dificultando el enfrentarnos a la incómoda realidad de nuestros propios errores.
+This narrative shaping serves a function: it allows us to seek validation, comfort, or support from the listener. However, in doing so, we run the risk of distorting the truth, not only for others but also for ourselves. Over time, these altered versions can take root in our minds, making it difficult to face the uncomfortable reality of our own mistakes.
 
-## El miedo a enfrentarnos a nosotros mismos
+## The Fear of Facing Ourselves
 
-En el fondo, esta tendencia revela una verdad universal: duele enfrentar la realidad, especialmente cuando esa realidad nos señala como responsables. Admitir errores o reconocer nuestras fallas desafía la imagen que tenemos de nosotros mismos. Pero el crecimiento comienza justamente en ese punto: cuando nos atrevemos a enfrentar la verdad sin adornos.
+At its core, this tendency reveals a universal truth: it hurts to face reality, especially when that reality points to us as responsible. Admitting mistakes or acknowledging our flaws challenges the image we have of ourselves. But growth begins at that very point: when we dare to face the unadorned truth.
 
-Tener el valor de asumir nuestros errores, no solo hacia afuera sino también internamente, es un acto profundo de sabiduría. Es aceptar que no somos perfectos, y eso está bien. De hecho, es en el reconocimiento de nuestras imperfecciones donde encontramos las mayores oportunidades para aprender y crecer.
+Having the courage to own up to our mistakes, not just outwardly but also internally, is a profound act of wisdom. It's accepting that we are not perfect, and that's okay. In fact, it is in acknowledging our imperfections that we find the greatest opportunities to learn and grow.
 
-## Elegir la honestidad
+## Choosing Honesty
 
-Para romper este ciclo de autoengaño, debemos comenzar con la honestidad—primero con nosotros mismos y luego con los demás. Esto no significa quedarnos atrapados en la culpa o la vergüenza, sino más bien abrazar las lecciones que nuestros errores tienen para ofrecernos. Al contarnos la verdad completa, sin filtros ni adornos, ganamos claridad y la capacidad de tomar mejores decisiones en el futuro.
+To break this cycle of self-deception, we must begin with honesty—first with ourselves and then with others. This doesn't mean getting stuck in guilt or shame, but rather embracing the lessons our mistakes have to offer. By telling ourselves the complete truth, without filters or embellishments, we gain clarity and the ability to make better decisions in the future.
 
-Ser el héroe de nuestra historia no significa ser perfecto; significa tener la fuerza para admitir cuando estamos equivocados y la determinación de crecer a partir de ello. La verdadera sabiduría se encuentra en esa vulnerabilidad, en la disposición de mirarnos al espejo y decir: “Cometí un error, y voy a aprender de ello.”
+Being the hero of our story doesn't mean being perfect; it means having the strength to admit when we are wrong and the determination to grow from it. True wisdom is found in that vulnerability, in the willingness to look ourselves in the mirror and say, “I made a mistake, and I am going to learn from it.”
 
-## ¿Por qué importa?
+## Why Does It Matter?
 
-Las historias que nos contamos a nosotros mismos moldean la forma en que navegamos por la vida. Cuando elegimos decir la verdad, incluso cuando es difícil, no solo fomentamos relaciones más fuertes, sino que también construimos una identidad más sólida. El crecimiento es imposible sin responsabilidad, y la responsabilidad comienza reconociendo el panorama completo de nuestras experiencias.
+The stories we tell ourselves shape the way we navigate life. When we choose to tell the truth, even when it's difficult, we not only foster stronger relationships, but we also build a stronger identity. Growth is impossible without accountability, and accountability begins with acknowledging the full picture of our experiences.
 
-Al final, el verdadero triunfo no está en evitar los errores, sino en tener el valor de enfrentarlos, aprender de ellos y ser mejores.
+In the end, true triumph isn't about avoiding mistakes, but about having the courage to face them, learn from them, and become better.

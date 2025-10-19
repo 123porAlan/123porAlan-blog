@@ -1,279 +1,273 @@
 ---
 layout: post
-title: Lo necesario para sobrevivir con GIT
+title: The Essentials for Surviving with GIT
 date: 2024-07-02 15:01:35 +0300
 last_modified_at: 2024-07-02
 categories: [Quality Assurance]
 ---
 
-Cuando entré a la universidad, los profesores del área nos sugirieron tomar el propedéutico de la carrera. Yo, como cualquier persona joven e inexperta, pensé que era una idea fabulosa: un curso que nos enseñaría las bases antes de la materia que sí nos evaluaría. Procedí a tomar dicho propedéutico. ¿El paso final? Teníamos que hacer un fork a un proyecto y luego modificarlo para, al final, enviar un pull request. ¿Qué pasó en mi caso? No lo logré.
+When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn't do it.
 
-Fue entonces cuando, por mi cuenta, investigué en diferentes recursos. Hoy quiero compartirte lo que considero lo más esencial y necesario para sobrevivir tanto al inicio de la universidad como a los primeros días de trabajo, o al menos para tener noción de qué está pasando.
+It was then that I researched different resources on my own. Today I want to share what I consider the most essential and necessary things to survive both the start of college and the first days of work, or at least to have a clue about what's going on.
 
-**1. Instalando Git (sin miedo padrino)**
+**1. Installing Git (No Fear)**
 
-Primero lo primero: necesitas tener Git instalado. Si usas Windows, baja el instalador desde [git-scm.com](https://git-scm.com/). En Mac, abre la terminal y escribe:
+First things first: you need to have Git installed. If you use Windows, download the installer from [git-scm.com](https://git-scm.com/). On Mac, open the terminal and type:
 
 ```bash
 brew install git
 ```
 
-En Linux, lo clásico:
+On Linux, the classic:
 
 ```bash
 sudo apt-get install git
 ```
 
-Si usas la distro buena (Fedora) que por cierto ya hablaremos esa distro en el siguiente post, ya se esta cocinando eso.
+If you use the good distro (Fedora)—which, by the way, we'll talk about in the next post, that's already in the works.
 
 ```shell
 sudo dnf install git
 ```
 
-¿Ya? Seguimos.
+Done? Let's continue.
 
-**2. Configura tu identidad (para que no seas “unknown”)**
+**2. Configure your identity (so you're not “unknown”)**
 
-Git quiere saber quién eres. Así tus cambios no aparecen como “misterioso usuario”. Solo pon esto en la terminal (cambia los datos por los tuyos):
+Git wants to know who you are. This way your changes don't show up as "mysterious user". Just put this in the terminal (change the data to your own):
 
 ```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu@email.com"
+git config --global user.name "Your Name"
+git config --global user.email "you@email.com"
 ```
 
-¿Quieres ver cómo quedó? Usa:
+Want to see how it looks? Use:
 
 ```bash
 git config --list
 ```
 
-**3. Inicia tu repositorio (el punto de partida)**
+**3. Initialize your repository (the starting point)**
 
-Ve a la carpeta de tu proyecto y ejecuta:
+Go to your project folder and run:
 
 ```bash
 git init
 ```
 
-Eso crea la carpeta `.git` donde Git guarda todo la configuración de tu proyecto.
+This creates the `.git` folder where Git saves all your project's configuration.
 
-**4. Agrega tus archivos y haz tu primer commit**
+**4. Add your files and make your first commit**
 
-Para decirle a Git qué archivos quieres guardar, usa:
+To tell Git which files you want to save, use:
 
 ```bash
 git add .
 ```
 
-El punto significa “todos los archivos”. Si solo quieres uno, pon el nombre en lugar de solo poner el punto.
+The dot means "all files". If you only want one, put the name instead of just the dot.
 
-Ahora, guarda ese momento con un commit:
-
-```bash
-git commit -m "Primer commit"
-```
-
-**5. Conecta con un repositorio remoto (GitHub, GitLab, etc.)**
-
-Ya tienes tu repo en GitHub (o el que uses). Copia la URL y enlázalo así:
+Now, save that moment with a commit:
 
 ```bash
-git remote add origin https://github.com/tuusuario/tu-repo.git
+git commit -m "First commit"
 ```
 
-**6. Sube tu proyecto (push)**
+**5. Connect to a remote repository (GitHub, GitLab, etc.)**
 
-Hora de mandar todo a la nube:
+You already have your repo on GitHub (or whichever one you use). Copy the URL and link it like this:
+
+```bash
+git remote add origin [https://github.com/your-user/your-repo.git](https://github.com/your-user/your-repo.git)
+```
+
+**6. Upload your project (push)**
+
+Time to send everything to the cloud:
 
 ```bash
 git push -u origin main
 ```
 
-O si tu rama principal se llama `master`:
+Or if your main branch is called `master`:
 
 ```bash
 git push -u origin master
 ```
 
-El `-u` es para que la próxima vez solo tengas que poner `git push` y Git ya sabe a dónde.
+The `-u` is so that next time you only have to type `git push` and Git already knows where.
 
-**7. Baja cambios (pull)**
+**7. Download changes (pull)**
 
-¿Trabajas en equipo o desde varias compus? Antes de empezar, siempre es buena idea traer los últimos cambios de tus compañeros:
+Working in a team or from multiple computers? Before starting, it's always a good idea to bring in the latest changes from your teammates:
 
 ```bash
 git pull
 ```
 
-Así evitas sorpresas.
+This way you avoid surprises.
 
 ---
 
-## ¿Cómo funcionan las ramas en Git?
+## How do branches work in Git?
 
-Si alguna vez has escuchado frases como “haz una rama para esa nueva funcionalidad” o “no trabajes directo en main”, pero no tienes idea de qué va eso, aquí te digo, de echó es mas fácil de lo que parece.
+If you've ever heard phrases like "make a branch for that new feature" or "don't work directly on main", but you have no idea what that's about, I'll tell you here. In fact, it's easier than it looks.
 
-**¿Para qué sirven las ramas?**
+**What are branches for?**
 
-Las ramas en Git son como líneas paralelas de tiempo donde puedes trabajar en nuevas ideas, corregir errores o experimentar, sin afectar el código principal. Imagina que tu proyecto es un árbol: la rama principal (`main` o `master`) es el tronco, y cada rama nueva es una ramita donde puedes hacer cambios sin miedo a romper todo.
+Branches in Git are like parallel timelines where you can work on new ideas, fix bugs, or experiment, without affecting the main code. Imagine your project is a tree: the main branch (`main` or `master`) is the trunk, and each new branch is a little twig where you can make changes without fear of breaking everything.
 
-Esto es útil porque te permite:
+This is useful because it allows you to:
 
-- Probar cosas nuevas sin arriesgar el proyecto completo.
-- Trabajar en varias tareas al mismo tiempo (por ejemplo, una rama para una nueva función y otra para corregir un bug).
-- Colaborar con otras personas sin pisarse los cambios.
+- Test new things without risking the entire project.
+- Work on several tasks at the same time (e.g., one branch for a new feature and another to fix a bug).
+- Collaborate with other people without overwriting each other's changes.
 
-**¿Cómo crear una rama?**
+**How to create a branch?**
 
-Crear una rama es tan fácil como escribir:
-
-```bash
-git branch nombre-de-tu-rama
-```
-
-Pero lo más común es crearla y cambiarte a ella de una vez:
+Creating a branch is as easy as typing:
 
 ```bash
-git checkout -b nombre-de-tu-rama
+git branch your-branch-name
 ```
 
-Ahora, todo lo que hagas quedará guardado en esa rama, no en la principal.
-
-**¿Cómo moverse entre ramas?**
-
-Para cambiarte de rama, solo usa:
+But the most common way is to create it and switch to it at the same time:
 
 ```bash
-git checkout nombre-de-tu-rama
+git checkout -b your-branch-name
 ```
 
-O, si usas una versión moderna de Git, puedes usar:
+Now, everything you do will be saved in that branch, not in the main one.
+
+**How to move between branches?**
+
+To switch branches, just use:
 
 ```bash
-git switch nombre-de-tu-rama
+git checkout your-branch-name
 ```
 
-Así puedes saltar entre diferentes líneas de trabajo sin perder nada.
+Or, if you use a modern version of Git, you can use:
 
-**¿Cómo ver las ramas que tienes?**
+```bash
+git switch your-branch-name
+```
 
-Para ver todas las ramas de tu proyecto:
+This way you can jump between different lines of work without losing anything.
+
+**How to see the branches you have?**
+
+To see all the branches in your project:
 
 ```bash
 git branch
 ```
 
-La rama en la que estás parado aparecerá con un asterisco.
+The branch you are currently on will appear with an asterisk.
 
 ---
 
-¿Ves? Las ramas no son tan difíciles. Son tu mejor amigo para trabajar ordenado y sin miedo a romper nada.  
- En la siguiente sección te cuento cómo unir ramas y qué hacer si Git te dice que hay conflictos.
+See? Branches aren't that difficult. They are your best friend for working in an organized way and without fear of breaking anything.
+In the next section, I'll tell you how to merge branches and what to do if Git tells you there are conflicts.
 
 ---
 
-## ¿Cómo hacer merge y solucionar conflictos?
+## How to merge and resolve conflicts?
 
-Llegó el momento de unir caminos. Cuando trabajas con ramas, tarde o temprano vas a querer juntar los cambios de una rama con otra. A eso se le llama **merge**. Pero, como en toda historia que valga la pena, a veces hay choques y aparecen los temidos **conflictos**. Aquí te explico cómo enfrentarlos sin perder la calma.
+The time has come to join paths. When you work with branches, sooner or later you'll want to join the changes from one branch with another. This is called a **merge**. But, as in any story worth telling, sometimes there are clashes and the dreaded **conflicts** appear. Here’s how to face them without losing your cool.
 
-**¿Qué es un merge?**
+**What is a merge?**
 
-Hacer un merge en Git es básicamente decir: “Quiero que los cambios de esta rama se mezclen con los de otra”. Por lo general, lo más común es unir tu rama de trabajo con la rama principal (`main` o `master`).
+Doing a merge in Git is basically saying: "I want the changes from this branch to be mixed with those of another." Usually, the most common thing is to merge your working branch into the main branch (`main` or `master`).
 
-**¿Cómo hacer un merge?**
+**How to do a merge?**
 
-Supón que tienes una rama llamada `feature-x` y quieres unirla a `main`. Haz lo siguiente:
+Suppose you have a branch called `feature-x` and you want to merge it into `main`. Do the following:
 
-1. Cambia a la rama donde quieres juntar los cambios (por ejemplo, `main`):
+1.  Switch to the branch where you want to join the changes (e.g., `main`):
 
-   ```bash
-   git checkout main
-   ```
+    ```bash
+    git checkout main
+    ```
 
-2. Haz el merge:
+2.  Do the merge:
 
-   ```bash
-   git merge feature-x
-   ```
+    ```bash
+    git merge feature-x
+    ```
 
-Si todo va bien, Git mezclará los cambios automáticamente y listo.
+If all goes well, Git will mix the changes automatically, and that's it.
 
-### ¿Qué pasa si hay conflictos?
+### What happens if there are conflicts?
 
-A veces, Git no puede decidir solo cómo unir los cambios porque dos ramas modificaron la misma parte de un archivo. Eso es un **conflicto**.
+Sometimes, Git can't decide on its own how to join the changes because two branches modified the same part of a file. That is a **conflict**.
 
-Cuando esto pasa, Git te avisa y marca los archivos en conflicto. Dentro de esos archivos verás algo así:
+When this happens, Git notifies you and marks the conflicting files. Inside those files, you will see something like this:
 
-```
-<<<<<<< HEAD
-Este es el contenido en tu rama actual.
-=======
-Este es el contenido en la rama que quieres unir.
->>>>>>> feature-x
-```
+Your job is to choose which part to keep, or even combine both. Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and leave the final result as you wish.
 
-Tu trabajo es elegir qué parte conservar, o incluso combinar ambas. Borra las marcas (`<<<<<<<`, `=======`, `>>>>>>>`) y deja el resultado final como tú quieras.
+### How do I solve the conflict?
 
-### ¿Cómo soluciono el conflicto?
+1.  Open the conflicting file and edit it until it's correct.
 
-1. Abre el archivo en conflicto y edítalo hasta que quede como debe ser.
-2. Guarda los cambios.
-3. Marca el conflicto como resuelto:
+2.  Save the changes.
 
-   ```bash
-   git add nombre-del-archivo
-   ```
+3.  Mark the conflict as resolved:
 
-4. Termina el merge con un commit (si Git no lo hace solo):
+    ```bash
+    git add name-of-the-file
+    ```
 
-   ```bash
-   git commit
-   ```
+4.  Finish the merge with a commit (if Git doesn't do it on its own):
 
-¡Listo! Ya resolviste el conflicto y tus ramas están unidas.
+    ```bash
+    git commit
+    ```
+
+Done\! You've resolved the conflict and your branches are merged.
 
 ---
 
-Los conflictos pueden parecer difíciles al principio, pero con práctica se vuelven parte del día a día. Lo importante es leer con calma, entender qué cambió y decidir qué versión quieres dejar. Ahora estas listo para trabajar con git. ¡Suerte!
+Conflicts might seem difficult at first, but with practice, they become part of the daily routine. The important thing is to read calmly, understand what changed, and decide which version you want to keep. Now you are ready to work with Git. Good luck\!
 
-**Post data:**
+**P.S.:**
 
-## ¿Y si quiero regresar a un commit anterior?
+## What if I want to go back to a previous commit?
 
-A veces, después de varios cambios, te das cuenta de que algo salió mal y quieres volver a una versión anterior de tu proyecto. No te preocupes, Git también te cubre en eso.
+Sometimes, after several changes, you realize something went wrong and you want to go back to a previous version of your project. Don't worry, Git has you covered there too.
 
-Primero, para ver el historial de commits, usa:
+First, to see the commit history, use:
 
 ```bash
 git log --oneline
 ```
 
-Esto te mostrará una lista de commits con sus identificadores (ese código raro al inicio de cada línea).
+This will show you a list of commits with their identifiers (that weird code at the beginning of each line).
 
-Si solo quieres ver cómo era tu proyecto en un commit anterior (sin perder nada), puedes moverte temporalmente con:
-
-```bash
-git checkout id-del-commit
-```
-
-Pero si quieres regresar tu rama a ese punto (¡cuidado, esto sí cambia la historia!), puedes usar:
+If you just want to see what your project was like at a previous commit (without losing anything), you can temporarily move with:
 
 ```bash
-git reset --hard id-del-commit
+git checkout commit-id
 ```
 
-O si solo quieres deshacer los últimos cambios pero guardarlos para después, usa:
+But if you want to reset your branch to that point (be careful, this _does_ change history\!), you can use:
 
 ```bash
-git reset --soft id-del-commit
+git reset --hard commit-id
 ```
 
-**Tip:** Si solo quieres deshacer el último commit pero dejar los archivos como estaban, puedes hacer:
+Or if you just want to undo the last changes but save them for later, use:
+
+```bash
+git reset --soft commit-id
+```
+
+**Tip:** If you just want to undo the last commit but leave the files as they were, you can do:
 
 ```bash
 git reset --soft HEAD~1
 ```
 
-Recuerda: antes de hacer un reset, asegúrate de que no tienes cambios importantes sin respaldar, porque podrías perderlos.
+Remember: before doing a reset, make sure you don't have important changes un-backed-up, because you could lose them.
 
-¡Y listo! Así puedes viajar en el tiempo con Git y salvarte de cualquier desastre.
+And that's it\! Now you can time-travel with Git and save yourself from any disaster.

@@ -1,50 +1,50 @@
 ---
 layout: post
-title: ¿Condenados a repetir la historia?
+title: Doomed to Repeat History?
 date: 2025-05-09 15:01:35 +0300
 last_modified_at: 2025-05-09
 categories: [Mindset]
 ---
 
-## **La ilusión del conocimiento consciente**
+## **The Illusion of Conscious Knowledge**
 
-En conversaciones cotidianas, se repite con fervor aquella frase: _“Quien no conoce su historia está condenado a repetirla”_. Se presenta como una verdad incuestionable, una fórmula mágica para evitar errores. Pero surge una contradicción evidente: quienes la predican —adultos con décadas de experiencia— siguen repitiendo los mismos patrones. ¿Por qué la teoría no se traduce en práctica?
-
----
-
-## **El guion invisible de lo inconsciente**
-
-Carl Gustav Jung ofreció una clave reveladora:
-
-> Hasta que lo inconsciente no se haga consciente, seguirá dirigiendo nuestra vida y lo llamaremos destino.
-
-Nuestra mente opera como un teatro: en el escenario visible están las decisiones racionales, los argumentos que creemos controlar. Tras el telón, sin embargo, se escribe otro guion. Allí habitan traumas no resueltos, mandatos culturales asumidos como verdades absolutas y patrones heredados de generaciones pasadas. Cada vez que decimos _“soy así”_ o _“es mi destino”_, entregamos el control a ese guionista oculto que dirige en la sombra.
+In everyday conversations, one phrase is fervently repeated: _“Those who do not know their history are doomed to repeat it.”_ It's presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn't theory translate into practice?
 
 ---
 
-## **La normalización del fracaso**
+## **The Invisible Script of the Unconscious**
 
-Tropezar no es el problema. Lo verdaderamente peligroso es justificar la caída como algo inevitable. ¿Cuántas veces repetimos relaciones que nos hieren, disfrazando el miedo a la soledad de _“amor incondicional”_? ¿Cuántos hábitos destructivos normalizamos bajo el lema _“así es la vida”_? El costo no es abstracto: días convertidos en rutina vacía, salud deteriorada, potencial desperdiciado.
+Carl Gustav Jung offered a revealing key:
 
-Aquí yace la paradoja: conocer los errores no basta. Como señala la filosofía estoica, _“el conocimiento que no se aplica es mera información”_. Podemos memorizar cada error histórico, pero si no indagamos en las fuerzas ocultas que nos llevan a repetirlos, seguiremos siendo marionetas de lo no examinado.
+> Until you make the unconscious conscious, it will direct your life and you will call it fate.
 
----
-
-## **El verdadero aprendizaje: desenterrar las raíces**
-
-El camino no es la introspección superficial ni seguir técnicas de autoayuda efímeras. Se trata de una excavación profunda, casi arqueológica, en las capas de nuestra psique. ¿Qué heridas infantiles nos hacen buscar validación en lugares tóxicos? ¿Qué voces internas repetimos como propias, aunque en realidad sean ecos de expectativas ajenas?
-
-Este proceso duele. Exige confrontar lo que hemos enterrado por décadas: vergüenzas, culpas, miedos. Pero, como bien ilustra el mito griego de la caja de Pandora, solo al enfrentar lo oculto encontramos la esperanza de transformación.
+Our mind operates like a theater: on the visible stage are the rational decisions, the arguments we believe we control. Behind the curtain, however, another script is being written. There dwell unresolved traumas, cultural mandates accepted as absolute truths, and patterns inherited from past generations. Every time we say _“that’s just how I am”_ or _“it’s my destiny”_, we hand over control to that hidden scriptwriter directing from the shadows.
 
 ---
 
-## **Preguntas que despiertan**
+## **The Normalization of Failure**
 
-La próxima vez que repitas el cliché sobre la historia, haz una pausa. En lugar de citarlo como un mantra vacío, conviértelo en un espejo:
+Stumbling isn't the problem. What is truly dangerous is justifying the fall as inevitable. How many times do we repeat relationships that hurt us, disguising the fear of loneliness as _“unconditional love”_? How many destructive habits do we normalize under the slogan _“that’s life”_? The cost is not abstract: days turned into empty routine, deteriorating health, wasted potential.
 
-1. _¿Qué patrones heredados —familiares, culturales, sociales— operan en mí sin cuestionamiento?_
-2. _¿Qué acciones concretas tomo hoy para reescribir ese guion invisible?_
+Herein lies the paradox: knowing the mistakes is not enough. As Stoic philosophy points out, _“knowledge that is not applied is mere information.”_ We can memorize every historical error, but if we do not inquire into the hidden forces that lead us to repeat them, we will remain puppets of the unexamined.
 
-Porque la historia personal no se estudia en libros: se vive en cada elección. Y solo cuando iluminamos las sombras que nos gobiernan, dejamos de repetir el pasado para empezar a crearlo.
+---
 
-La verdadera liberación no está en conocer el destino, sino en dejar de usarlo como excusa.
+## **True Learning: Unearthing the Roots**
+
+The path is not superficial introspection or following fleeting self-help techniques. It is about a deep, almost archaeological, excavation into the layers of our psyche. What childhood wounds make us seek validation in toxic places? What internal voices do we repeat as our own, when in reality they are echoes of others' expectations?
+
+This process hurts. It demands confronting what we have buried for decades: shame, guilt, fear. But, as the Greek myth of Pandora's box aptly illustrates, only by confronting what is hidden do we find the hope for transformation.
+
+---
+
+## **Questions That Awaken**
+
+The next time you repeat the cliché about history, pause. Instead of citing it as an empty mantra, turn it into a mirror:
+
+1.  _What inherited patterns—familial, cultural, social—are operating in me without question?_
+2.  _What concrete actions am I taking today to rewrite that invisible script?_
+
+Because personal history isn't studied in books: it is lived in every choice. And only when we illuminate the shadows that govern us do we stop repeating the past and start creating it.
+
+True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.

@@ -1,80 +1,80 @@
 ---
 layout: post
-title: Comprendiendo el SDLC
+title: Understanding the SDLC
 date: 2024-04-30 15:01:35 +0300
 last_modified_at: 2024-04-30
 categories: [Quality Assurance]
 ---
 
-# Ciclo del desarrollo de software. (SDLC).
+# Software Development Life Cycle (SDLC).
 
-## Modelo Casacada
+## Waterfall Model
 
-![Modelo de cascada](https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg)
+![Waterfall Model](https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg)
 
-## Desventajas del modelo Cascada
+## Disadvantages of the Waterfall Model
 
-- No permite cambios de requisitos.
-- No se obtiene un producto funcional hasta casi la finalización del proyecto.
-- En ocasiones, los fallos solo se detectan al finalizar el proceso de desarrollo.
-- El usuario final no participa en el proceso de producción hasta que termina la programación.
+- It does not allow for changes in requirements.
+- A functional product is not obtained until almost the end of the project.
+- Sometimes, flaws are only detected at the end of the development process.
+- The end-user does not participate in the production process until programming is finished.
 
-# Metodologías de Desarrollo Ágil
+# Agile Development Methodologies
 
-## Modelo de desarrollo "SCRUM"
+## "SCRUM" Development Model
 
 ![SCRUM](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png)
 
-## ¿Qué es SCRUM?
+## What is SCRUM?
 
-SCRUM es un marco de trabajo dentro del desarrollo ágil de software que facilita el trabajo colaborativo en equipos. Se basa en la aplicación continua de buenas prácticas, roles definidos (como Scrum Master, Product Owner y equipo de desarrollo), eventos regulares (como sprints, reuniones diarias, revisiones y retrospectivas) y artefactos que permiten lograr el mejor resultado posible en los proyectos.
+SCRUM is a framework within agile software development that facilitates collaborative work in teams. It is based on the continuous application of good practices, defined roles (like Scrum Master, Product Owner, and Development Team), regular events (like sprints, daily meetings, reviews, and retrospectives), and artifacts that help achieve the best possible project outcome.
 
-## Ventajas de Scrum
+## Advantages of Scrum
 
-- **Flexibilidad y adaptación** a un mercado cambiante.
-- **Resultados anticipados** en iteraciones cortas.
-- **Obtención de un producto mínimo viable (MVP)** en etapas tempranas.
-- **Feedbacks rápidos y precisos** gracias a la colaboración continua.
-- **Fecha de entrega del proyecto realista**, basada en sprints planificados.
-- **Rápido aprendizaje del equipo** mediante retrospectivas y mejora continua.
-- **Autonomía y responsabilidad** en un entorno auto-organizado.
+- **Flexibility and adaptation** to a changing market.
+- **Early results** in short iterations.
+- **Obtaining a Minimum Viable Product (MVP)** in early stages.
+- **Quick and accurate feedback** thanks to continuous collaboration.
+- **Realistic project delivery date**, based on planned sprints.
+- **Rapid team learning** through retrospectives and continuous improvement.
+- **Autonomy and responsibility** in a self-organized environment.
 
-## Roles en SCRUM
+## Roles in SCRUM
 
-![Roles en scrum](https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png)
+![Roles in scrum](https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png)
 
 - **Scrum Master**:
 
-  - Experto en metodología Scrum.
-  - Facilita el trabajo del equipo y elimina impedimentos.
-  - No es un Project Manager (PM), sino un guía del proceso.
+  - An expert in the Scrum methodology.
+  - Facilitates the team's work and removes impediments.
+  - Is not a Project Manager (PM), but a guide for the process.
 
-- **Dueño de Producto (Product Owner - PO)**:
+- **Product Owner (PO)**:
 
-  - Representa la voz del cliente o del negocio.
-  - Define las prioridades y gestiona el Backlog del producto.
-  - Decide qué se debe desarrollar y en qué orden.
+  - Represents the voice of the customer or the business.
+  - Defines priorities and manages the Product Backlog.
+  - Decides what should be developed and in what order.
 
-- **Equipo de Desarrollo**:
-  - Multidisciplinario, incluye roles como:
-    - Desarrolladores (Devs).
-    - Analistas de Negocio/Requisitos (BAs).
-    - Testers/Control de Calidad (QA).
-    - Arquitectos.
-  - Responsables de entregar incrementos funcionales en cada Sprint.
+- **Development Team**:
+  - Cross-functional, includes roles such as:
+    - Developers (Devs).
+    - Business/Requirements Analysts (BAs).
+    - Testers/Quality Assurance (QA).
+    - Architects.
+  - Responsible for delivering functional increments in each Sprint.
 
-## Eventos de SCRUM
+## SCRUM Events
 
 ![SCRUM ceremonies](https://www.invensislearning.com/blog/wp-content/uploads/2020/09/What-are-Scrum-Ceremonies-Why-is-it-Required-1068x552-1.jpg)
 
 ### **Sprint**
 
-El corazón del SCRUM es el sprint y un sprint es un periodo de tiempo (ciclo o iteración) y puede ser de 2 o 4 semanas y durante ese mes se van a llevar varias reuniones (eventos). ¿Cuales son esas reuniones?
+The heart of SCRUM is the Sprint, and a Sprint is a period of time (cycle or iteration)—it can be 2 or 4 weeks—and during that time, several meetings (events) will be held. What are those meetings?
 
-- **Planeación Sprint:** Es la primera reunión que se realiza al inicio del sprint, sirve para seleccionar los ítems en los que se va a trabajar y cómo se van a hacer.
+- **Sprint Planning:** This is the first meeting held at the beginning of the sprint, used to select the items that will be worked on and how they will be done.
 
-- **Reunión Diaria (Daily):** Es una reunión diaria de 15 minutos en la que cada miembro del equipo de Desarrollo da un update de lo que está haciendo, así como los impedimentos que tiene.
+- **Daily Meeting (Daily):** This is a 15-minute daily meeting where each member of the Development Team gives an update on what they are doing, as well as any impediments they have.
 
-- **Revisión Sprint:** Es una reunión que ocurre al final del sprint donde el PO y el equipo presentan a los usuarios (stakeholders) el incremento terminado del producto para su inspección y adaptación.
+- **Sprint Review:** This is a meeting that occurs at the end of the sprint where the PO and the team present the finished product increment to the users (stakeholders) for their inspection and adaptation.
 
-- **Retrospectiva:** Reunión que ocurre al final del sprint donde se hace una reflexión del sprint y se discuten oportunidades de mejora para el próximo sprint.
+- **Retrospective:** A meeting that occurs at the end of the sprint where a reflection on the sprint is done, and opportunities for improvement for the next sprint are discussed.
