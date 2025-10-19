@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El poder de la mentalidad: Más allá de los factores externos
+title: El poder de la mentalidad, Más allá de los factores externos
 date: 2024-11-18 15:01:35 +0300
 last_modified_at: 2024-11-18
 categories: [Mindset]

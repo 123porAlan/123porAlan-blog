@@ -11,7 +11,7 @@ categories: [Quality Assurance]
 ## ¿Qué es el software testing y su importancia en el desarrollo de software?
 
 - **El Testing** es una disciplina en la ingeniería de software que se realiza mediante una metodología de verificación y validación cuyo principal objetivo es localizar los errores en un **software** para ser corregidos por el equipo de desarrollo y de esta manera aumentar la confianza en el nivel de calidad del sistema.
-- La importancia radica en que es mucho mejor y mas barato la detección de estos errores tan temprano como sea posible en el proceso de desarrollo de la aplicación antes que ésta sea detectada cuando ya este en funcionamiento.
+- La importancia radica en que es mucho mejor y mas barato la detección de estos errores tan temprano como sea posible 1en el proceso de desarrollo de la aplicación antes que ésta sea detectada cuando ya este en funcionamiento.
 
 ---
 
