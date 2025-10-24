@@ -1,0 +1,759 @@
+---
+
+## What is software testing and its importance in software development?
+
+- **Testing** is a discipline in software engineering carried out through a verification and validation methodology whose main objective is to locate errors in **software** so they can be corrected by the development team, thereby increasing confidence in the system's quality level.
+- Its importance lies in that it is much better and cheaper to detect these errors as early as possible in the application's development process, rather than after it is already in operation.
+
+---
+
+## What skills does a tester need?
+
+**Logical Thinking** Must know how to break down a system into smaller units to create test cases.
+
+**Being organized and methodical** This is key to executing test cases in order and finding the greatest number of errors.
+
+**Very good communication** Excellent verbal and written communication to communicate errors and document them.
+
+**Passionate about technology** Every Tester must have a liking for IT, be curious, and creative.
+
+**Attention to detail, curiosity, and common sense** It requires critical thinking with attention to detail from an end-user's point of view.
+
+**Patience and persistence** Software development is a process that requires flexibility and a lot of patience.
+
+---
+
+## Responsibilities of the Tester / QA
+
+**Main responsibilities**
+
+1.  Design a test plan
+2.  Define test cases based on requirements
+3.  Manage the test environment and test data
+4.  Execute the test cases
+5.  Create documentation for the tests performed
+6.  Report the errors found and follow up on their correction and re-validation
+7.  Participate in daily follow-up meetings and all Scrum meetings
+8.  Create product quality reports
+9.  Help resolve questions for Requirements Analysts or POs (Product Owners)
+10. Help programmers replicate errors and investigate their solution
+11. Implement quality assurance practices to prevent errors in the code
+
+========== NUEVO POST ==========
+
+# Software Development Life Cycle (SDLC).
+
+## Waterfall Model
+
+![Waterfall Model](https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg)
+
+## Disadvantages of the Waterfall Model
+
+- It does not allow for changes in requirements.
+- A functional product is not obtained until almost the end of the project.
+- Sometimes, flaws are only detected at the end of the development process.
+- The end-user does not participate in the production process until programming is finished.
+
+# Agile Development Methodologies
+
+## "SCRUM" Development Model
+
+![SCRUM](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png)
+
+## What is SCRUM?
+
+SCRUM is a framework within agile software development that facilitates collaborative work in teams. It is based on the continuous application of good practices, defined roles (like Scrum Master, Product Owner, and Development Team), regular events (like sprints, daily meetings, reviews, and retrospectives), and artifacts that help achieve the best possible project outcome.
+
+## Advantages of Scrum
+
+- **Flexibility and adaptation** to a changing market.
+- **Early results** in short iterations.
+- **Obtaining a Minimum Viable Product (MVP)** in early stages.
+- **Quick and accurate feedback** thanks to continuous collaboration.
+- **Realistic project delivery date**, based on planned sprints.
+- **Rapid team learning** through retrospectives and continuous improvement.
+- **Autonomy and responsibility** in a self-organized environment.
+
+## Roles in SCRUM
+
+![Roles in scrum](https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png)
+
+- **Scrum Master**:
+
+  - An expert in the Scrum methodology.
+  - Facilitates the team's work and removes impediments.
+  - Is not a Project Manager (PM), but a guide for the process.
+
+- **Product Owner (PO)**:
+
+  - Represents the voice of the customer or the business.
+  - Defines priorities and manages the Product Backlog.
+  - Decides what should be developed and in what order.
+
+- **Development Team**:
+  - Cross-functional, includes roles such as:
+    - Developers (Devs).
+    - Business/Requirements Analysts (BAs).
+    - Testers/Quality Assurance (QA).
+    - Architects.
+  - Responsible for delivering functional increments in each Sprint.
+
+## SCRUM Events
+
+![SCRUM ceremonies](https://www.invensislearning.com/blog/wp-content/uploads/2020/09/What-are-Scrum-Ceremonies-Why-is-it-Required-1068x552-1.jpg)
+
+### **Sprint**
+
+The heart of SCRUM is the Sprint, and a Sprint is a period of time (cycle or iteration)—it can be 2 or 4 weeks—and during that time, several meetings (events) will be held. What are those meetings?
+
+- **Sprint Planning:** This is the first meeting held at the beginning of the sprint, used to select the items that will be worked on and how they will be done.
+
+- **Daily Meeting (Daily):** This is a 15-minute daily meeting where each member of the Development Team gives an update on what they are doing, as well as any impediments they have.
+
+- **Sprint Review:** This is a meeting that occurs at the end of the sprint where the PO and the team present the finished product increment to the users (stakeholders) for their inspection and adaptation.
+
+- **Retrospective:** A meeting that occurs at the end of the sprint where a reflection on the sprint is done, and opportunities for improvement for the next sprint are discussed.
+
+========== NUEVO POST ==========
+
+When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn't do it.
+
+It was then that I researched different resources on my own. Today I want to share what I consider the most essential and necessary things to survive both the start of college and the first days of work, or at least to have a clue about what's going on.
+
+**1. Installing Git (No Fear)**
+
+First things first: you need to have Git installed. If you use Windows, download the installer from [git-scm.com](https://git-scm.com/). On Mac, open the terminal and type:
+
+```bash
+brew install git
+```
+
+On Linux, the classic:
+
+```bash
+sudo apt-get install git
+```
+
+If you use the good distro (Fedora)—which, by the way, we'll talk about in the next post, that's already in the works.
+
+```shell
+sudo dnf install git
+```
+
+Done? Let's continue.
+
+**2. Configure your identity (so you're not “unknown”)**
+
+Git wants to know who you are. This way your changes don't show up as "mysterious user". Just put this in the terminal (change the data to your own):
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "you@email.com"
+```
+
+Want to see how it looks? Use:
+
+```bash
+git config --list
+```
+
+**3. Initialize your repository (the starting point)**
+
+Go to your project folder and run:
+
+```bash
+git init
+```
+
+This creates the `.git` folder where Git saves all your project's configuration.
+
+**4. Add your files and make your first commit**
+
+To tell Git which files you want to save, use:
+
+```bash
+git add .
+```
+
+The dot means "all files". If you only want one, put the name instead of just the dot.
+
+Now, save that moment with a commit:
+
+```bash
+git commit -m "First commit"
+```
+
+**5. Connect to a remote repository (GitHub, GitLab, etc.)**
+
+You already have your repo on GitHub (or whichever one you use). Copy the URL and link it like this:
+
+```bash
+git remote add origin [https://github.com/your-user/your-repo.git](https://github.com/your-user/your-repo.git)
+```
+
+**6. Upload your project (push)**
+
+Time to send everything to the cloud:
+
+```bash
+git push -u origin main
+```
+
+Or if your main branch is called `master`:
+
+```bash
+git push -u origin master
+```
+
+The `-u` is so that next time you only have to type `git push` and Git already knows where.
+
+**7. Download changes (pull)**
+
+Working in a team or from multiple computers? Before starting, it's always a good idea to bring in the latest changes from your teammates:
+
+```bash
+git pull
+```
+
+This way you avoid surprises.
+
+---
+
+## How do branches work in Git?
+
+If you've ever heard phrases like "make a branch for that new feature" or "don't work directly on main", but you have no idea what that's about, I'll tell you here. In fact, it's easier than it looks.
+
+**What are branches for?**
+
+Branches in Git are like parallel timelines where you can work on new ideas, fix bugs, or experiment, without affecting the main code. Imagine your project is a tree: the main branch (`main` or `master`) is the trunk, and each new branch is a little twig where you can make changes without fear of breaking everything.
+
+This is useful because it allows you to:
+
+- Test new things without risking the entire project.
+- Work on several tasks at the same time (e.g., one branch for a new feature and another to fix a bug).
+- Collaborate with other people without overwriting each other's changes.
+
+**How to create a branch?**
+
+Creating a branch is as easy as typing:
+
+```bash
+git branch your-branch-name
+```
+
+But the most common way is to create it and switch to it at the same time:
+
+```bash
+git checkout -b your-branch-name
+```
+
+Now, everything you do will be saved in that branch, not in the main one.
+
+**How to move between branches?**
+
+To switch branches, just use:
+
+```bash
+git checkout your-branch-name
+```
+
+Or, if you use a modern version of Git, you can use:
+
+```bash
+git switch your-branch-name
+```
+
+This way you can jump between different lines of work without losing anything.
+
+**How to see the branches you have?**
+
+To see all the branches in your project:
+
+```bash
+git branch
+```
+
+The branch you are currently on will appear with an asterisk.
+
+---
+
+See? Branches aren't that difficult. They are your best friend for working in an organized way and without fear of breaking anything.
+In the next section, I'll tell you how to merge branches and what to do if Git tells you there are conflicts.
+
+---
+
+## How to merge and resolve conflicts?
+
+The time has come to join paths. When you work with branches, sooner or later you'll want to join the changes from one branch with another. This is called a **merge**. But, as in any story worth telling, sometimes there are clashes and the dreaded **conflicts** appear. Here’s how to face them without losing your cool.
+
+**What is a merge?**
+
+Doing a merge in Git is basically saying: "I want the changes from this branch to be mixed with those of another." Usually, the most common thing is to merge your working branch into the main branch (`main` or `master`).
+
+**How to do a merge?**
+
+Suppose you have a branch called `feature-x` and you want to merge it into `main`. Do the following:
+
+1.  Switch to the branch where you want to join the changes (e.g., `main`):
+
+    ```bash
+    git checkout main
+    ```
+
+2.  Do the merge:
+
+    ```bash
+    git merge feature-x
+    ```
+
+If all goes well, Git will mix the changes automatically, and that's it.
+
+### What happens if there are conflicts?
+
+Sometimes, Git can't decide on its own how to join the changes because two branches modified the same part of a file. That is a **conflict**.
+
+When this happens, Git notifies you and marks the conflicting files. Inside those files, you will see something like this:
+
+Your job is to choose which part to keep, or even combine both. Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and leave the final result as you wish.
+
+### How do I solve the conflict?
+
+1.  Open the conflicting file and edit it until it's correct.
+
+2.  Save the changes.
+
+3.  Mark the conflict as resolved:
+
+    ```bash
+    git add name-of-the-file
+    ```
+
+4.  Finish the merge with a commit (if Git doesn't do it on its own):
+
+    ```bash
+    git commit
+    ```
+
+Done\! You've resolved the conflict and your branches are merged.
+
+---
+
+Conflicts might seem difficult at first, but with practice, they become part of the daily routine. The important thing is to read calmly, understand what changed, and decide which version you want to keep. Now you are ready to work with Git. Good luck\!
+
+**P.S.:**
+
+## What if I want to go back to a previous commit?
+
+Sometimes, after several changes, you realize something went wrong and you want to go back to a previous version of your project. Don't worry, Git has you covered there too.
+
+First, to see the commit history, use:
+
+```bash
+git log --oneline
+```
+
+This will show you a list of commits with their identifiers (that weird code at the beginning of each line).
+
+If you just want to see what your project was like at a previous commit (without losing anything), you can temporarily move with:
+
+```bash
+git checkout commit-id
+```
+
+But if you want to reset your branch to that point (be careful, this _does_ change history\!), you can use:
+
+```bash
+git reset --hard commit-id
+```
+
+Or if you just want to undo the last changes but save them for later, use:
+
+```bash
+git reset --soft commit-id
+```
+
+**Tip:** If you just want to undo the last commit but leave the files as they were, you can do:
+
+```bash
+git reset --soft HEAD~1
+```
+
+Remember: before doing a reset, make sure you don't have important changes un-backed-up, because you could lose them.
+
+And that's it\! Now you can time-travel with Git and save yourself from any disaster.
+
+========== NUEVO POST ==========
+
+## Doing Good: A Choice Beyond Circumstance
+
+In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.
+
+## Fidelity in Relationships
+
+Let's consider the concept of fidelity in a relationship. Is someone truly faithful just because they don't have the opportunity to be unfaithful? Or does fidelity acquire greater value when one has options but consciously chooses to remain loyal? This latter situation demonstrates a deeper commitment, rooted in respect and love for one's partner. When fidelity is a deliberate decision, it becomes a testament to personal values, rather than a result of circumstance.
+
+## Peace and Power
+
+Similarly, the dynamic between peace and power reveals profound insights. There is a big difference between a pacifist who advocates for peace but lacks the means to wage war, and a peaceful person who has the capacity to do harm but chooses restraint. The latter exercises their strength with responsibility, actively deciding not to cause harm. Their peace is born from empowerment and self-control, not from a lack of capability.
+
+## The Difference Between Inability and Integrity
+
+The distinction lies in agency. A person who cannot harm or betray does not truly embody goodness; they simply lack the means to do otherwise. True goodness arises when someone has the capacity to act otherwise, but consistently chooses the moral path. This choice elevates goodness from a passive state to an active and conscious commitment.
+
+## Why Does It Matter?
+
+When we recognize that doing good is a choice, we empower ourselves to act with purpose. This fosters introspection and growth, and allows us to build stronger relationships and contribute to a more just and compassionate world. Whether in love, in conflict, or in daily interactions, the decision to do good despite having other options highlights the strength of our character.
+
+Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.
+
+========== NUEVO POST ==========
+
+## The Common Focus on the External
+
+On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.
+
+## Two Types of Mindsets
+
+When meeting someone, we usually distinguish between two fundamental types of people. On one hand, there are those who, despite facing adversity, seek to move forward without victimizing themselves. They adopt a resilient mindset, similar to the Japanese concept of _gambaru_. This term goes beyond simply trying; it implies an unwavering dedication until reaching the final goal. _Gambaru_ means giving it your all, without excuses or rest, until you have nothing left to offer. It is a philosophy of life that values perseverance and absolute commitment.
+
+## The Trap of Victimization
+
+On the other hand, there are people who choose to victimize themselves in the face of every obstacle. These individuals tend to adopt a mediocre mindset, avoiding personal responsibility and denying their own mistakes. Carl Jung expressed it clearly: "People could learn from their mistakes if they weren't so busy denying them." This denial not only prevents personal growth but also creates barriers to establishing meaningful relationships and surrounding oneself with positive influences.
+
+From a philosophical perspective, this duality reflects the eternal struggle between determinism and free will. While some recognize their ability to influence their own destiny, others feel trapped by external circumstances. The way we choose to interpret and respond to life's events defines our essence and our path.
+
+## What Do You Choose?
+
+In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.
+
+========== NUEVO POST ==========
+
+When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it's a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.
+
+## Shaping the Narrative
+
+When we tell our story, we might omit certain details, lean into ambiguity, or even add small embellishments that aren't entirely true. Why do we do this? The answer lies in a deeply human tendency: the desire to control how others perceive us. It's not necessarily with ill intent—often, it's not even conscious. Instead, it's born from an innate aversion to being the villain of our own story. After all, no one likes to feel guilty; we all want to be the hero.
+
+This narrative shaping serves a function: it allows us to seek validation, comfort, or support from the listener. However, in doing so, we run the risk of distorting the truth, not only for others but also for ourselves. Over time, these altered versions can take root in our minds, making it difficult to face the uncomfortable reality of our own mistakes.
+
+## The Fear of Facing Ourselves
+
+At its core, this tendency reveals a universal truth: it hurts to face reality, especially when that reality points to us as responsible. Admitting mistakes or acknowledging our flaws challenges the image we have of ourselves. But growth begins at that very point: when we dare to face the unadorned truth.
+
+Having the courage to own up to our mistakes, not just outwardly but also internally, is a profound act of wisdom. It's accepting that we are not perfect, and that's okay. In fact, it is in acknowledging our imperfections that we find the greatest opportunities to learn and grow.
+
+## Choosing Honesty
+
+To break this cycle of self-deception, we must begin with honesty—first with ourselves and then with others. This doesn't mean getting stuck in guilt or shame, but rather embracing the lessons our mistakes have to offer. By telling ourselves the complete truth, without filters or embellishments, we gain clarity and the ability to make better decisions in the future.
+
+Being the hero of our story doesn't mean being perfect; it means having the strength to admit when we are wrong and the determination to grow from it. True wisdom is found in that vulnerability, in the willingness to look ourselves in the mirror and say, “I made a mistake, and I am going to learn from it.”
+
+## Why Does It Matter?
+
+The stories we tell ourselves shape the way we navigate life. When we choose to tell the truth, even when it's difficult, we not only foster stronger relationships, but we also build a stronger identity. Growth is impossible without accountability, and accountability begins with acknowledging the full picture of our experiences.
+
+In the end, true triumph isn't about avoiding mistakes, but about having the courage to face them, learn from them, and become better.
+
+========== NUEVO POST ==========
+
+Why learn networking?
+
+Everything you do in the cloud, from running a virtual machine to deploying an application, occurs on servers that communicate over the network.
+
+Furthermore, the fact that a correct configuration of virtual networks, load balancers, gateways, and optimized routes significantly improves the performance of your applications, are more than enough reasons to learn the basics of networking.
+
+That's why I'm showing them to you here.
+
+## Basic Concepts
+
+- **Protocol**: It's the set of rules that computers must follow to be able to communicate.
+- **Packet**: It's the way data is divided to be sent over the network.
+- **Node**: Each computer or device connected to the network.
+- **Ports**: These are logical interfaces that allow the connection and differentiation of services on a network.
+- **Latency**: The time it takes for a packet to reach its destination.
+- **LAN**: Local Area Network. It's the most basic network, usually in a home or office environment.
+- **WLAN**: It's similar to LAN, but the devices are connected via Wi-Fi.
+- **WAN**: Wide Area Network. Connects different local networks over large distances, as the Internet does.
+- **VLAN**: Virtual Local Area Network. Allows segmenting a physical network into multiple logical networks.
+- **Internet**: It is the interconnection of multiple networks with each other, worldwide.
+- **Hardware**:
+  - **Host**: Devices the user interacts with (computers, phones, etc.).
+  - **Network devices**: Equipment that allows connection (antennas, routers, switches, etc.).
+  - **Network Interface Controllers (NIC)**: They translate the electrical or wireless signal into a format the computer can process.
+
+---
+
+## Protocols
+
+- **OSI Model**: A theoretical model composed of 7 layers that describe the stages of a network connection.
+- **TCP/IP Model**: A practical model used in real networks.
+  - **TCP (Transmission Control Protocol)**: It ensures that packets arrive correctly and establishes the connection.
+  - **IP (Internet Protocol)**: It is responsible for routing, that is, finding the best path to the destination.
+- There are **dynamic** and **static** IP addresses:
+  - **Static** ones are used for services or servers that require a fixed IP.
+  - **Dynamic** ones are assigned automatically and are usually used in home networks.
+- **DNS (Domain Name System)**: Translates domain names (like `google.com`) into IP addresses that devices can understand.
+
+---
+
+## Switching
+
+**Switching** is the process that allows two hosts to be interconnected using a network device, such as a switch. A **switch** receives data packets from one device and forwards them to the correct destination within the same local network.
+
+Switching uses **MAC addresses**, which are unique alphanumeric codes assigned at the factory to each network device. Thanks to them, the switch knows which device to send the data to.
+
+Local networks are designed **hierarchically**, not horizontally, because a hierarchical design allows the network to be more scalable, orderly, and efficient.
+
+---
+
+## Routing
+
+While switching is used within a local network, **routing** is responsible for connecting different networks to each other.
+
+For example, if a local network A wants to communicate with a local network B or with the Internet, it can no longer use MAC addresses. In that case, the **router** comes into play, which uses a **routing table** to decide where to send the packets.
+
+Three key concepts in routing:
+
+- **IP Address**: Uniquely identifies each device on a network.
+- **Subnet Mask**: Tells the router whether the destination address belongs to the same local network or not.
+- **Default Gateway**: It is the router's IP address within the local network. All traffic to external networks is sent to this address, so the router can route it correctly.
+
+========== NUEVO POST ==========
+
+## **The Illusion of Conscious Knowledge**
+
+In everyday conversations, one phrase is fervently repeated: _“Those who do not know their history are doomed to repeat it.”_ It's presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn't theory translate into practice?
+
+---
+
+## **The Invisible Script of the Unconscious**
+
+Carl Gustav Jung offered a revealing key:
+
+> Until you make the unconscious conscious, it will direct your life and you will call it fate.
+
+Our mind operates like a theater: on the visible stage are the rational decisions, the arguments we believe we control. Behind the curtain, however, another script is being written. There dwell unresolved traumas, cultural mandates accepted as absolute truths, and patterns inherited from past generations. Every time we say _“that’s just how I am”_ or _“it’s my destiny”_, we hand over control to that hidden scriptwriter directing from the shadows.
+
+---
+
+## **The Normalization of Failure**
+
+Stumbling isn't the problem. What is truly dangerous is justifying the fall as inevitable. How many times do we repeat relationships that hurt us, disguising the fear of loneliness as _“unconditional love”_? How many destructive habits do we normalize under the slogan _“that’s life”_? The cost is not abstract: days turned into empty routine, deteriorating health, wasted potential.
+
+Herein lies the paradox: knowing the mistakes is not enough. As Stoic philosophy points out, _“knowledge that is not applied is mere information.”_ We can memorize every historical error, but if we do not inquire into the hidden forces that lead us to repeat them, we will remain puppets of the unexamined.
+
+---
+
+## **True Learning: Unearthing the Roots**
+
+The path is not superficial introspection or following fleeting self-help techniques. It is about a deep, almost archaeological, excavation into the layers of our psyche. What childhood wounds make us seek validation in toxic places? What internal voices do we repeat as our own, when in reality they are echoes of others' expectations?
+
+This process hurts. It demands confronting what we have buried for decades: shame, guilt, fear. But, as the Greek myth of Pandora's box aptly illustrates, only by confronting what is hidden do we find the hope for transformation.
+
+---
+
+## **Questions That Awaken**
+
+The next time you repeat the cliché about history, pause. Instead of citing it as an empty mantra, turn it into a mirror:
+
+1.  _What inherited patterns—familial, cultural, social—are operating in me without question?_
+2.  _What concrete actions am I taking today to rewrite that invisible script?_
+
+Because personal history isn't studied in books: it is lived in every choice. And only when we illuminate the shadows that govern us do we stop repeating the past and start creating it.
+
+True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.
+
+========== NUEVO POST ==========
+
+# **The Life Cycle of a Bug: Stages, Roles, and Best Practices**
+
+The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.
+
+---
+
+## **1. New (New)**
+
+**Responsible**: Tester or QA Engineer  
+**Description**:  
+The tester identifies unexpected or inconsistent behavior during test execution (manual or automated) and reports it in the bug tracking system.
+
+**Key Actions**:  
+✔ **Detailed documentation**:
+
+- Exact steps to reproduce the defect.
+- Test environment (browser, OS, software version, etc.).
+- **Expected** behavior vs. **actual behavior**.
+- Screenshots, logs, or videos if relevant.
+
+✔ **Bug classification**:
+
+- **Priority** (Urgent, High, Medium, Low): Impact on the business or user.
+- **Severity** (Critical, Major, Medium, Minor): Degree to which the system is affected.
+
+✔ **Initial assignment**:
+
+- The bug is logged as "New" and assigned to the development lead or project manager for review.
+
+---
+
+## **2. Assigned (Assigned)**
+
+**Responsible**: Development Lead or Project Manager  
+**Description**:  
+The bug is evaluated to determine its validity and assigned to the corresponding developer.
+
+**Key Actions**:  
+✔ **Initial validation**:
+
+- Confirm if the bug is **reproducible** and not duplicated.
+- Verify if it is a real defect or a misunderstanding (e.g., configuration error).
+
+✔ **Possible decisions**:
+
+- **Accept**: Assign to the developer for correction.
+- **Reject**: If it is not a valid bug (e.g., expected behavior, user error).
+- **Defer**: If it is not critical and will be addressed in a future iteration.
+
+---
+
+## **3. Active (Active / In Progress)**
+
+**Responsible**: Developer  
+**Description**:  
+The developer investigates and corrects the defect.
+
+**Key Actions**:  
+✔ **Root cause analysis**:
+
+- Review the code, logs, and related flows.
+- Identify if the error is from the development itself, integration, or an external component.
+
+✔ **Solution development**:
+
+- Implement the fix and test it locally.
+- Ensure it does not introduce new defects (unit tests).
+
+✔ **Status update**:
+
+- Document the changes made in the tracking system.
+
+---
+
+## **4. Fixed (Fixed / Resolved)**
+
+**Responsible**: Developer  
+**Description**:  
+The developer confirms the bug has been corrected and sends it for verification.
+
+**Key Actions**:  
+✔ **Push changes to the repository**:
+
+- Make a commit with a clear description (e.g., "Fix #123: Correction of tax calculation error").
+- Merge into the corresponding branch (develop, main, etc.).
+
+✔ **Mark as "Fixed" in the system**:
+
+- Indicate the version where the fix was applied.
+- Provide additional details if the tester needs to validate something specific.
+
+---
+
+## **5. Verified (Verified / Closed)**
+
+**Responsible**: Tester  
+**Description**:  
+The QA verifies that the fix is effective and does not cause regressions.
+
+**Key Actions**:  
+✔ **Regression testing**:
+
+- Validate the original bug scenario.
+- Ensure that related functionalities are not affected.
+
+✔ **Possible outcomes**:
+
+- **Success**: The bug moves to "Closed" status.
+- **Failure**: It is reopened and returned to "Active" with detailed comments.
+
+---
+
+## **6. Closed (Closed)**
+
+**Responsible**: Tester or QA Lead  
+**Description**:  
+The bug is permanently closed upon confirming its resolution.
+
+**Key Actions**:  
+✔ **Final documentation**:
+
+- Log evidence of the successful test.
+- Update project quality reports.
+
+✔ **Archiving**:
+
+- The bug remains as a reference for future audits or analysis.
+
+---
+
+## **7. Rejected (Rejected)**
+
+**Responsible**: Development Lead or QA Manager  
+**Description**:  
+The bug is discarded for not being valid (duplicate, not reproducible, user error, etc.).
+
+**Key Actions**:  
+✔ **Clear justification**:
+
+- Example: "Not a defect, the behavior is as expected per requirement X."
+
+✔ **Communication with the tester**:
+
+- If the bug was misinterpreted, the scenario is clarified to avoid similar reports.
+
+---
+
+## **Alternative Flows and Considerations**
+
+🔄 **Reopening a Bug**
+
+- If the fix does not work, the bug returns to **"Active"** with detailed observations.
+- If the same defect is found in another area, a **new report** is created and linked to the original one.
+
+⚠ **Duplicate or Invalid Bugs**
+
+- They are marked as **"Rejected"** or **"Duplicate"** and linked to the main bug.
+
+🛠 **Best Practices** ✔ **Constant communication** between Devs and QA to avoid misunderstandings.  
+✔ **Tracking with tools** like Jira, Azure DevOps, or Bugzilla to maintain traceability.  
+✔ **Retrospectives** to analyze recurring bugs and improve processes.
+
+---
+
+**Conclusion** A well-managed bug life cycle improves software quality, optimizes the team's time, and facilitates the delivery of more stable products. The key lies in **clear documentation**, **collaboration between roles**, and the **use of appropriate tools**.
+
+========== NUEVO POST ==========
+
+Although it wasn't my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn't add up: all distributions are Unix-like, and that's what makes them so versatile and powerful.
+
+Another professor, younger and with fewer years of teaching, but no less wise for it, recommended we try several distros until we found one we liked. The others said not to listen to him, that it made no sense. I listened to the young one. I bought a decent laptop and started trying everything I could: from Linux Mint, which was the first one I installed, to Arch and Deepin OS. It was a long road on which I learned a lot, but in the end, I always ended up coming back to Fedora.
+
+This post is to rank the best distributions for a computer science student and related fields. Finding the best one isn't easy: you must value stability, if it's a rolling release, your future goals, whether you prefer to learn at a low level or need immediate productivity, and your hardware.
+
+First, think about your objectives. If you want to learn systems and administration in-depth, a more “manual” distro forces you to understand the system. If you want to focus on programming and moving forward with projects, prioritize stability, good compatibility, and that “everything just works.”
+
+Key criteria to evaluate include hardware compatibility (especially NVIDIA graphics, Wi-Fi, and sleep on laptops), stability and update cadence (LTS or stable if you don't want surprises during the semester; rolling if you want the latest), software availability and package managers (apt on Ubuntu/Debian, dnf on Fedora, pacman on Arch; extras like Flatpak and AppImage help a lot), documentation and community (the bigger, the easier it is to solve problems), desktop environment and resource consumption (GNOME and KDE are very polished; Xfce/LXQt are lighter), and support for the development tools you'll use (Docker/Podman, virtualization with KVM/VirtualBox, C/C++/Rust/Python toolchains, CUDA/ROCm for GPU, LaTeX, IDEs like VS Code/JetBrains). Also consider disk encryption, backups, battery, HiDPI, Wayland vs X11, and printers.
+
+If you're like me and have no idea at the beginning, the best thing is a distro that “just works” for studying and programming: Linux Mint is your old reliable. Now, if you want to use a system truly designed for development, use Fedora. I could talk about many more, but I prefer to get straight to it.
+
+Without further ado, here is the ranking.
+
+### Ranking of Distros for Studying Computer Science
+
+1.  **Fedora Workstation** Explicitly designed for development: it brings very recent toolchains (GCC/Clang, Python, Rust), SELinux by default, and a modern workflow with Podman/Toolbox for “rootless” containers. GNOME comes very polished, Flatpak is well-integrated, and the COPR repositories make it easy to install extra software. Its manager is dnf and it uses rpm packages, with clear packaging and update policies. Why here? Because it offers “the latest” with good stability, ideal for courses and projects that require recent versions of compilers, kernels, or frameworks. Cons: Its main sponsorship is from Red Hat (owned by IBM). Although Fedora is a solid community and not a commercial product, depending on a large company always introduces the risk of a change in direction. The case of Clear Linux (driven by Intel) showed how corporate priorities can change and reduce focus on the desktop; it's not a prediction for Fedora, but it is a reminder that business decisions can impact sponsored projects. As of today, Fedora's community model and its adoption mitigate that risk quite a bit.
+2.  **Linux Mint** Focused on “install and get to work” with a minimal learning curve. Based on Ubuntu LTS, it inherits its huge ecosystem and uses apt and deb packages, with Cinnamon as the default environment: light, consistent, and familiar if you come from Windows. Excellent for classes, scripting, Git, and compiling C/C++/Java/Python without fighting the system, with codecs and usability details sorted out. Why in this spot? Maximum productivity and stability for the average student, without losing compatibility with educational tools. Cons: Being based on LTS, some toolchain and kernel versions lag behind; if you need the latest (new CUDA/ROCm, kernel for very recent hardware), you'll have to pull from PPAs/Flatpak or wait for backports.
+3.  **Pop!\_OS** Made by System76 with a practical focus on laptops and development. On an Ubuntu base, it adds a very polished installer, power profiles, automatic tiling, images with NVIDIA drivers, and recovery utilities that save you when something fails. Why here? Because it balances ease of use with sensible decisions for productivity, especially on laptops with dedicated GPUs. Cons: Its cadence depends on Ubuntu and the extra work from System76; if you're looking for the newest base stack, Fedora is usually ahead. Also, its evolving COSMIC environment can bring changes that not everyone wants in the middle of a semester.
+4.  **NixOS** Extremely powerful for reproducibility: you declare your system and development environments in files (nix/flakes) and can clone your exact setup on any machine or revert changes in seconds. For courses with complex dependencies, reproducible research, or multiple projects with different toolchains, it's a dream. Why fourth? The learning curve is real: learning the Nix language and its model takes time right when you need to be making progress in your subjects. If you're excited about “infra as code” and can invest in learning it, it might move to your top spot; if not, start with something more conventional and come back to NixOS later.
+
+I didn't put Debian because, right off the bat, you're more likely to run into compatibility issues on modern hardware. This can be positive if your goal is to learn by fixing your system, but it's not the experience I recommend if you already have enough problems with your classes. The important thing in your major is to focus on learning; if you want to experiment later, try it. Something similar happens with other distros. For example, Deepin OS would be perfect if it didn't feel “green”: it's missing details, some animations lag, and the experience suffers.
+
+And that's it, these are my recommendations. To choose for the first time, this is enough. With time you'll realize that almost all Linux distributions are more of the same: you make the difference, not the distro.

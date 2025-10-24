@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance | Alan Bellon</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about how it’s built; QAs worry about if it’s built correctly." />
+<meta property="og:description" content="In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about how it’s built; QAs worry about if it’s built correctly." />
+<link rel="canonical" href="http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA" />
+<meta property="og:url" content="http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA" />
+<meta property="og:site_name" content="Alan Bellon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-10-24T07:43:35-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-24T00:00:00-06:00","datePublished":"2025-10-24T07:43:35-06:00","description":"In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about how it’s built; QAs worry about if it’s built correctly.","headline":"Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA"},"url":"http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<meta name="keywords" content="" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" title="Alan Bellon - " href="/feed.xml" />
+<link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/typography.css">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async ></script>
+
+
+
+<script defer src="/assets/script/theme.js"></script>
+<script defer src="/assets/script/script.js"></script>
+
+</head>
+<body onload="onLoad()">
+  <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
+</select>
+
+  <div class="container-wrapper">
+    <header class="container-header">
+      <div class="header-info">
+  <span class="header-info-name"><a href="/">Alan Bellon</a></span>
+  <br>
+  <!-- <span class="header-info-desc"></span> -->
+</div>
+<nav class="header-nav">
+  <ul class="header-main-nav">
+    
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/"
+          
+        >
+          
+            Blog
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/about"
+          
+        >
+          
+            About
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/categories"
+          
+        >
+          
+            Categories
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/projects"
+          
+        >
+          
+            Projects
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+    </header>
+    <main class="container-main">
+      <article class="container-post">
+  <div class="post-title">
+    <h3>Why Big O Notation Isn't Just for Developers - A QA's Guide to Performance</h3>
+  </div>
+  <div class="post-author">
+    <span>Alan Bellon</span>
+  </div>
+  <div class="post-content">
+    <p>In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about <em>how</em> it’s built; QAs worry about <em>if</em> it’s built correctly.</p>
+
+<p>But this division has a cost. And nowhere is that cost more obvious than in the all-too-common bug ticket: “The app is slow.”</p>
+
+<p>Let’s be honest. We’ve all written it. We’ve also been on the receiving end of the developer’s sigh when they read it. Why? Because “it’s slow” is a symptom, not a diagnosis. It’s not reproducible, it’s not specific, and it forces the developer into a blindfolded guessing game.</p>
+
+<p>The hard truth is that in a modern, agile team, “that’s not my job” is a dangerous phrase. If you, as a QA professional, want to graduate from just <em>finding</em> bugs to <em>preventing</em> them, you need to speak the same language as your developers.</p>
+
+<p>And when it comes to performance, that language is Big O notation.</p>
+
+<h2 id="the-gap-between-slow-and-why">The Gap Between “Slow” and “Why”</h2>
+
+<p>Most of our work as QAs is focused on the <em>what</em>. What happens when I click this? What happens when I enter this data? We validate functional requirements. But performance is a non-functional requirement that has a massive, direct impact on the user experience.</p>
+
+<p>An app that’s functionally perfect but unusably slow is a failed product.</p>
+
+<p>This is where understanding algorithmic efficiency becomes a QA superpower. It’s the difference between reporting:</p>
+
+<ul>
+  <li><strong>The Vague Report:</strong> “The user profile page is slow to load.”</li>
+  <li><strong>The Actionable Report:</strong> “The user profile page load time is increasing exponentially. With 10 users in the database, it loads in 200ms. With 100 users, it takes 4 seconds. This suggests the query might be an $O(n^2)$ operation. I suggest we review any loops related to data fetching, especially around the ‘friends list’ feature.”</li>
+</ul>
+
+<p>Which of these two reports do you think gets taken seriously? Which one builds respect between QA and Dev? Which one actually helps fix the problem?</p>
+
+<h2 id="so-what-is-big-o-and-why-isnt-it-a-math-test">So, What is Big O (And Why Isn’t It a Math Test)?</h2>
+
+<p>Don’t let the $O(n)$ scare you. You don’t need a computer science degree (though, as someone with one, I can tell you this is one of the <em>most</em> practical parts).</p>
+
+<p>Big O is simply a way to describe how the runtime or memory usage of a piece of code <em>scales</em> as the amount of input data (n) grows.</p>
+
+<p>Think of it this way:</p>
+
+<ul>
+  <li><strong>$O(1)$ (Constant Time):</strong> The best. It takes the same amount of time regardless of the data size. (e.g., looking up a value in a hash map or dictionary by its key).</li>
+  <li><strong>$O(log n)$ (Logarithmic Time):</strong> Excellent. The time it takes grows very slowly. (e.g., finding a name in a phone book using binary search—you tear the book in half each time).</li>
+  <li><strong>$O(n)$ (Linear Time):</strong> Good. The time itA takes grows in a direct line with the data. 100 items take 10x longer than 10 items. (e.g., finding a name in a phone book by reading every single name from start to finish).</li>
+  <li><strong>$O(n^2)$ (Quadratic Time):</strong> The Danger Zone. This is our enemy. The time it takes explodes exponentially. If 10 items take 1 second, 100 items might take 100 seconds. (e.g., finding a name in a phone book by taking each name and comparing it, one by one, to <em>every other name</em> in the book).</li>
+</ul>
+
+<p>When an application is “slow,” it’s almost always because a developer, often accidentally, introduced an $O(n^2)$ operation—a “nested loop”—where a linear $O(n)$ or logarithmic $O(log n)$ one would have done the job.</p>
+
+<h2 id="where-qa-meets-the-algorithm-two-battlegrounds">Where QA Meets the Algorithm: Two Battlegrounds</h2>
+
+<p>Your job isn’t to find the <em>exact</em> Big O notation. Your job is to <em>spot the pattern</em>. You are perfectly positioned to do this, because you control the “n” (the data) during testing.</p>
+
+<h3 id="1-the-api-endpoint-and-the-user-experience">1. The API Endpoint and the User Experience</h3>
+
+<p>This is the most common culprit. A developer builds a new <code class="language-plaintext highlighter-rouge">GET /api/orders</code> endpoint. They test it on their local machine with 5 orders in their database. It returns instantly. They merge it.</p>
+
+<p>You, as the QA, are testing in the staging environment. You’re doing load testing, or maybe you’re just testing a user account that has a long history. You find that this endpoint is taking 10, 15, or 30 seconds to respond. The “loading” spinner just keeps spinning. The user gets frustrated and leaves.</p>
+
+<p>A developer sees <em>one</em> item. You see the <em>system</em>.</p>
+
+<p>By understanding Big O, you know <em>how</em> to test this. You don’t just test with 5 orders. You test with 1. Then 10. Then 100. Then 1,000. You measure the response time at each step. If the time is growing linearly, it’s probably fine ($O(n)$). If it’s <em>exploding</em>… you’ve found an $O(n^2)$ bug.</p>
+
+<p>You can now go to the developer and say, “The <code class="language-plaintext highlighter-rouge">GET /api/orders</code> endpoint looks like it’s using a nested loop. It’s fast for 10 items but takes 15 seconds for 500. Can we check if we’re doing a separate database query inside the ‘for’ loop instead of a single JOIN?”</p>
+
+<p>You’ve just saved days of work and prevented a production catastrophe.</p>
+
+<h3 id="2-our-own-automation-scripts">2. Our Own Automation Scripts</h3>
+
+<p>This is the one we don’t like to talk about. Sometimes, <em>we</em> are the source of the slowness.</p>
+
+<p>We write automation tests. We run them in the CI/CD pipeline. The pipeline gets slower, and slower, and slower. Builds take 45 minutes instead of 5. Developers start complaining (rightfully) that the QA-gate is too slow and it’s blocking their work.</p>
+
+<p>Why? Because <em>our</em> tests are $O(n^2)$.</p>
+
+<p>Imagine a test script for creating a new user. To ensure the username is unique, the script <em>first</em> queries the entire database, gets a list of <em>all 50,000 existing users</em>, and <em>then</em> loops through that list in the test code to check for a match.</p>
+
+<p>That’s a simple test that just became a performance nightmare. As the database grows, your test suite grinds to a halt.</p>
+
+<p>A QA who understands Big O would see this and say, “This is inefficient. Let’s do a direct <code class="language-plaintext highlighter-rouge">SELECT COUNT(*)</code> query for that <em>one username</em>, or better yet, let’s just try to create the user and assert that we get the expected ‘username already exists’ 400-level error from the API.”</p>
+
+<h2 id="its-not-about-being-a-developer-its-about-being-a-better-tester">It’s Not About Being a Developer. It’s About Being a Better Tester.</h2>
+
+<p>Look, you don’t need to go back to college or start doing LeetCode problems. This isn’t about learning to <em>write</em> a merge sort algorithm.</p>
+
+<p>It’s about respect for your craft. It’s about personal growth. It’s about being a true <em>engineer</em> in quality, not just a manual clicker.</p>
+
+<p>Understanding the <em>concept</em> of algorithmic efficiency does three things:</p>
+
+<ol>
+  <li><strong>It transforms your bug reports</strong> from vague complaints into precise, actionable data.</li>
+  <li><strong>It bridges the communication gap</strong> with developers, earning you technical respect.</li>
+  <li><strong>It makes you a better tester</strong> by giving you a mental model to design performance and load tests that find critical, user-impacting bugs <em>before</em> they hit production.</li>
+</ol>
+
+<p>The next time you see a spinning wheel, don’t just write “it’s slow.” Ask yourself: “What is ‘n’ here? And what happens when I make ‘n’ 100 times bigger?”</p>
+
+<p>That one question is the first step to thinking in Big O. And it’s the step that separates a good QA from a great one.</p>
+
+  </div>
+  <hr>
+  <div class="post-info">
+    <div class="post-date">
+      Written on 2025-10-24, updated at 2025-10-24.
+    </div>
+    <!-- <div class="post-categories">
+      <span>Categories: </span>
+      
+      <a href="/category/quality-assurance" class="post-category">Quality Assurance</a>
+      
+    </div> -->
+    <!-- <div class="post-tags">
+      <span>Tags: </span>
+      
+    </div> -->
+    <div class="post-tools">
+      
+      
+      <div>
+        <span>Previous: </span><a href="/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto">Why Fedora?</a>
+      </div>
+      
+    </div>
+    
+  </div>
+</article>
+    </main>
+    <footer class="container-footer">
+      <div class="footer-copyright">
+  <span class="footer-copyright-text float-left"
+    >Socials:
+    <a
+      href="https://www.linkedin.com/in/alan-bellon/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >LinkedIn</a
+    >,
+    <a
+      href="https://github.com/123poralan"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Github</a
+    ></span
+  >
+</div>
+
+    </footer>
+  </div>
+
+  <script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+  document.querySelectorAll('pre > code.language-mermaid').forEach((codeBlock) => {
+    codeBlock.parentElement.outerHTML = `<pre class="mermaid">${codeBlock.textContent}</pre>`;
+  });
+</script>
+
+</body>
+</html>
