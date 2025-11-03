@@ -1,4 +1,63 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4001/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4001/" rel="alternate" type="text/html" /><updated>2025-10-24T17:19:26-06:00</updated><id>http://localhost:4001/feed.xml</id><title type="html">Alan Bellon</title><entry><title type="html">Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance</title><link href="http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA" rel="alternate" type="text/html" title="Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance" /><published>2025-10-24T07:43:35-06:00</published><updated>2025-10-24T00:00:00-06:00</updated><id>http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA</id><content type="html" xml:base="http://localhost:4001/How-Big-O-Notation-Made-Me-a-Better-QA"><![CDATA[<p>In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about <em>how</em> it’s built; QAs worry about <em>if</em> it’s built correctly.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-03T12:12:18-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alan Bellon</title><entry><title type="html">The Paradox of Announcing Your Goals</title><link href="http://localhost:4000/La-Paradoja-de-Contar-tus-Metas" rel="alternate" type="text/html" title="The Paradox of Announcing Your Goals" /><published>2025-11-03T02:53:12-06:00</published><updated>2025-10-03T00:00:00-06:00</updated><id>http://localhost:4000/La-Paradoja-de-Contar-tus-Metas</id><content type="html" xml:base="http://localhost:4000/La-Paradoja-de-Contar-tus-Metas"><![CDATA[<p>A while ago, when I was finishing college, I was organizing a trip with a friend. We were going to Playa del Carmen, in the south of Mexico. We had already bought the plane tickets, we had the contact who was going to host us, and we even bought the right clothes.</p>
+
+<p>After chatting one day, we left the dining hall and ran into an old classmate. We proceeded to tell him our plans. This classmate seemed surprised, which made us think we were doing well. Right after we finished talking, I remembered an old phrase I saw on social media: “Things aren’t said, they are done, because when they are done, they speak for themselves.”</p>
+
+<p>I asked my friend who he had told. He replied that he had told his mom, three friends, and an uncle.</p>
+
+<p>To no one’s surprise, he ended up canceling the trip, even though we had already paid for everything. I couldn’t make the trip alone because the numbers didn’t add up for me. Shortly after, we had to restructure our plans and decided that the best thing at that moment wasn’t to go on vacation, but to work. On one hand, it was true; it wasn’t time to have fun. Instead, we had to grow professionally. But on the other hand, I realized this was just a justification for a bigger problem.</p>
+
+<p>That’s when I decided to start reading about the topic.</p>
+
+<h2 id="why-is-it-better-to-keep-quiet">Why Is It Better to Keep Quiet?</h2>
+
+<p>You’ve surely heard the advice a thousand times: <strong>“Tell everyone your goals to commit yourself”</strong>. It seems logical, right? Putting that social pressure on yourself so you don’t fail.</p>
+
+<p>But, like many things in life, the answer is more complex. In fact, several psychological studies suggest that doing just that can be counterproductive. What if I told you that, in most cases, announcing your goal is the fastest way to ensure you don’t achieve it?</p>
+
+<p>Here, I’ll explain why this phenomenon occurs and what the correct way to “share” a goal is so that it actually helps you achieve it.</p>
+
+<hr />
+
+<h3 id="1-the-danger-of-premature-satisfaction">1. The Danger of Premature Satisfaction</h3>
+
+<p>The phenomenon is known in psychology as <strong>“social reality”</strong>.</p>
+
+<p>It works like this:</p>
+
+<ul>
+  <li><strong>The Brain’s Deception:</strong> When you announce a goal (especially an identity-based one, like “I’m going to be a runner” or “I’m going to learn to code”) and you receive social recognition for it (congratulations, praise, “likes”), your brain gets a dose of satisfaction. It’s almost the same satisfaction it would feel if you had already achieved the goal.</li>
+  <li><strong>Premature Satisfaction:</strong> This social reward (that dopamine “hit”) tricks your brain. It makes it feel that the work is already, in part, done.</li>
+  <li><strong>Less Motivation:</strong> As a result, the motivation to do the real, difficult work (going for a run in the cold, studying for hours) decreases. Why? Because you already received the social reward for <em>having</em> the goal, and the effort no longer seems as urgent.</li>
+</ul>
+
+<p>The psychologist <strong>Peter Gollwitzer</strong> conducted famous studies on this. In one experiment, students who announced their goal of becoming lawyers worked significantly fewer hours than those who kept their goal a secret. Those who announced it felt they were already “closer” to being lawyers, just by having said it.</p>
+
+<hr />
+
+<h3 id="2-when-sharing-your-goals-does-help-the-right-way">2. When Sharing Your Goals DOES Help (The Right Way)</h3>
+
+<p>However, this doesn’t mean you should be a hermit with your plans. There is a big difference between <em>announcing</em> a goal to receive praise and <em>sharing</em> it to generate <strong>accountability</strong>.</p>
+
+<p>Sharing your goal will make you <strong>more likely</strong> to achieve it only if you follow these rules:</p>
+
+<ol>
+  <li><strong>Who you share it with:</strong> Don’t announce it publicly. Share it only with one or two people whose opinion you deeply value and respect (like a mentor or a trusted friend). The motivation changes: you are no longer seeking praise, but rather <strong>you don’t want to disappoint</strong> that person.</li>
+  <li><strong>How you share it:</strong> Don’t just say “I want to do X.” What works is asking that person to help you follow up. For example: “My goal is to run 3 times a week. Can I send you a message every time I finish to stay on track?”.</li>
+  <li><strong>The type of conversation:</strong> You want them to ask about your <em>process</em>, not praise your <em>identity</em>.
+    <ul>
+      <li><strong>Wrong:</strong> “You’re so smart for wanting to learn that!” (Praise for the person).</li>
+      <li><strong>Good:</strong> “How did your study session go today?” (Focus on the process).</li>
+    </ul>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="in-conclusion-keep-your-mouth-shut-or-talk-to-the-right-person">In Conclusion: Keep Your Mouth Shut (or Talk to the Right Person)</h3>
+
+<p>The next time you have a big goal, resist the temptation to post it on social media to get that instant gratification. As we’ve seen, it’s a trick your brain plays on you.</p>
+
+<p>It’s better to write it down for yourself or, if you need that extra push, share it strategically with someone who won’t applaud you for starting, but who will ask you why you haven’t finished. In the end, just like in code, what matters isn’t the declaration, but the execution.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[A while ago, when I was finishing college, I was organizing a trip with a friend. We were going to Playa del Carmen, in the south of Mexico. We had already bought the plane tickets, we had the contact who was going to host us, and we even bought the right clothes.]]></summary></entry><entry><title type="html">Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance</title><link href="http://localhost:4000/How-Big-O-Notation-Made-Me-a-Better-QA" rel="alternate" type="text/html" title="Why Big O Notation Isn’t Just for Developers - A QA’s Guide to Performance" /><published>2025-10-24T07:43:35-06:00</published><updated>2025-10-24T00:00:00-06:00</updated><id>http://localhost:4000/How-Big-O-Notation-Made-Me-a-Better-QA</id><content type="html" xml:base="http://localhost:4000/How-Big-O-Notation-Made-Me-a-Better-QA"><![CDATA[<p>In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about <em>how</em> it’s built; QAs worry about <em>if</em> it’s built correctly.</p>
 
 <p>But this division has a cost. And nowhere is that cost more obvious than in the all-too-common bug ticket: “The app is slow.”</p>
 
@@ -88,7 +147,7 @@
 
 <p>The next time you see a spinning wheel, don’t just write “it’s slow.” Ask yourself: “What is ‘n’ here? And what happens when I make ‘n’ 100 times bigger?”</p>
 
-<p>That one question is the first step to thinking in Big O. And it’s the step that separates a good QA from a great one.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about how it’s built; QAs worry about if it’s built correctly.]]></summary></entry><entry><title type="html">Why Fedora?</title><link href="http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto" rel="alternate" type="text/html" title="Why Fedora?" /><published>2025-08-11T06:01:35-06:00</published><updated>2025-08-11T00:00:00-06:00</updated><id>http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n:-mi-ranking-honesto</id><content type="html" xml:base="http://localhost:4001/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto"><![CDATA[<p>Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.</p>
+<p>That one question is the first step to thinking in Big O. And it’s the step that separates a good QA from a great one.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[In the world of software development, we often draw hard lines. Developers write code; QAs try to break it. Developers worry about how it’s built; QAs worry about if it’s built correctly.]]></summary></entry><entry><title type="html">Why Fedora?</title><link href="http://localhost:4000/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto" rel="alternate" type="text/html" title="Why Fedora?" /><published>2025-08-11T06:01:35-06:00</published><updated>2025-08-11T00:00:00-06:00</updated><id>http://localhost:4000/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n:-mi-ranking-honesto</id><content type="html" xml:base="http://localhost:4000/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto"><![CDATA[<p>Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.</p>
 
 <p>Another professor, younger and with fewer years of teaching, but no less wise for it, recommended we try several distros until we found one we liked. The others said not to listen to him, that it made no sense. I listened to the young one. I bought a decent laptop and started trying everything I could: from Linux Mint, which was the first one I installed, to Arch and Deepin OS. It was a long road on which I learned a lot, but in the end, I always ended up coming back to Fedora.</p>
 
@@ -113,7 +172,7 @@
 
 <p>I didn’t put Debian because, right off the bat, you’re more likely to run into compatibility issues on modern hardware. This can be positive if your goal is to learn by fixing your system, but it’s not the experience I recommend if you already have enough problems with your classes. The important thing in your major is to focus on learning; if you want to experiment later, try it. Something similar happens with other distros. For example, Deepin OS would be perfect if it didn’t feel “green”: it’s missing details, some animations lag, and the experience suffers.</p>
 
-<p>And that’s it, these are my recommendations. To choose for the first time, this is enough. With time you’ll realize that almost all Linux distributions are more of the same: you make the difference, not the distro.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.]]></summary></entry><entry><title type="html">The Life Cycle of a Bug</title><link href="http://localhost:4001/Ciclo-de-vida-de-un-bug" rel="alternate" type="text/html" title="The Life Cycle of a Bug" /><published>2025-05-13T06:01:35-06:00</published><updated>2025-05-13T00:00:00-06:00</updated><id>http://localhost:4001/Ciclo-de-vida-de-un-bug</id><content type="html" xml:base="http://localhost:4001/Ciclo-de-vida-de-un-bug"><![CDATA[<h1 id="the-life-cycle-of-a-bug-stages-roles-and-best-practices"><strong>The Life Cycle of a Bug: Stages, Roles, and Best Practices</strong></h1>
+<p>And that’s it, these are my recommendations. To choose for the first time, this is enough. With time you’ll realize that almost all Linux distributions are more of the same: you make the difference, not the distro.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.]]></summary></entry><entry><title type="html">The Life Cycle of a Bug</title><link href="http://localhost:4000/Ciclo-de-vida-de-un-bug" rel="alternate" type="text/html" title="The Life Cycle of a Bug" /><published>2025-05-13T06:01:35-06:00</published><updated>2025-05-13T00:00:00-06:00</updated><id>http://localhost:4000/Ciclo-de-vida-de-un-bug</id><content type="html" xml:base="http://localhost:4000/Ciclo-de-vida-de-un-bug"><![CDATA[<h1 id="the-life-cycle-of-a-bug-stages-roles-and-best-practices"><strong>The Life Cycle of a Bug: Stages, Roles, and Best Practices</strong></h1>
 
 <p>The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.</p>
 
@@ -313,7 +372,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<p><strong>Conclusion</strong> A well-managed bug life cycle improves software quality, optimizes the team’s time, and facilitates the delivery of more stable products. The key lies in <strong>clear documentation</strong>, <strong>collaboration between roles</strong>, and the <strong>use of appropriate tools</strong>.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[The Life Cycle of a Bug: Stages, Roles, and Best Practices]]></summary></entry><entry><title type="html">Doomed to Repeat History?</title><link href="http://localhost:4001/Condenados-a-repetir-la-historia" rel="alternate" type="text/html" title="Doomed to Repeat History?" /><published>2025-05-09T06:01:35-06:00</published><updated>2025-05-09T00:00:00-06:00</updated><id>http://localhost:4001/Condenados-a-repetir-la-historia</id><content type="html" xml:base="http://localhost:4001/Condenados-a-repetir-la-historia"><![CDATA[<h2 id="the-illusion-of-conscious-knowledge"><strong>The Illusion of Conscious Knowledge</strong></h2>
+<p><strong>Conclusion</strong> A well-managed bug life cycle improves software quality, optimizes the team’s time, and facilitates the delivery of more stable products. The key lies in <strong>clear documentation</strong>, <strong>collaboration between roles</strong>, and the <strong>use of appropriate tools</strong>.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[The Life Cycle of a Bug: Stages, Roles, and Best Practices]]></summary></entry><entry><title type="html">Doomed to Repeat History?</title><link href="http://localhost:4000/Condenados-a-repetir-la-historia" rel="alternate" type="text/html" title="Doomed to Repeat History?" /><published>2025-05-09T06:01:35-06:00</published><updated>2025-05-09T00:00:00-06:00</updated><id>http://localhost:4000/Condenados-a-repetir-la-historia</id><content type="html" xml:base="http://localhost:4000/Condenados-a-repetir-la-historia"><![CDATA[<h2 id="the-illusion-of-conscious-knowledge"><strong>The Illusion of Conscious Knowledge</strong></h2>
 
 <p>In everyday conversations, one phrase is fervently repeated: <em>“Those who do not know their history are doomed to repeat it.”</em> It’s presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn’t theory translate into practice?</p>
 
@@ -358,7 +417,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <p>Because personal history isn’t studied in books: it is lived in every choice. And only when we illuminate the shadows that govern us do we stop repeating the past and start creating it.</p>
 
-<p>True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Illusion of Conscious Knowledge]]></summary></entry><entry><title type="html">Networking, the Invisible Foundation of Cloud Computing</title><link href="http://localhost:4001/Redes-base-invisible-cloud" rel="alternate" type="text/html" title="Networking, the Invisible Foundation of Cloud Computing" /><published>2025-04-15T06:01:35-06:00</published><updated>2025-04-15T00:00:00-06:00</updated><id>http://localhost:4001/Redes-base-invisible-cloud</id><content type="html" xml:base="http://localhost:4001/Redes-base-invisible-cloud"><![CDATA[<p>Why learn networking?</p>
+<p>True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Illusion of Conscious Knowledge]]></summary></entry><entry><title type="html">Networking, the Invisible Foundation of Cloud Computing</title><link href="http://localhost:4000/Redes-base-invisible-cloud" rel="alternate" type="text/html" title="Networking, the Invisible Foundation of Cloud Computing" /><published>2025-04-15T06:01:35-06:00</published><updated>2025-04-15T00:00:00-06:00</updated><id>http://localhost:4000/Redes-base-invisible-cloud</id><content type="html" xml:base="http://localhost:4000/Redes-base-invisible-cloud"><![CDATA[<p>Why learn networking?</p>
 
 <p>Everything you do in the cloud, from running a virtual machine to deploying an application, occurs on servers that communicate over the network.</p>
 
@@ -433,7 +492,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
   <li><strong>IP Address</strong>: Uniquely identifies each device on a network.</li>
   <li><strong>Subnet Mask</strong>: Tells the router whether the destination address belongs to the same local network or not.</li>
   <li><strong>Default Gateway</strong>: It is the router’s IP address within the local network. All traffic to external networks is sent to this address, so the router can route it correctly.</li>
-</ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Why learn networking?]]></summary></entry><entry><title type="html">Heroes or Villains? The Story We Choose to Tell</title><link href="http://localhost:4001/La-historia-que-elegimos-contar" rel="alternate" type="text/html" title="Heroes or Villains? The Story We Choose to Tell" /><published>2024-11-27T06:01:35-06:00</published><updated>2024-11-27T00:00:00-06:00</updated><id>http://localhost:4001/La-historia-que-elegimos-contar</id><content type="html" xml:base="http://localhost:4001/La-historia-que-elegimos-contar"><![CDATA[<p>When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.</p>
+</ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Why learn networking?]]></summary></entry><entry><title type="html">Heroes or Villains? The Story We Choose to Tell</title><link href="http://localhost:4000/La-historia-que-elegimos-contar" rel="alternate" type="text/html" title="Heroes or Villains? The Story We Choose to Tell" /><published>2024-11-27T06:01:35-06:00</published><updated>2024-11-27T00:00:00-06:00</updated><id>http://localhost:4000/La-historia-que-elegimos-contar</id><content type="html" xml:base="http://localhost:4000/La-historia-que-elegimos-contar"><![CDATA[<p>When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.</p>
 
 <h2 id="shaping-the-narrative">Shaping the Narrative</h2>
 
@@ -457,7 +516,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <p>The stories we tell ourselves shape the way we navigate life. When we choose to tell the truth, even when it’s difficult, we not only foster stronger relationships, but we also build a stronger identity. Growth is impossible without accountability, and accountability begins with acknowledging the full picture of our experiences.</p>
 
-<p>In the end, true triumph isn’t about avoiding mistakes, but about having the courage to face them, learn from them, and become better.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.]]></summary></entry><entry><title type="html">The Power of Mindset, Beyond External Factors</title><link href="http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos" rel="alternate" type="text/html" title="The Power of Mindset, Beyond External Factors" /><published>2024-11-18T06:01:35-06:00</published><updated>2024-11-18T00:00:00-06:00</updated><id>http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos</id><content type="html" xml:base="http://localhost:4001/M%C3%A1s-all%C3%A1-de-los-factores-externos"><![CDATA[<h2 id="the-common-focus-on-the-external">The Common Focus on the External</h2>
+<p>In the end, true triumph isn’t about avoiding mistakes, but about having the courage to face them, learn from them, and become better.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.]]></summary></entry><entry><title type="html">The Power of Mindset, Beyond External Factors</title><link href="http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos" rel="alternate" type="text/html" title="The Power of Mindset, Beyond External Factors" /><published>2024-11-18T06:01:35-06:00</published><updated>2024-11-18T00:00:00-06:00</updated><id>http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos</id><content type="html" xml:base="http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos"><![CDATA[<h2 id="the-common-focus-on-the-external">The Common Focus on the External</h2>
 
 <p>On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.</p>
 
@@ -473,7 +532,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <h2 id="what-do-you-choose">What Do You Choose?</h2>
 
-<p>In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Common Focus on the External]]></summary></entry><entry><title type="html">The Power of Choice</title><link href="http://localhost:4001/El-poder-de-la-elecci%C3%B3n" rel="alternate" type="text/html" title="The Power of Choice" /><published>2024-11-16T06:01:35-06:00</published><updated>2024-11-16T00:00:00-06:00</updated><id>http://localhost:4001/El-poder-de-la-elecci%C3%B3n</id><content type="html" xml:base="http://localhost:4001/El-poder-de-la-elecci%C3%B3n"><![CDATA[<h2 id="doing-good-a-choice-beyond-circumstance">Doing Good: A Choice Beyond Circumstance</h2>
+<p>In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Common Focus on the External]]></summary></entry><entry><title type="html">The Power of Choice</title><link href="http://localhost:4000/El-poder-de-la-elecci%C3%B3n" rel="alternate" type="text/html" title="The Power of Choice" /><published>2024-11-16T06:01:35-06:00</published><updated>2024-11-16T00:00:00-06:00</updated><id>http://localhost:4000/El-poder-de-la-elecci%C3%B3n</id><content type="html" xml:base="http://localhost:4000/El-poder-de-la-elecci%C3%B3n"><![CDATA[<h2 id="doing-good-a-choice-beyond-circumstance">Doing Good: A Choice Beyond Circumstance</h2>
 
 <p>In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.</p>
 
@@ -493,7 +552,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <p>When we recognize that doing good is a choice, we empower ourselves to act with purpose. This fosters introspection and growth, and allows us to build stronger relationships and contribute to a more just and compassionate world. Whether in love, in conflict, or in daily interactions, the decision to do good despite having other options highlights the strength of our character.</p>
 
-<p>Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[Doing Good: A Choice Beyond Circumstance]]></summary></entry><entry><title type="html">The Essentials for Surviving with GIT</title><link href="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git" rel="alternate" type="text/html" title="The Essentials for Surviving with GIT" /><published>2024-07-02T06:01:35-06:00</published><updated>2024-07-02T00:00:00-06:00</updated><id>http://localhost:4001/Lo-necesario-para-sobrevivir-con-git</id><content type="html" xml:base="http://localhost:4001/Lo-necesario-para-sobrevivir-con-git"><![CDATA[<p>When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.</p>
+<p>Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[Doing Good: A Choice Beyond Circumstance]]></summary></entry><entry><title type="html">The Essentials for Surviving with GIT</title><link href="http://localhost:4000/Lo-necesario-para-sobrevivir-con-git" rel="alternate" type="text/html" title="The Essentials for Surviving with GIT" /><published>2024-07-02T06:01:35-06:00</published><updated>2024-07-02T00:00:00-06:00</updated><id>http://localhost:4000/Lo-necesario-para-sobrevivir-con-git</id><content type="html" xml:base="http://localhost:4000/Lo-necesario-para-sobrevivir-con-git"><![CDATA[<p>When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.</p>
 
 <p>It was then that I researched different resources on my own. Today I want to share what I consider the most essential and necessary things to survive both the start of college and the first days of work, or at least to have a clue about what’s going on.</p>
 
@@ -745,101 +804,4 @@ In the next section, I’ll tell you how to merge branches and what to do if Git
 
 <p>Remember: before doing a reset, make sure you don’t have important changes un-backed-up, because you could lose them.</p>
 
-<p>And that’s it! Now you can time-travel with Git and save yourself from any disaster.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.]]></summary></entry><entry><title type="html">Understanding the SDLC</title><link href="http://localhost:4001/Fundamentos-software-agil" rel="alternate" type="text/html" title="Understanding the SDLC" /><published>2024-04-30T06:01:35-06:00</published><updated>2024-04-30T00:00:00-06:00</updated><id>http://localhost:4001/Fundamentos%20software%20agil</id><content type="html" xml:base="http://localhost:4001/Fundamentos-software-agil"><![CDATA[<h1 id="software-development-life-cycle-sdlc">Software Development Life Cycle (SDLC).</h1>
-
-<h2 id="waterfall-model">Waterfall Model</h2>
-
-<p><img src="https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg" alt="Waterfall Model" /></p>
-
-<h2 id="disadvantages-of-the-waterfall-model">Disadvantages of the Waterfall Model</h2>
-
-<ul>
-  <li>It does not allow for changes in requirements.</li>
-  <li>A functional product is not obtained until almost the end of the project.</li>
-  <li>Sometimes, flaws are only detected at the end of the development process.</li>
-  <li>The end-user does not participate in the production process until programming is finished.</li>
-</ul>
-
-<h1 id="agile-development-methodologies">Agile Development Methodologies</h1>
-
-<h2 id="scrum-development-model">“SCRUM” Development Model</h2>
-
-<p><img src="https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png" alt="SCRUM" /></p>
-
-<h2 id="what-is-scrum">What is SCRUM?</h2>
-
-<p>SCRUM is a framework within agile software development that facilitates collaborative work in teams. It is based on the continuous application of good practices, defined roles (like Scrum Master, Product Owner, and Development Team), regular events (like sprints, daily meetings, reviews, and retrospectives), and artifacts that help achieve the best possible project outcome.</p>
-
-<h2 id="advantages-of-scrum">Advantages of Scrum</h2>
-
-<ul>
-  <li><strong>Flexibility and adaptation</strong> to a changing market.</li>
-  <li><strong>Early results</strong> in short iterations.</li>
-  <li><strong>Obtaining a Minimum Viable Product (MVP)</strong> in early stages.</li>
-  <li><strong>Quick and accurate feedback</strong> thanks to continuous collaboration.</li>
-  <li><strong>Realistic project delivery date</strong>, based on planned sprints.</li>
-  <li><strong>Rapid team learning</strong> through retrospectives and continuous improvement.</li>
-  <li><strong>Autonomy and responsibility</strong> in a self-organized environment.</li>
-</ul>
-
-<h2 id="roles-in-scrum">Roles in SCRUM</h2>
-
-<p><img src="https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png" alt="Roles in scrum" /></p>
-
-<ul>
-  <li>
-    <p><strong>Scrum Master</strong>:</p>
-
-    <ul>
-      <li>An expert in the Scrum methodology.</li>
-      <li>Facilitates the team’s work and removes impediments.</li>
-      <li>Is not a Project Manager (PM), but a guide for the process.</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Product Owner (PO)</strong>:</p>
-
-    <ul>
-      <li>Represents the voice of the customer or the business.</li>
-      <li>Defines priorities and manages the Product Backlog.</li>
-      <li>Decides what should be developed and in what order.</li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>Development Team</strong>:</p>
-    <ul>
-      <li>Cross-functional, includes roles such as:
-        <ul>
-          <li>Developers (Devs).</li>
-          <li>Business/Requirements Analysts (BAs).</li>
-          <li>Testers/Quality Assurance (QA).</li>
-          <li>Architects.</li>
-        </ul>
-      </li>
-      <li>Responsible for delivering functional increments in each Sprint.</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="scrum-events">SCRUM Events</h2>
-
-<p><img src="https://www.invensislearning.com/blog/wp-content/uploads/2020/09/What-are-Scrum-Ceremonies-Why-is-it-Required-1068x552-1.jpg" alt="SCRUM ceremonies" /></p>
-
-<h3 id="sprint"><strong>Sprint</strong></h3>
-
-<p>The heart of SCRUM is the Sprint, and a Sprint is a period of time (cycle or iteration)—it can be 2 or 4 weeks—and during that time, several meetings (events) will be held. What are those meetings?</p>
-
-<ul>
-  <li>
-    <p><strong>Sprint Planning:</strong> This is the first meeting held at the beginning of the sprint, used to select the items that will be worked on and how they will be done.</p>
-  </li>
-  <li>
-    <p><strong>Daily Meeting (Daily):</strong> This is a 15-minute daily meeting where each member of the Development Team gives an update on what they are doing, as well as any impediments they have.</p>
-  </li>
-  <li>
-    <p><strong>Sprint Review:</strong> This is a meeting that occurs at the end of the sprint where the PO and the team present the finished product increment to the users (stakeholders) for their inspection and adaptation.</p>
-  </li>
-  <li>
-    <p><strong>Retrospective:</strong> A meeting that occurs at the end of the sprint where a reflection on the sprint is done, and opportunities for improvement for the next sprint are discussed.</p>
-  </li>
-</ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Software Development Life Cycle (SDLC).]]></summary></entry></feed>
+<p>And that’s it! Now you can time-travel with Git and save yourself from any disaster.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.]]></summary></entry></feed>
