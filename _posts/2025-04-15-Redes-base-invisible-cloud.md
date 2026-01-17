@@ -14,7 +14,7 @@ Furthermore, the fact that a correct configuration of virtual networks, load bal
 
 That's why I'm showing them to you here.
 
-## Basic Concepts
+#### Basic Concepts
 
 - **Protocol**: It's the set of rules that computers must follow to be able to communicate.
 - **Packet**: It's the way data is divided to be sent over the network.
@@ -33,7 +33,7 @@ That's why I'm showing them to you here.
 
 ---
 
-## Protocols
+#### Protocols
 
 - **OSI Model**: A theoretical model composed of 7 layers that describe the stages of a network connection.
 - **TCP/IP Model**: A practical model used in real networks.
@@ -46,7 +46,7 @@ That's why I'm showing them to you here.
 
 ---
 
-## Switching
+#### Switching
 
 **Switching** is the process that allows two hosts to be interconnected using a network device, such as a switch. A **switch** receives data packets from one device and forwards them to the correct destination within the same local network.
 
@@ -56,7 +56,7 @@ Local networks are designed **hierarchically**, not horizontally, because a hier
 
 ---
 
-## Routing
+#### Routing
 
 While switching is used within a local network, **routing** is responsible for connecting different networks to each other.
 

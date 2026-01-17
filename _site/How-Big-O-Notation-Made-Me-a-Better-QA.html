@@ -27,7 +27,7 @@
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/favicon.ico"/>
-<link rel="alternate" type="application/rss+xml" title="Alan Bellon - " href="/feed.xml" />
+<link rel="alternate" type="application/rss+xml" title="Alan Bellon - Blog personal de Alan Bellon sobre tecnología y desarrollo." href="/feed.xml" />
 <link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/highlight.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/typography.css">
@@ -54,7 +54,7 @@
       <div class="header-info">
   <span class="header-info-name"><a href="/">Alan Bellon</a></span>
   <br>
-  <!-- <span class="header-info-desc"></span> -->
+  <!-- <span class="header-info-desc">Blog personal de Alan Bellon sobre tecnología y desarrollo.</span> -->
 </div>
 <nav class="header-nav">
   <ul class="header-main-nav">
@@ -148,7 +148,7 @@
 
 <p>And when it comes to performance, that language is Big O notation.</p>
 
-<h2 id="the-gap-between-slow-and-why">The Gap Between “Slow” and “Why”</h2>
+<h4 id="the-gap-between-slow-and-why">The Gap Between “Slow” and “Why”</h4>
 
 <p>Most of our work as QAs is focused on the <em>what</em>. What happens when I click this? What happens when I enter this data? We validate functional requirements. But performance is a non-functional requirement that has a massive, direct impact on the user experience.</p>
 
@@ -163,7 +163,7 @@
 
 <p>Which of these two reports do you think gets taken seriously? Which one builds respect between QA and Dev? Which one actually helps fix the problem?</p>
 
-<h2 id="so-what-is-big-o-and-why-isnt-it-a-math-test">So, What is Big O (And Why Isn’t It a Math Test)?</h2>
+<h4 id="so-what-is-big-o-and-why-isnt-it-a-math-test">So, What is Big O (And Why Isn’t It a Math Test)?</h4>
 
 <p>Don’t let the $O(n)$ scare you. You don’t need a computer science degree (though, as someone with one, I can tell you this is one of the <em>most</em> practical parts).</p>
 
@@ -180,11 +180,11 @@
 
 <p>When an application is “slow,” it’s almost always because a developer, often accidentally, introduced an $O(n^2)$ operation—a “nested loop”—where a linear $O(n)$ or logarithmic $O(log n)$ one would have done the job.</p>
 
-<h2 id="where-qa-meets-the-algorithm-two-battlegrounds">Where QA Meets the Algorithm: Two Battlegrounds</h2>
+<h4 id="where-qa-meets-the-algorithm-two-battlegrounds">Where QA Meets the Algorithm: Two Battlegrounds</h4>
 
 <p>Your job isn’t to find the <em>exact</em> Big O notation. Your job is to <em>spot the pattern</em>. You are perfectly positioned to do this, because you control the “n” (the data) during testing.</p>
 
-<h3 id="1-the-api-endpoint-and-the-user-experience">1. The API Endpoint and the User Experience</h3>
+<h4 id="1-the-api-endpoint-and-the-user-experience">1. The API Endpoint and the User Experience</h4>
 
 <p>This is the most common culprit. A developer builds a new <code class="language-plaintext highlighter-rouge">GET /api/orders</code> endpoint. They test it on their local machine with 5 orders in their database. It returns instantly. They merge it.</p>
 
@@ -198,7 +198,7 @@
 
 <p>You’ve just saved days of work and prevented a production catastrophe.</p>
 
-<h3 id="2-our-own-automation-scripts">2. Our Own Automation Scripts</h3>
+<h4 id="2-our-own-automation-scripts">2. Our Own Automation Scripts</h4>
 
 <p>This is the one we don’t like to talk about. Sometimes, <em>we</em> are the source of the slowness.</p>
 
@@ -212,7 +212,7 @@
 
 <p>A QA who understands Big O would see this and say, “This is inefficient. Let’s do a direct <code class="language-plaintext highlighter-rouge">SELECT COUNT(*)</code> query for that <em>one username</em>, or better yet, let’s just try to create the user and assert that we get the expected ‘username already exists’ 400-level error from the API.”</p>
 
-<h2 id="its-not-about-being-a-developer-its-about-being-a-better-tester">It’s Not About Being a Developer. It’s About Being a Better Tester.</h2>
+<h4 id="its-not-about-being-a-developer-its-about-being-a-better-tester">It’s Not About Being a Developer. It’s About Being a Better Tester.</h4>
 
 <p>Look, you don’t need to go back to college or start doing LeetCode problems. This isn’t about learning to <em>write</em> a merge sort algorithm.</p>
 

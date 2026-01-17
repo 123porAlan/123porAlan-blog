@@ -1,40 +1,31 @@
 title: Alan Bellon
 email: alan.bellon.00@gmail.com
 name: Alan Bellon
-description: # this means to ignore newlines until "baseurl:"
+description: Blog personal de Alan Bellon sobre tecnología y desarrollo.
 
-keywords: [Blog, Leonardo Espinosa, Leonardespi, Computer Science, Testing]
+keywords: [Blog, Alan Bellon, 123porAlan, Computer Science, Testing, Automation, Python]
 baseurl: ""
-url: "https://www.leonardespi.me"
-domain: "leonardespi.me"
-language: en
-# Supported languages list:
-# en: English
-# de: Deutsche (German)
-# es: Español (Spanish)
-# fr: Français (French)
-# ja: 日本語 (Japanese)
-# pt: Português (Portuguese)
-# zh-cn: 简体中文 (Simplified Chinese)
-# zh-tw: 繁體中文 (Traditional Chinese)
-# ko : 한국어(Korean)
+url: "https://123poralan.com"
+domain: "123poralan.com"
+language: en # Cambia a 'es' si escribes mayormente en español
 
-analytics: # the Google Analytics property ID, e.g. UA-XXXXX-Y
+analytics: # Tu ID de Google Analytics si tienes uno (UA-XXXXX-Y o G-XXXXX)
 
-paginate: 15
+# --- Configuración de Paginación ---
+paginate: 10  # Muestra 5 posts por página (útil para ver la paginación funcionar pronto)
 paginate_path: "/page:num/"
 
-comments: false # enable comments
-disqus: # disqus account
+comments: false
+disqus: # Tu cuenta disqus si decides activarlo
 
-mathjax: true # Mathematics
-mermaid: false # Diagrams
+mathjax: true
+mermaid: false
 
 permalink: /:title
 
 sass:
   sass_dir: _sass
-  style: compressed # compressed, compact, expanded or compressed
+  style: compressed
 
 # Category settings
 jekyll-archives:
@@ -48,20 +39,10 @@ jekyll-archives:
 
 # Build settings
 markdown: kramdown
+
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate  # ¡Importante! Este es el motor de la paginación
   - jekyll-sitemap
   - jekyll-archives
   - jekyll-seo-tag
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

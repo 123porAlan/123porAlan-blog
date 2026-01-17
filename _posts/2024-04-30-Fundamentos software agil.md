@@ -6,30 +6,30 @@ last_modified_at: 2024-04-30
 categories: [Quality Assurance]
 ---
 
-# Software Development Life Cycle (SDLC).
+Understanding the SDLC allows testers to anticipate risks and integrate quality at every stage rather than just finding bugs at the end. This alignment ensures that testing remains efficient, purposeful, and fully synced with the project's evolving goals.
 
-## Waterfall Model
+#### Waterfall Model
 
 ![Waterfall Model](https://www.ionos.mx/digitalguide/fileadmin/DigitalGuide/Screenshots_2019/wasserfallmodell-ES-1.jpg)
 
-## Disadvantages of the Waterfall Model
+#### Disadvantages of the Waterfall Model
 
 - It does not allow for changes in requirements.
 - A functional product is not obtained until almost the end of the project.
 - Sometimes, flaws are only detected at the end of the development process.
 - The end-user does not participate in the production process until programming is finished.
 
-# Agile Development Methodologies
+#### Agile Development Methodologies
 
-## "SCRUM" Development Model
+#### "SCRUM" Development Model
 
 ![SCRUM](https://scrumorg-website-prod.s3.amazonaws.com/drupal/inline-images/2023-09/scrum-framework-9.29.23.png)
 
-## What is SCRUM?
+#### What is SCRUM?
 
 SCRUM is a framework within agile software development that facilitates collaborative work in teams. It is based on the continuous application of good practices, defined roles (like Scrum Master, Product Owner, and Development Team), regular events (like sprints, daily meetings, reviews, and retrospectives), and artifacts that help achieve the best possible project outcome.
 
-## Advantages of Scrum
+#### Advantages of Scrum
 
 - **Flexibility and adaptation** to a changing market.
 - **Early results** in short iterations.
@@ -39,7 +39,7 @@ SCRUM is a framework within agile software development that facilitates collabor
 - **Rapid team learning** through retrospectives and continuous improvement.
 - **Autonomy and responsibility** in a self-organized environment.
 
-## Roles in SCRUM
+#### Roles in SCRUM
 
 ![Roles in scrum](https://www.visual-paradigm.com/servlet/editor-content/tw/scrum/what-is-scrum-team/sites/7/2018/10/what-is-scrum-team.png)
 
@@ -63,11 +63,11 @@ SCRUM is a framework within agile software development that facilitates collabor
     - Architects.
   - Responsible for delivering functional increments in each Sprint.
 
-## SCRUM Events
+#### SCRUM Events
 
 ![SCRUM ceremonies](https://www.invensislearning.com/blog/wp-content/uploads/2020/09/What-are-Scrum-Ceremonies-Why-is-it-Required-1068x552-1.jpg)
 
-### **Sprint**
+##### **Sprint**
 
 The heart of SCRUM is the Sprint, and a Sprint is a period of time (cycle or iteration)—it can be 2 or 4 weeks—and during that time, several meetings (events) will be held. What are those meetings?
 

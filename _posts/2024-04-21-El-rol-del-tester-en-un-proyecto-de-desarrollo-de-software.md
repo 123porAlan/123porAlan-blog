@@ -8,14 +8,14 @@ categories: [Quality Assurance]
 
 ---
 
-## What is software testing and its importance in software development?
+#### What is software testing and its importance in software development?
 
 - **Testing** is a discipline in software engineering carried out through a verification and validation methodology whose main objective is to locate errors in **software** so they can be corrected by the development team, thereby increasing confidence in the system's quality level.
 - Its importance lies in that it is much better and cheaper to detect these errors as early as possible in the application's development process, rather than after it is already in operation.
 
 ---
 
-## What skills does a tester need?
+#### What skills does a tester need?
 
 **Logical Thinking** Must know how to break down a system into smaller units to create test cases.
 
@@ -31,7 +31,7 @@ categories: [Quality Assurance]
 
 ---
 
-## Responsibilities of the Tester / QA
+#### Responsibilities of the Tester/QA
 
 **Main responsibilities**
 

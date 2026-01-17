@@ -16,7 +16,7 @@ To no one's surprise, he ended up canceling the trip, even though we had already
 
 That's when I decided to start reading about the topic.
 
-## Why Is It Better to Keep Quiet?
+#### Why Is It Better to Keep Quiet?
 
 You've surely heard the advice a thousand times: **"Tell everyone your goals to commit yourself"**. It seems logical, right? Putting that social pressure on yourself so you don't fail.
 
@@ -26,7 +26,7 @@ Here, I'll explain why this phenomenon occurs and what the correct way to "share
 
 ---
 
-### 1. The Danger of Premature Satisfaction
+#### 1. The Danger of Premature Satisfaction
 
 The phenomenon is known in psychology as **"social reality"**.
 
@@ -40,7 +40,7 @@ The psychologist **Peter Gollwitzer** conducted famous studies on this. In one e
 
 ---
 
-### 2. When Sharing Your Goals DOES Help (The Right Way)
+#### 2. When Sharing Your Goals DOES Help (The Right Way)
 
 However, this doesn't mean you should be a hermit with your plans. There is a big difference between *announcing* a goal to receive praise and *sharing* it to generate **accountability**.
 
@@ -54,7 +54,7 @@ Sharing your goal will make you **more likely** to achieve it only if you follow
 
 ---
 
-### In Conclusion: Keep Your Mouth Shut (or Talk to the Right Person)
+#### In Conclusion: Keep Your Mouth Shut (or Talk to the Right Person)
 
 The next time you have a big goal, resist the temptation to post it on social media to get that instant gratification. As we've seen, it's a trick your brain plays on you.
 

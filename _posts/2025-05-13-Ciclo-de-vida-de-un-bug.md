@@ -6,13 +6,13 @@ last_modified_at: 2025-05-13
 categories: [Quality Assurance]
 ---
 
-# **The Life Cycle of a Bug: Stages, Roles, and Best Practices**
+
 
 The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.
 
 ---
 
-## **1. New (New)**
+#### **1. New (New)**
 
 **Responsible**: Tester or QA Engineer  
 **Description**:  
@@ -37,7 +37,7 @@ The tester identifies unexpected or inconsistent behavior during test execution 
 
 ---
 
-## **2. Assigned (Assigned)**
+#### **2. Assigned (Assigned)**
 
 **Responsible**: Development Lead or Project Manager  
 **Description**:  
@@ -57,7 +57,7 @@ The bug is evaluated to determine its validity and assigned to the corresponding
 
 ---
 
-## **3. Active (Active / In Progress)**
+#### **3. Active (Active / In Progress)**
 
 **Responsible**: Developer  
 **Description**:  
@@ -80,7 +80,7 @@ The developer investigates and corrects the defect.
 
 ---
 
-## **4. Fixed (Fixed / Resolved)**
+#### **4. Fixed (Fixed / Resolved)**
 
 **Responsible**: Developer  
 **Description**:  
@@ -99,7 +99,7 @@ The developer confirms the bug has been corrected and sends it for verification.
 
 ---
 
-## **5. Verified (Verified / Closed)**
+#### **5. Verified (Verified / Closed)**
 
 **Responsible**: Tester  
 **Description**:  
@@ -118,7 +118,7 @@ The QA verifies that the fix is effective and does not cause regressions.
 
 ---
 
-## **6. Closed (Closed)**
+#### **6. Closed (Closed)**
 
 **Responsible**: Tester or QA Lead  
 **Description**:  
@@ -136,7 +136,7 @@ The bug is permanently closed upon confirming its resolution.
 
 ---
 
-## **7. Rejected (Rejected)**
+#### **7. Rejected (Rejected)**
 
 **Responsible**: Development Lead or QA Manager  
 **Description**:  
@@ -153,7 +153,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 ---
 
-## **Alternative Flows and Considerations**
+#### **Alternative Flows and Considerations**
 
 🔄 **Reopening a Bug**
 

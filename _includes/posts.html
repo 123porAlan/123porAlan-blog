@@ -1,20 +1,109 @@
-<div class="container-posts">
-{% for post in paginator.posts %}
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span>
-    <span class="posts-list-item-date float-right">{{ post.date | date: "%Y-%m-%d" }}</span>
-  </div>
-{% endfor %}
+<style>
+  /* --- Estilos inspirados en leonardespi.github.io --- */
+  
+  /* Contenedor general */
+  .container-posts {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-{% if paginator.total_pages > 1 %}
-  <div class="posts-list-pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ site.baseurl }}{{ paginator.previous_page_path }}" class="float-left">{{ site.data.lang[site.language].paginator_previous }}</a>
-    {% endif %}
-    <span class="posts-page-number ">{{ site.data.lang[site.language].paginator_pages }}{{ paginator.page }} / {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ site.baseurl }}{{ paginator.next_page_path }}" class="float-right">{{ site.data.lang[site.language].paginator_next }}</a>
-    {% endif %}
-  </div>
-{% endif %}
+  /* Cada fila del post */
+  .posts-list-item {
+    display: block;
+    position: relative;
+    margin: 2vh 0;       /* Espaciado vertical */
+    overflow: hidden;    /* Limpia los floats */
+    line-height: 1.6;
+  }
+
+  /* Título a la izquierda */
+  .posts-list-item-name {
+    float: left;
+    width: calc(100% - 130px); 
+    font-weight: 300;
+    font-size: 1.35rem;        
+  }
+
+  .posts-list-item-name a {
+    color: #222;
+    text-decoration: none;
+  }
+
+  .posts-list-item-name a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+
+  /* Fecha a la derecha */
+  .posts-list-item-date {
+    float: right;
+    width: 120px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.25rem;       
+    color: #666;
+    margin-top: 2px;
+  }
+
+  /* --- Paginación --- */
+  .posts-list-pagination {
+    margin: 40px 0 20px 0;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+    border-top: none;          /* <--- CAMBIO: Eliminada la línea superior */
+    font-size: 1.1rem;
+    font-family: monospace;
+  }
+
+  .float-left { float: left; }
+  .float-right { float: right; }
+
+  /* Móviles */
+  @media screen and (max-width: 768px) {
+    .posts-list-item-name {
+      float: none;
+      display: block;
+      width: 100%;
+      font-size: 1.2rem;
+    }
+    .posts-list-item-date {
+      float: none;
+      display: block;
+      text-align: left;
+      margin-top: 5px;
+      font-size: 1rem;
+    }
+  }
+</style>
+
+<div class="container-posts">
+  
+  {% for post in paginator.posts %}
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </span>
+      <span class="posts-list-item-date">
+        {{ post.date | date: "%Y-%m-%d" }}
+      </span>
+    </div>
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+    <div class="posts-list-pagination">
+      
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | relative_url }}" class="float-left">Previous</a>
+      {% endif %}
+      
+      <span class="posts-page-number">Page: {{ paginator.page }} / {{ paginator.total_pages }}</span>
+      
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | relative_url }}" class="float-right">Next</a>
+      {% endif %}
+      
+    </div>
+  {% endif %}
+
 </div>

@@ -5,26 +5,29 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Alan Bellon</title>
+<title>Blog | Alan Bellon</title>
 <meta name="generator" content="Jekyll v3.9.5" />
-<meta property="og:title" content="Alan Bellon" />
+<meta property="og:title" content="Blog" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="Blog personal de Alan Bellon sobre tecnología y desarrollo." />
+<meta property="og:description" content="Blog personal de Alan Bellon sobre tecnología y desarrollo." />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Alan Bellon" />
 <meta property="og:type" content="website" />
+<link rel="next" href="http://localhost:4000/page2/" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Alan Bellon" />
+<meta property="twitter:title" content="Blog" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Alan Bellon","name":"Alan Bellon","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Blog personal de Alan Bellon sobre tecnología y desarrollo.","headline":"Blog","name":"Alan Bellon","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-<meta name="keywords" content="Blog,Leonardo Espinosa,Leonardespi,Computer Science,Testing" />
+<meta name="keywords" content="Blog,Alan Bellon,123porAlan,Computer Science,Testing,Automation,Python" />
 
 <link rel="shortcut icon" href="/favicon.ico" />
 <link rel="apple-touch-icon" href="/favicon.ico"/>
-<link rel="alternate" type="application/rss+xml" title="Alan Bellon - " href="/feed.xml" />
+<link rel="alternate" type="application/rss+xml" title="Alan Bellon - Blog personal de Alan Bellon sobre tecnología y desarrollo." href="/feed.xml" />
 <link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/highlight.css" />
 <link rel="stylesheet" type="text/css" href="/assets/css/typography.css">
@@ -51,7 +54,7 @@
       <div class="header-info">
   <span class="header-info-name"><a href="/">Alan Bellon</a></span>
   <br>
-  <!-- <span class="header-info-desc"></span> -->
+  <!-- <span class="header-info-desc">Blog personal de Alan Bellon sobre tecnología y desarrollo.</span> -->
 </div>
 <nav class="header-nav">
   <ul class="header-main-nav">
@@ -127,71 +130,196 @@
 
     </header>
     <main class="container-main">
-      <div class="container-posts">
+      <style>
+  /* --- Estilos inspirados en leonardespi.github.io --- */
+  
+  /* Contenedor general */
+  .container-posts {
+    width: 100%;
+    margin-top: 20px;
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/La-Paradoja-de-Contar-tus-Metas">The Paradox of Announcing Your Goals</a></span>
-    <span class="posts-list-item-date float-right">2025-11-03</span>
-  </div>
+  /* Cada fila del post */
+  .posts-list-item {
+    display: block;
+    position: relative;
+    margin: 2vh 0;       /* Espaciado vertical */
+    overflow: hidden;    /* Limpia los floats */
+    line-height: 1.6;
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/How-Big-O-Notation-Made-Me-a-Better-QA">Why Big O Notation Isn't Just for Developers - A QA's Guide to Performance</a></span>
-    <span class="posts-list-item-date float-right">2025-10-24</span>
-  </div>
+  /* Título a la izquierda */
+  .posts-list-item-name {
+    float: left;
+    width: calc(100% - 130px); 
+    font-weight: 300;
+    font-size: 1.35rem;        
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto">Why Fedora?</a></span>
-    <span class="posts-list-item-date float-right">2025-08-11</span>
-  </div>
+  .posts-list-item-name a {
+    color: #222;
+    text-decoration: none;
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/Ciclo-de-vida-de-un-bug">The Life Cycle of a Bug</a></span>
-    <span class="posts-list-item-date float-right">2025-05-13</span>
-  </div>
+  .posts-list-item-name a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/Condenados-a-repetir-la-historia">Doomed to Repeat History?</a></span>
-    <span class="posts-list-item-date float-right">2025-05-09</span>
-  </div>
+  /* Fecha a la derecha */
+  .posts-list-item-date {
+    float: right;
+    width: 120px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.25rem;       
+    color: #666;
+    margin-top: 2px;
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/Redes-base-invisible-cloud">Networking, the Invisible Foundation of Cloud Computing</a></span>
-    <span class="posts-list-item-date float-right">2025-04-15</span>
-  </div>
+  /* --- Paginación --- */
+  .posts-list-pagination {
+    margin: 40px 0 20px 0;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 20px;
+    border-top: none;          /* <--- CAMBIO: Eliminada la línea superior */
+    font-size: 1.1rem;
+    font-family: monospace;
+  }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/La-historia-que-elegimos-contar">Heroes or Villains? The Story We Choose to Tell</a></span>
-    <span class="posts-list-item-date float-right">2024-11-27</span>
-  </div>
+  .float-left { float: left; }
+  .float-right { float: right; }
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/M%C3%A1s-all%C3%A1-de-los-factores-externos">The Power of Mindset, Beyond External Factors</a></span>
-    <span class="posts-list-item-date float-right">2024-11-18</span>
-  </div>
+  /* Móviles */
+  @media screen and (max-width: 768px) {
+    .posts-list-item-name {
+      float: none;
+      display: block;
+      width: 100%;
+      font-size: 1.2rem;
+    }
+    .posts-list-item-date {
+      float: none;
+      display: block;
+      text-align: left;
+      margin-top: 5px;
+      font-size: 1rem;
+    }
+  }
+</style>
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/El-poder-de-la-elecci%C3%B3n">The Power of Choice</a></span>
-    <span class="posts-list-item-date float-right">2024-11-16</span>
-  </div>
+<div class="container-posts">
+  
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/La-Paradoja-de-Contar-tus-Metas">The Paradox of Announcing Your Goals</a>
+      </span>
+      <span class="posts-list-item-date">
+        2025-11-03
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/How-Big-O-Notation-Made-Me-a-Better-QA">Why Big O Notation Isn't Just for Developers - A QA's Guide to Performance</a>
+      </span>
+      <span class="posts-list-item-date">
+        2025-10-24
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/Mejores-distros-Linux-para-estudiantes-de-Ciencias-de-la-Computaci%C3%B3n-mi-ranking-honesto">Why Fedora?</a>
+      </span>
+      <span class="posts-list-item-date">
+        2025-08-11
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/Ciclo-de-vida-de-un-bug">The Life Cycle of a Bug</a>
+      </span>
+      <span class="posts-list-item-date">
+        2025-05-13
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/Condenados-a-repetir-la-historia">Doomed to Repeat History?</a>
+      </span>
+      <span class="posts-list-item-date">
+        2025-05-09
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/Redes-base-invisible-cloud">Networking, the Invisible Foundation of Cloud Computing</a>
+      </span>
+      <span class="posts-list-item-date">
+        2025-04-15
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/La-historia-que-elegimos-contar">Heroes or Villains? The Story We Choose to Tell</a>
+      </span>
+      <span class="posts-list-item-date">
+        2024-11-27
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/M%C3%A1s-all%C3%A1-de-los-factores-externos">The Power of Mindset, Beyond External Factors</a>
+      </span>
+      <span class="posts-list-item-date">
+        2024-11-18
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/El-poder-de-la-elecci%C3%B3n">The Power of Choice</a>
+      </span>
+      <span class="posts-list-item-date">
+        2024-11-16
+      </span>
+    </div>
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/Lo-necesario-para-sobrevivir-con-git">The Essentials for Surviving with GIT</a>
+      </span>
+      <span class="posts-list-item-date">
+        2024-07-02
+      </span>
+    </div>
+  
 
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/Lo-necesario-para-sobrevivir-con-git">The Essentials for Surviving with GIT</a></span>
-    <span class="posts-list-item-date float-right">2024-07-02</span>
-  </div>
-
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/Fundamentos-software-agil">Understanding the SDLC</a></span>
-    <span class="posts-list-item-date float-right">2024-04-30</span>
-  </div>
-
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="/El-rol-del-tester-en-un-proyecto-de-desarrollo-de-software">The Role of the Tester in Software Development</a></span>
-    <span class="posts-list-item-date float-right">2024-04-21</span>
-  </div>
-
-
+  
+    <div class="posts-list-pagination">
+      
+      
+      
+      <span class="posts-page-number">Page: 1 / 2</span>
+      
+      
+        <a href="/page2/" class="float-right">Next</a>
+      
+      
+    </div>
+  
 
 </div>
+
+
     </main>
     <footer class="container-footer">
       <div class="footer-copyright">

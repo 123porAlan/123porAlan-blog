@@ -109,7 +109,7 @@ This way you avoid surprises.
 
 ---
 
-## How do branches work in Git?
+#### How do branches work in Git?
 
 If you've ever heard phrases like "make a branch for that new feature" or "don't work directly on main", but you have no idea what that's about, I'll tell you here. In fact, it's easier than it looks.
 
@@ -172,7 +172,7 @@ In the next section, I'll tell you how to merge branches and what to do if Git t
 
 ---
 
-## How to merge and resolve conflicts?
+#### How to merge and resolve conflicts?
 
 The time has come to join paths. When you work with branches, sooner or later you'll want to join the changes from one branch with another. This is called a **merge**. But, as in any story worth telling, sometimes there are clashes and the dreaded **conflicts** appear. Here’s how to face them without losing your cool.
 
@@ -198,7 +198,7 @@ Suppose you have a branch called `feature-x` and you want to merge it into `main
 
 If all goes well, Git will mix the changes automatically, and that's it.
 
-### What happens if there are conflicts?
+#### What happens if there are conflicts?
 
 Sometimes, Git can't decide on its own how to join the changes because two branches modified the same part of a file. That is a **conflict**.
 
@@ -206,7 +206,7 @@ When this happens, Git notifies you and marks the conflicting files. Inside thos
 
 Your job is to choose which part to keep, or even combine both. Delete the markers (`<<<<<<<`, `=======`, `>>>>>>>`) and leave the final result as you wish.
 
-### How do I solve the conflict?
+#### How do I solve the conflict?
 
 1.  Open the conflicting file and edit it until it's correct.
 
@@ -232,7 +232,7 @@ Conflicts might seem difficult at first, but with practice, they become part of 
 
 **P.S.:**
 
-## What if I want to go back to a previous commit?
+#### What if I want to go back to a previous commit?
 
 Sometimes, after several changes, you realize something went wrong and you want to go back to a previous version of your project. Don't worry, Git has you covered there too.
 

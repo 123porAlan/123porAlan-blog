@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-12T14:38:17-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alan Bellon</title><entry><title type="html">The Paradox of Announcing Your Goals</title><link href="http://localhost:4000/La-Paradoja-de-Contar-tus-Metas" rel="alternate" type="text/html" title="The Paradox of Announcing Your Goals" /><published>2025-11-03T02:53:12-06:00</published><updated>2025-10-03T00:00:00-06:00</updated><id>http://localhost:4000/La-Paradoja-de-Contar-tus-Metas</id><content type="html" xml:base="http://localhost:4000/La-Paradoja-de-Contar-tus-Metas"><![CDATA[<p>A while ago, when I was finishing college, I was organizing a trip with a friend. We were going to Playa del Carmen, in the south of Mexico. We had already bought the plane tickets, we had the contact who was going to host us, and we even bought the right clothes.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-17T10:08:07-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alan Bellon</title><subtitle>Blog personal de Alan Bellon sobre tecnología y desarrollo.</subtitle><entry><title type="html">The Paradox of Announcing Your Goals</title><link href="http://localhost:4000/La-Paradoja-de-Contar-tus-Metas" rel="alternate" type="text/html" title="The Paradox of Announcing Your Goals" /><published>2025-11-03T02:53:12-06:00</published><updated>2025-10-03T00:00:00-06:00</updated><id>http://localhost:4000/La-Paradoja-de-Contar-tus-Metas</id><content type="html" xml:base="http://localhost:4000/La-Paradoja-de-Contar-tus-Metas"><![CDATA[<p>A while ago, when I was finishing college, I was organizing a trip with a friend. We were going to Playa del Carmen, in the south of Mexico. We had already bought the plane tickets, we had the contact who was going to host us, and we even bought the right clothes.</p>
 
 <p>After chatting one day, we left the dining hall and ran into an old classmate. We proceeded to tell him our plans. This classmate seemed surprised, which made us think we were doing well. Right after we finished talking, I remembered an old phrase I saw on social media: “Things aren’t said, they are done, because when they are done, they speak for themselves.”</p>
 
@@ -8,7 +8,7 @@
 
 <p>That’s when I decided to start reading about the topic.</p>
 
-<h2 id="why-is-it-better-to-keep-quiet">Why Is It Better to Keep Quiet?</h2>
+<h4 id="why-is-it-better-to-keep-quiet">Why Is It Better to Keep Quiet?</h4>
 
 <p>You’ve surely heard the advice a thousand times: <strong>“Tell everyone your goals to commit yourself”</strong>. It seems logical, right? Putting that social pressure on yourself so you don’t fail.</p>
 
@@ -18,7 +18,7 @@
 
 <hr />
 
-<h3 id="1-the-danger-of-premature-satisfaction">1. The Danger of Premature Satisfaction</h3>
+<h4 id="1-the-danger-of-premature-satisfaction">1. The Danger of Premature Satisfaction</h4>
 
 <p>The phenomenon is known in psychology as <strong>“social reality”</strong>.</p>
 
@@ -34,7 +34,7 @@
 
 <hr />
 
-<h3 id="2-when-sharing-your-goals-does-help-the-right-way">2. When Sharing Your Goals DOES Help (The Right Way)</h3>
+<h4 id="2-when-sharing-your-goals-does-help-the-right-way">2. When Sharing Your Goals DOES Help (The Right Way)</h4>
 
 <p>However, this doesn’t mean you should be a hermit with your plans. There is a big difference between <em>announcing</em> a goal to receive praise and <em>sharing</em> it to generate <strong>accountability</strong>.</p>
 
@@ -53,7 +53,7 @@
 
 <hr />
 
-<h3 id="in-conclusion-keep-your-mouth-shut-or-talk-to-the-right-person">In Conclusion: Keep Your Mouth Shut (or Talk to the Right Person)</h3>
+<h4 id="in-conclusion-keep-your-mouth-shut-or-talk-to-the-right-person">In Conclusion: Keep Your Mouth Shut (or Talk to the Right Person)</h4>
 
 <p>The next time you have a big goal, resist the temptation to post it on social media to get that instant gratification. As we’ve seen, it’s a trick your brain plays on you.</p>
 
@@ -67,7 +67,7 @@
 
 <p>And when it comes to performance, that language is Big O notation.</p>
 
-<h2 id="the-gap-between-slow-and-why">The Gap Between “Slow” and “Why”</h2>
+<h4 id="the-gap-between-slow-and-why">The Gap Between “Slow” and “Why”</h4>
 
 <p>Most of our work as QAs is focused on the <em>what</em>. What happens when I click this? What happens when I enter this data? We validate functional requirements. But performance is a non-functional requirement that has a massive, direct impact on the user experience.</p>
 
@@ -82,7 +82,7 @@
 
 <p>Which of these two reports do you think gets taken seriously? Which one builds respect between QA and Dev? Which one actually helps fix the problem?</p>
 
-<h2 id="so-what-is-big-o-and-why-isnt-it-a-math-test">So, What is Big O (And Why Isn’t It a Math Test)?</h2>
+<h4 id="so-what-is-big-o-and-why-isnt-it-a-math-test">So, What is Big O (And Why Isn’t It a Math Test)?</h4>
 
 <p>Don’t let the $O(n)$ scare you. You don’t need a computer science degree (though, as someone with one, I can tell you this is one of the <em>most</em> practical parts).</p>
 
@@ -99,11 +99,11 @@
 
 <p>When an application is “slow,” it’s almost always because a developer, often accidentally, introduced an $O(n^2)$ operation—a “nested loop”—where a linear $O(n)$ or logarithmic $O(log n)$ one would have done the job.</p>
 
-<h2 id="where-qa-meets-the-algorithm-two-battlegrounds">Where QA Meets the Algorithm: Two Battlegrounds</h2>
+<h4 id="where-qa-meets-the-algorithm-two-battlegrounds">Where QA Meets the Algorithm: Two Battlegrounds</h4>
 
 <p>Your job isn’t to find the <em>exact</em> Big O notation. Your job is to <em>spot the pattern</em>. You are perfectly positioned to do this, because you control the “n” (the data) during testing.</p>
 
-<h3 id="1-the-api-endpoint-and-the-user-experience">1. The API Endpoint and the User Experience</h3>
+<h4 id="1-the-api-endpoint-and-the-user-experience">1. The API Endpoint and the User Experience</h4>
 
 <p>This is the most common culprit. A developer builds a new <code class="language-plaintext highlighter-rouge">GET /api/orders</code> endpoint. They test it on their local machine with 5 orders in their database. It returns instantly. They merge it.</p>
 
@@ -117,7 +117,7 @@
 
 <p>You’ve just saved days of work and prevented a production catastrophe.</p>
 
-<h3 id="2-our-own-automation-scripts">2. Our Own Automation Scripts</h3>
+<h4 id="2-our-own-automation-scripts">2. Our Own Automation Scripts</h4>
 
 <p>This is the one we don’t like to talk about. Sometimes, <em>we</em> are the source of the slowness.</p>
 
@@ -131,7 +131,7 @@
 
 <p>A QA who understands Big O would see this and say, “This is inefficient. Let’s do a direct <code class="language-plaintext highlighter-rouge">SELECT COUNT(*)</code> query for that <em>one username</em>, or better yet, let’s just try to create the user and assert that we get the expected ‘username already exists’ 400-level error from the API.”</p>
 
-<h2 id="its-not-about-being-a-developer-its-about-being-a-better-tester">It’s Not About Being a Developer. It’s About Being a Better Tester.</h2>
+<h4 id="its-not-about-being-a-developer-its-about-being-a-better-tester">It’s Not About Being a Developer. It’s About Being a Better Tester.</h4>
 
 <p>Look, you don’t need to go back to college or start doing LeetCode problems. This isn’t about learning to <em>write</em> a merge sort algorithm.</p>
 
@@ -161,7 +161,7 @@
 
 <p>Without further ado, here is the ranking.</p>
 
-<h3 id="ranking-of-distros-for-studying-computer-science">Ranking of Distros for Studying Computer Science</h3>
+<h4 id="ranking-of-distros-for-studying-computer-science">Ranking of Distros for Studying Computer Science</h4>
 
 <ol>
   <li><strong>Fedora Workstation</strong> Explicitly designed for development: it brings very recent toolchains (GCC/Clang, Python, Rust), SELinux by default, and a modern workflow with Podman/Toolbox for “rootless” containers. GNOME comes very polished, Flatpak is well-integrated, and the COPR repositories make it easy to install extra software. Its manager is dnf and it uses rpm packages, with clear packaging and update policies. Why here? Because it offers “the latest” with good stability, ideal for courses and projects that require recent versions of compilers, kernels, or frameworks. Cons: Its main sponsorship is from Red Hat (owned by IBM). Although Fedora is a solid community and not a commercial product, depending on a large company always introduces the risk of a change in direction. The case of Clear Linux (driven by Intel) showed how corporate priorities can change and reduce focus on the desktop; it’s not a prediction for Fedora, but it is a reminder that business decisions can impact sponsored projects. As of today, Fedora’s community model and its adoption mitigate that risk quite a bit.</li>
@@ -172,13 +172,11 @@
 
 <p>I didn’t put Debian because, right off the bat, you’re more likely to run into compatibility issues on modern hardware. This can be positive if your goal is to learn by fixing your system, but it’s not the experience I recommend if you already have enough problems with your classes. The important thing in your major is to focus on learning; if you want to experiment later, try it. Something similar happens with other distros. For example, Deepin OS would be perfect if it didn’t feel “green”: it’s missing details, some animations lag, and the experience suffers.</p>
 
-<p>And that’s it, these are my recommendations. To choose for the first time, this is enough. With time you’ll realize that almost all Linux distributions are more of the same: you make the difference, not the distro.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.]]></summary></entry><entry><title type="html">The Life Cycle of a Bug</title><link href="http://localhost:4000/Ciclo-de-vida-de-un-bug" rel="alternate" type="text/html" title="The Life Cycle of a Bug" /><published>2025-05-13T06:01:35-06:00</published><updated>2025-05-13T00:00:00-06:00</updated><id>http://localhost:4000/Ciclo-de-vida-de-un-bug</id><content type="html" xml:base="http://localhost:4000/Ciclo-de-vida-de-un-bug"><![CDATA[<h1 id="the-life-cycle-of-a-bug-stages-roles-and-best-practices"><strong>The Life Cycle of a Bug: Stages, Roles, and Best Practices</strong></h1>
-
-<p>The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.</p>
+<p>And that’s it, these are my recommendations. To choose for the first time, this is enough. With time you’ll realize that almost all Linux distributions are more of the same: you make the difference, not the distro.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Although it wasn’t my first distribution in the Linux world, it was the one that had the most impact on my career. During the CS prep course, my professors repeated that there were only two ideal distributions for the major and for programming, in general terms. Inside, I was skeptical: “the profs have no idea.” They suggested Fedora or Debian. In my head, something didn’t add up: all distributions are Unix-like, and that’s what makes them so versatile and powerful.]]></summary></entry><entry><title type="html">The Life Cycle of a Bug</title><link href="http://localhost:4000/Ciclo-de-vida-de-un-bug" rel="alternate" type="text/html" title="The Life Cycle of a Bug" /><published>2025-05-13T06:01:35-06:00</published><updated>2025-05-13T00:00:00-06:00</updated><id>http://localhost:4000/Ciclo-de-vida-de-un-bug</id><content type="html" xml:base="http://localhost:4000/Ciclo-de-vida-de-un-bug"><![CDATA[<p>The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.</p>
 
 <hr />
 
-<h2 id="1-new-new"><strong>1. New (New)</strong></h2>
+<h4 id="1-new-new"><strong>1. New (New)</strong></h4>
 
 <p><strong>Responsible</strong>: Tester or QA Engineer<br />
 <strong>Description</strong>:<br />
@@ -209,7 +207,7 @@ The tester identifies unexpected or inconsistent behavior during test execution 
 
 <hr />
 
-<h2 id="2-assigned-assigned"><strong>2. Assigned (Assigned)</strong></h2>
+<h4 id="2-assigned-assigned"><strong>2. Assigned (Assigned)</strong></h4>
 
 <p><strong>Responsible</strong>: Development Lead or Project Manager<br />
 <strong>Description</strong>:<br />
@@ -233,7 +231,7 @@ The bug is evaluated to determine its validity and assigned to the corresponding
 
 <hr />
 
-<h2 id="3-active-active--in-progress"><strong>3. Active (Active / In Progress)</strong></h2>
+<h4 id="3-active-active--in-progress"><strong>3. Active (Active / In Progress)</strong></h4>
 
 <p><strong>Responsible</strong>: Developer<br />
 <strong>Description</strong>:<br />
@@ -262,7 +260,7 @@ The developer investigates and corrects the defect.</p>
 
 <hr />
 
-<h2 id="4-fixed-fixed--resolved"><strong>4. Fixed (Fixed / Resolved)</strong></h2>
+<h4 id="4-fixed-fixed--resolved"><strong>4. Fixed (Fixed / Resolved)</strong></h4>
 
 <p><strong>Responsible</strong>: Developer<br />
 <strong>Description</strong>:<br />
@@ -285,7 +283,7 @@ The developer confirms the bug has been corrected and sends it for verification.
 
 <hr />
 
-<h2 id="5-verified-verified--closed"><strong>5. Verified (Verified / Closed)</strong></h2>
+<h4 id="5-verified-verified--closed"><strong>5. Verified (Verified / Closed)</strong></h4>
 
 <p><strong>Responsible</strong>: Tester<br />
 <strong>Description</strong>:<br />
@@ -308,7 +306,7 @@ The QA verifies that the fix is effective and does not cause regressions.</p>
 
 <hr />
 
-<h2 id="6-closed-closed"><strong>6. Closed (Closed)</strong></h2>
+<h4 id="6-closed-closed"><strong>6. Closed (Closed)</strong></h4>
 
 <p><strong>Responsible</strong>: Tester or QA Lead<br />
 <strong>Description</strong>:<br />
@@ -330,7 +328,7 @@ The bug is permanently closed upon confirming its resolution.</p>
 
 <hr />
 
-<h2 id="7-rejected-rejected"><strong>7. Rejected (Rejected)</strong></h2>
+<h4 id="7-rejected-rejected"><strong>7. Rejected (Rejected)</strong></h4>
 
 <p><strong>Responsible</strong>: Development Lead or QA Manager<br />
 <strong>Description</strong>:<br />
@@ -351,7 +349,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="alternative-flows-and-considerations"><strong>Alternative Flows and Considerations</strong></h2>
+<h4 id="alternative-flows-and-considerations"><strong>Alternative Flows and Considerations</strong></h4>
 
 <p>🔄 <strong>Reopening a Bug</strong></p>
 
@@ -372,13 +370,11 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<p><strong>Conclusion</strong> A well-managed bug life cycle improves software quality, optimizes the team’s time, and facilitates the delivery of more stable products. The key lies in <strong>clear documentation</strong>, <strong>collaboration between roles</strong>, and the <strong>use of appropriate tools</strong>.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[The Life Cycle of a Bug: Stages, Roles, and Best Practices]]></summary></entry><entry><title type="html">Doomed to Repeat History?</title><link href="http://localhost:4000/Condenados-a-repetir-la-historia" rel="alternate" type="text/html" title="Doomed to Repeat History?" /><published>2025-05-09T06:01:35-06:00</published><updated>2025-05-09T00:00:00-06:00</updated><id>http://localhost:4000/Condenados-a-repetir-la-historia</id><content type="html" xml:base="http://localhost:4000/Condenados-a-repetir-la-historia"><![CDATA[<h2 id="the-illusion-of-conscious-knowledge"><strong>The Illusion of Conscious Knowledge</strong></h2>
-
-<p>In everyday conversations, one phrase is fervently repeated: <em>“Those who do not know their history are doomed to repeat it.”</em> It’s presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn’t theory translate into practice?</p>
+<p><strong>Conclusion</strong> A well-managed bug life cycle improves software quality, optimizes the team’s time, and facilitates the delivery of more stable products. The key lies in <strong>clear documentation</strong>, <strong>collaboration between roles</strong>, and the <strong>use of appropriate tools</strong>.</p>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[The life cycle of a bug is the structured process a defect follows from its detection to its final resolution. Each stage involves specific actions and clearly defined roles to ensure efficient management and an effective solution. Below, I detail each phase in greater depth, including best practices and alternative flows.]]></summary></entry><entry><title type="html">Doomed to Repeat History?</title><link href="http://localhost:4000/Condenados-a-repetir-la-historia" rel="alternate" type="text/html" title="Doomed to Repeat History?" /><published>2025-05-09T06:01:35-06:00</published><updated>2025-05-09T00:00:00-06:00</updated><id>http://localhost:4000/Condenados-a-repetir-la-historia</id><content type="html" xml:base="http://localhost:4000/Condenados-a-repetir-la-historia"><![CDATA[<p>In everyday conversations, one phrase is fervently repeated: <em>“Those who do not know their history are doomed to repeat it.”</em> It’s presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn’t theory translate into practice?</p>
 
 <hr />
 
-<h2 id="the-invisible-script-of-the-unconscious"><strong>The Invisible Script of the Unconscious</strong></h2>
+<h4 id="the-invisible-script-of-the-unconscious"><strong>The Invisible Script of the Unconscious</strong></h4>
 
 <p>Carl Gustav Jung offered a revealing key:</p>
 
@@ -390,7 +386,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="the-normalization-of-failure"><strong>The Normalization of Failure</strong></h2>
+<h4 id="the-normalization-of-failure"><strong>The Normalization of Failure</strong></h4>
 
 <p>Stumbling isn’t the problem. What is truly dangerous is justifying the fall as inevitable. How many times do we repeat relationships that hurt us, disguising the fear of loneliness as <em>“unconditional love”</em>? How many destructive habits do we normalize under the slogan <em>“that’s life”</em>? The cost is not abstract: days turned into empty routine, deteriorating health, wasted potential.</p>
 
@@ -398,7 +394,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="true-learning-unearthing-the-roots"><strong>True Learning: Unearthing the Roots</strong></h2>
+<h4 id="true-learning-unearthing-the-roots"><strong>True Learning: Unearthing the Roots</strong></h4>
 
 <p>The path is not superficial introspection or following fleeting self-help techniques. It is about a deep, almost archaeological, excavation into the layers of our psyche. What childhood wounds make us seek validation in toxic places? What internal voices do we repeat as our own, when in reality they are echoes of others’ expectations?</p>
 
@@ -406,7 +402,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="questions-that-awaken"><strong>Questions That Awaken</strong></h2>
+<h4 id="questions-that-awaken"><strong>Questions That Awaken</strong></h4>
 
 <p>The next time you repeat the cliché about history, pause. Instead of citing it as an empty mantra, turn it into a mirror:</p>
 
@@ -417,7 +413,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <p>Because personal history isn’t studied in books: it is lived in every choice. And only when we illuminate the shadows that govern us do we stop repeating the past and start creating it.</p>
 
-<p>True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Illusion of Conscious Knowledge]]></summary></entry><entry><title type="html">Networking, the Invisible Foundation of Cloud Computing</title><link href="http://localhost:4000/Redes-base-invisible-cloud" rel="alternate" type="text/html" title="Networking, the Invisible Foundation of Cloud Computing" /><published>2025-04-15T06:01:35-06:00</published><updated>2025-04-15T00:00:00-06:00</updated><id>http://localhost:4000/Redes-base-invisible-cloud</id><content type="html" xml:base="http://localhost:4000/Redes-base-invisible-cloud"><![CDATA[<p>Why learn networking?</p>
+<p>True liberation is not found in knowing destiny, but in ceasing to use it as an excuse.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[In everyday conversations, one phrase is fervently repeated: “Those who do not know their history are doomed to repeat it.” It’s presented as an indisputable truth, a magic formula for avoiding mistakes. But an obvious contradiction emerges: the very people who preach it—adults with decades of experience—continue to repeat the same patterns. Why doesn’t theory translate into practice?]]></summary></entry><entry><title type="html">Networking, the Invisible Foundation of Cloud Computing</title><link href="http://localhost:4000/Redes-base-invisible-cloud" rel="alternate" type="text/html" title="Networking, the Invisible Foundation of Cloud Computing" /><published>2025-04-15T06:01:35-06:00</published><updated>2025-04-15T00:00:00-06:00</updated><id>http://localhost:4000/Redes-base-invisible-cloud</id><content type="html" xml:base="http://localhost:4000/Redes-base-invisible-cloud"><![CDATA[<p>Why learn networking?</p>
 
 <p>Everything you do in the cloud, from running a virtual machine to deploying an application, occurs on servers that communicate over the network.</p>
 
@@ -425,7 +421,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <p>That’s why I’m showing them to you here.</p>
 
-<h2 id="basic-concepts">Basic Concepts</h2>
+<h4 id="basic-concepts">Basic Concepts</h4>
 
 <ul>
   <li><strong>Protocol</strong>: It’s the set of rules that computers must follow to be able to communicate.</li>
@@ -449,7 +445,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="protocols">Protocols</h2>
+<h4 id="protocols">Protocols</h4>
 
 <ul>
   <li><strong>OSI Model</strong>: A theoretical model composed of 7 layers that describe the stages of a network connection.</li>
@@ -470,7 +466,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="switching">Switching</h2>
+<h4 id="switching">Switching</h4>
 
 <p><strong>Switching</strong> is the process that allows two hosts to be interconnected using a network device, such as a switch. A <strong>switch</strong> receives data packets from one device and forwards them to the correct destination within the same local network.</p>
 
@@ -480,7 +476,7 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
 
 <hr />
 
-<h2 id="routing">Routing</h2>
+<h4 id="routing">Routing</h4>
 
 <p>While switching is used within a local network, <strong>routing</strong> is responsible for connecting different networks to each other.</p>
 
@@ -494,65 +490,61 @@ The bug is discarded for not being valid (duplicate, not reproducible, user erro
   <li><strong>Default Gateway</strong>: It is the router’s IP address within the local network. All traffic to external networks is sent to this address, so the router can route it correctly.</li>
 </ul>]]></content><author><name></name></author><category term="Quality Assurance" /><summary type="html"><![CDATA[Why learn networking?]]></summary></entry><entry><title type="html">Heroes or Villains? The Story We Choose to Tell</title><link href="http://localhost:4000/La-historia-que-elegimos-contar" rel="alternate" type="text/html" title="Heroes or Villains? The Story We Choose to Tell" /><published>2024-11-27T06:01:35-06:00</published><updated>2024-11-27T00:00:00-06:00</updated><id>http://localhost:4000/La-historia-que-elegimos-contar</id><content type="html" xml:base="http://localhost:4000/La-historia-que-elegimos-contar"><![CDATA[<p>When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.</p>
 
-<h2 id="shaping-the-narrative">Shaping the Narrative</h2>
+<h4 id="shaping-the-narrative">Shaping the Narrative</h4>
 
 <p>When we tell our story, we might omit certain details, lean into ambiguity, or even add small embellishments that aren’t entirely true. Why do we do this? The answer lies in a deeply human tendency: the desire to control how others perceive us. It’s not necessarily with ill intent—often, it’s not even conscious. Instead, it’s born from an innate aversion to being the villain of our own story. After all, no one likes to feel guilty; we all want to be the hero.</p>
 
 <p>This narrative shaping serves a function: it allows us to seek validation, comfort, or support from the listener. However, in doing so, we run the risk of distorting the truth, not only for others but also for ourselves. Over time, these altered versions can take root in our minds, making it difficult to face the uncomfortable reality of our own mistakes.</p>
 
-<h2 id="the-fear-of-facing-ourselves">The Fear of Facing Ourselves</h2>
+<h4 id="the-fear-of-facing-ourselves">The Fear of Facing Ourselves</h4>
 
 <p>At its core, this tendency reveals a universal truth: it hurts to face reality, especially when that reality points to us as responsible. Admitting mistakes or acknowledging our flaws challenges the image we have of ourselves. But growth begins at that very point: when we dare to face the unadorned truth.</p>
 
 <p>Having the courage to own up to our mistakes, not just outwardly but also internally, is a profound act of wisdom. It’s accepting that we are not perfect, and that’s okay. In fact, it is in acknowledging our imperfections that we find the greatest opportunities to learn and grow.</p>
 
-<h2 id="choosing-honesty">Choosing Honesty</h2>
+<h4 id="choosing-honesty">Choosing Honesty</h4>
 
 <p>To break this cycle of self-deception, we must begin with honesty—first with ourselves and then with others. This doesn’t mean getting stuck in guilt or shame, but rather embracing the lessons our mistakes have to offer. By telling ourselves the complete truth, without filters or embellishments, we gain clarity and the ability to make better decisions in the future.</p>
 
 <p>Being the hero of our story doesn’t mean being perfect; it means having the strength to admit when we are wrong and the determination to grow from it. True wisdom is found in that vulnerability, in the willingness to look ourselves in the mirror and say, “I made a mistake, and I am going to learn from it.”</p>
 
-<h2 id="why-does-it-matter">Why Does It Matter?</h2>
+<h4 id="why-does-it-matter">Why Does It Matter?</h4>
 
 <p>The stories we tell ourselves shape the way we navigate life. When we choose to tell the truth, even when it’s difficult, we not only foster stronger relationships, but we also build a stronger identity. Growth is impossible without accountability, and accountability begins with acknowledging the full picture of our experiences.</p>
 
-<p>In the end, true triumph isn’t about avoiding mistakes, but about having the courage to face them, learn from them, and become better.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.]]></summary></entry><entry><title type="html">The Power of Mindset, Beyond External Factors</title><link href="http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos" rel="alternate" type="text/html" title="The Power of Mindset, Beyond External Factors" /><published>2024-11-18T06:01:35-06:00</published><updated>2024-11-18T00:00:00-06:00</updated><id>http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos</id><content type="html" xml:base="http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos"><![CDATA[<h2 id="the-common-focus-on-the-external">The Common Focus on the External</h2>
+<p>In the end, true triumph isn’t about avoiding mistakes, but about having the courage to face them, learn from them, and become better.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[When life becomes overwhelming and we face difficult situations, our instinct is often to share our struggles with someone we trust. This act of venting can be cathartic, but there is an interesting phenomenon that often accompanies it: the subtle, and sometimes unconscious, alteration of our own narrative. Whether it’s a romantic breakup, a dispute with a professor over a grade, or a heated argument with a sibling, our way of recounting the facts tends to change to leave us in a better position.]]></summary></entry><entry><title type="html">The Power of Mindset, Beyond External Factors</title><link href="http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos" rel="alternate" type="text/html" title="The Power of Mindset, Beyond External Factors" /><published>2024-11-18T06:01:35-06:00</published><updated>2024-11-18T00:00:00-06:00</updated><id>http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos</id><content type="html" xml:base="http://localhost:4000/M%C3%A1s-all%C3%A1-de-los-factores-externos"><![CDATA[<p>On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.</p>
 
-<p>On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.</p>
-
-<h2 id="two-types-of-mindsets">Two Types of Mindsets</h2>
+<h4 id="two-types-of-mindsets">Two Types of Mindsets</h4>
 
 <p>When meeting someone, we usually distinguish between two fundamental types of people. On one hand, there are those who, despite facing adversity, seek to move forward without victimizing themselves. They adopt a resilient mindset, similar to the Japanese concept of <em>gambaru</em>. This term goes beyond simply trying; it implies an unwavering dedication until reaching the final goal. <em>Gambaru</em> means giving it your all, without excuses or rest, until you have nothing left to offer. It is a philosophy of life that values perseverance and absolute commitment.</p>
 
-<h2 id="the-trap-of-victimization">The Trap of Victimization</h2>
+<h4 id="the-trap-of-victimization">The Trap of Victimization</h4>
 
 <p>On the other hand, there are people who choose to victimize themselves in the face of every obstacle. These individuals tend to adopt a mediocre mindset, avoiding personal responsibility and denying their own mistakes. Carl Jung expressed it clearly: “People could learn from their mistakes if they weren’t so busy denying them.” This denial not only prevents personal growth but also creates barriers to establishing meaningful relationships and surrounding oneself with positive influences.</p>
 
 <p>From a philosophical perspective, this duality reflects the eternal struggle between determinism and free will. While some recognize their ability to influence their own destiny, others feel trapped by external circumstances. The way we choose to interpret and respond to life’s events defines our essence and our path.</p>
 
-<h2 id="what-do-you-choose">What Do You Choose?</h2>
+<h4 id="what-do-you-choose">What Do You Choose?</h4>
 
-<p>In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[The Common Focus on the External]]></summary></entry><entry><title type="html">The Power of Choice</title><link href="http://localhost:4000/El-poder-de-la-elecci%C3%B3n" rel="alternate" type="text/html" title="The Power of Choice" /><published>2024-11-16T06:01:35-06:00</published><updated>2024-11-16T00:00:00-06:00</updated><id>http://localhost:4000/El-poder-de-la-elecci%C3%B3n</id><content type="html" xml:base="http://localhost:4000/El-poder-de-la-elecci%C3%B3n"><![CDATA[<h2 id="doing-good-a-choice-beyond-circumstance">Doing Good: A Choice Beyond Circumstance</h2>
+<p>In conclusion, the mindset we adopt is a crucial factor that determines our success and well-being. Surrounding ourselves with people who value personal responsibility and perseverance can inspire us to develop a stronger and more resilient mindset. In the end, true transformation begins from within, and recognizing our own power to change is the first step toward a fuller and more meaningful life.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[On the path of life, it is common to observe how most people focus their attention on external factors to explain their circumstances. From morning traffic to job opportunities, there is a tendency to attribute events to chance or to forces beyond our control. However, this perspective can cloud the understanding that, on many occasions, it is we ourselves who, consciously or unconsciously, shape our own destiny.]]></summary></entry><entry><title type="html">The Power of Choice</title><link href="http://localhost:4000/El-poder-de-la-elecci%C3%B3n" rel="alternate" type="text/html" title="The Power of Choice" /><published>2024-11-16T06:01:35-06:00</published><updated>2024-11-16T00:00:00-06:00</updated><id>http://localhost:4000/El-poder-de-la-elecci%C3%B3n</id><content type="html" xml:base="http://localhost:4000/El-poder-de-la-elecci%C3%B3n"><![CDATA[<p>In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.</p>
 
-<p>In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.</p>
-
-<h2 id="fidelity-in-relationships">Fidelity in Relationships</h2>
+<h4 id="fidelity-in-relationships">Fidelity in Relationships</h4>
 
 <p>Let’s consider the concept of fidelity in a relationship. Is someone truly faithful just because they don’t have the opportunity to be unfaithful? Or does fidelity acquire greater value when one has options but consciously chooses to remain loyal? This latter situation demonstrates a deeper commitment, rooted in respect and love for one’s partner. When fidelity is a deliberate decision, it becomes a testament to personal values, rather than a result of circumstance.</p>
 
-<h2 id="peace-and-power">Peace and Power</h2>
+<h4 id="peace-and-power">Peace and Power</h4>
 
 <p>Similarly, the dynamic between peace and power reveals profound insights. There is a big difference between a pacifist who advocates for peace but lacks the means to wage war, and a peaceful person who has the capacity to do harm but chooses restraint. The latter exercises their strength with responsibility, actively deciding not to cause harm. Their peace is born from empowerment and self-control, not from a lack of capability.</p>
 
-<h2 id="the-difference-between-inability-and-integrity">The Difference Between Inability and Integrity</h2>
+<h4 id="the-difference-between-inability-and-integrity">The Difference Between Inability and Integrity</h4>
 
 <p>The distinction lies in agency. A person who cannot harm or betray does not truly embody goodness; they simply lack the means to do otherwise. True goodness arises when someone has the capacity to act otherwise, but consistently chooses the moral path. This choice elevates goodness from a passive state to an active and conscious commitment.</p>
 
-<h2 id="why-does-it-matter">Why Does It Matter?</h2>
+<h4 id="why-does-it-matter">Why Does It Matter?</h4>
 
 <p>When we recognize that doing good is a choice, we empower ourselves to act with purpose. This fosters introspection and growth, and allows us to build stronger relationships and contribute to a more just and compassionate world. Whether in love, in conflict, or in daily interactions, the decision to do good despite having other options highlights the strength of our character.</p>
 
-<p>Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[Doing Good: A Choice Beyond Circumstance]]></summary></entry><entry><title type="html">The Essentials for Surviving with GIT</title><link href="http://localhost:4000/Lo-necesario-para-sobrevivir-con-git" rel="alternate" type="text/html" title="The Essentials for Surviving with GIT" /><published>2024-07-02T06:01:35-06:00</published><updated>2024-07-02T00:00:00-06:00</updated><id>http://localhost:4000/Lo-necesario-para-sobrevivir-con-git</id><content type="html" xml:base="http://localhost:4000/Lo-necesario-para-sobrevivir-con-git"><![CDATA[<p>When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.</p>
+<p>Ultimately, doing good is not about what we can or cannot do, but about who we choose to be when we have the freedom to decide.</p>]]></content><author><name></name></author><category term="Mindset" /><summary type="html"><![CDATA[In a world filled with challenges and moral complexities, the importance of choosing to do good cannot be underestimated. In essence, doing good transcends mere circumstance; it reflects the depth of our character and the values we uphold. This principle becomes especially evident when we examine scenarios where goodness is a choice and not simply the absence of alternatives.]]></summary></entry><entry><title type="html">The Essentials for Surviving with GIT</title><link href="http://localhost:4000/Lo-necesario-para-sobrevivir-con-git" rel="alternate" type="text/html" title="The Essentials for Surviving with GIT" /><published>2024-07-02T06:01:35-06:00</published><updated>2024-07-02T00:00:00-06:00</updated><id>http://localhost:4000/Lo-necesario-para-sobrevivir-con-git</id><content type="html" xml:base="http://localhost:4000/Lo-necesario-para-sobrevivir-con-git"><![CDATA[<p>When I started college, the professors in my department suggested we take the preparatory course for the major. I, like any young and inexperienced person, thought it was a fabulous idea: a course that would teach us the basics before the class that would actually grade us. I proceeded to take said prep course. The final step? We had to fork a project and then modify it to, in the end, send a pull request. What happened in my case? I couldn’t do it.</p>
 
 <p>It was then that I researched different resources on my own. Today I want to share what I consider the most essential and necessary things to survive both the start of college and the first days of work, or at least to have a clue about what’s going on.</p>
 
@@ -643,7 +635,7 @@ git config <span class="nt">--global</span> user.email <span class="s2">"you@ema
 
 <hr />
 
-<h2 id="how-do-branches-work-in-git">How do branches work in Git?</h2>
+<h4 id="how-do-branches-work-in-git">How do branches work in Git?</h4>
 
 <p>If you’ve ever heard phrases like “make a branch for that new feature” or “don’t work directly on main”, but you have no idea what that’s about, I’ll tell you here. In fact, it’s easier than it looks.</p>
 
@@ -703,7 +695,7 @@ In the next section, I’ll tell you how to merge branches and what to do if Git
 
 <hr />
 
-<h2 id="how-to-merge-and-resolve-conflicts">How to merge and resolve conflicts?</h2>
+<h4 id="how-to-merge-and-resolve-conflicts">How to merge and resolve conflicts?</h4>
 
 <p>The time has come to join paths. When you work with branches, sooner or later you’ll want to join the changes from one branch with another. This is called a <strong>merge</strong>. But, as in any story worth telling, sometimes there are clashes and the dreaded <strong>conflicts</strong> appear. Here’s how to face them without losing your cool.</p>
 
@@ -732,7 +724,7 @@ In the next section, I’ll tell you how to merge branches and what to do if Git
 
 <p>If all goes well, Git will mix the changes automatically, and that’s it.</p>
 
-<h3 id="what-happens-if-there-are-conflicts">What happens if there are conflicts?</h3>
+<h4 id="what-happens-if-there-are-conflicts">What happens if there are conflicts?</h4>
 
 <p>Sometimes, Git can’t decide on its own how to join the changes because two branches modified the same part of a file. That is a <strong>conflict</strong>.</p>
 
@@ -740,7 +732,7 @@ In the next section, I’ll tell you how to merge branches and what to do if Git
 
 <p>Your job is to choose which part to keep, or even combine both. Delete the markers (<code class="language-plaintext highlighter-rouge">&lt;&lt;&lt;&lt;&lt;&lt;&lt;</code>, <code class="language-plaintext highlighter-rouge">=======</code>, <code class="language-plaintext highlighter-rouge">&gt;&gt;&gt;&gt;&gt;&gt;&gt;</code>) and leave the final result as you wish.</p>
 
-<h3 id="how-do-i-solve-the-conflict">How do I solve the conflict?</h3>
+<h4 id="how-do-i-solve-the-conflict">How do I solve the conflict?</h4>
 
 <ol>
   <li>
@@ -771,7 +763,7 @@ In the next section, I’ll tell you how to merge branches and what to do if Git
 
 <p><strong>P.S.:</strong></p>
 
-<h2 id="what-if-i-want-to-go-back-to-a-previous-commit">What if I want to go back to a previous commit?</h2>
+<h4 id="what-if-i-want-to-go-back-to-a-previous-commit">What if I want to go back to a previous commit?</h4>
 
 <p>Sometimes, after several changes, you realize something went wrong and you want to go back to a previous version of your project. Don’t worry, Git has you covered there too.</p>
 

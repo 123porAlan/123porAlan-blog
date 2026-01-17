@@ -16,7 +16,7 @@ The hard truth is that in a modern, agile team, "that's not my job" is a dangero
 
 And when it comes to performance, that language is Big O notation.
 
-## The Gap Between "Slow" and "Why"
+#### The Gap Between "Slow" and "Why"
 
 Most of our work as QAs is focused on the *what*. What happens when I click this? What happens when I enter this data? We validate functional requirements. But performance is a non-functional requirement that has a massive, direct impact on the user experience.
 
@@ -29,7 +29,7 @@ This is where understanding algorithmic efficiency becomes a QA superpower. It's
 
 Which of these two reports do you think gets taken seriously? Which one builds respect between QA and Dev? Which one actually helps fix the problem?
 
-## So, What is Big O (And Why Isn't It a Math Test)?
+#### So, What is Big O (And Why Isn't It a Math Test)?
 
 Don't let the $O(n)$ scare you. You don't need a computer science degree (though, as someone with one, I can tell you this is one of the *most* practical parts).
 
@@ -44,11 +44,11 @@ Think of it this way:
 
 When an application is "slow," it's almost always because a developer, often accidentally, introduced an $O(n^2)$ operation—a "nested loop"—where a linear $O(n)$ or logarithmic $O(log n)$ one would have done the job.
 
-## Where QA Meets the Algorithm: Two Battlegrounds
+#### Where QA Meets the Algorithm: Two Battlegrounds
 
 Your job isn't to find the *exact* Big O notation. Your job is to *spot the pattern*. You are perfectly positioned to do this, because you control the "n" (the data) during testing.
 
-### 1. The API Endpoint and the User Experience
+#### 1. The API Endpoint and the User Experience
 
 This is the most common culprit. A developer builds a new `GET /api/orders` endpoint. They test it on their local machine with 5 orders in their database. It returns instantly. They merge it.
 
@@ -62,7 +62,7 @@ You can now go to the developer and say, "The `GET /api/orders` endpoint looks l
 
 You've just saved days of work and prevented a production catastrophe.
 
-### 2. Our Own Automation Scripts
+#### 2. Our Own Automation Scripts
 
 This is the one we don't like to talk about. Sometimes, *we* are the source of the slowness.
 
@@ -76,7 +76,7 @@ That's a simple test that just became a performance nightmare. As the database g
 
 A QA who understands Big O would see this and say, "This is inefficient. Let's do a direct `SELECT COUNT(*)` query for that *one username*, or better yet, let's just try to create the user and assert that we get the expected 'username already exists' 400-level error from the API."
 
-## It's Not About Being a Developer. It's About Being a Better Tester.
+#### It's Not About Being a Developer. It's About Being a Better Tester.
 
 Look, you don't need to go back to college or start doing LeetCode problems. This isn't about learning to *write* a merge sort algorithm.
 
