@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Functional vs. Non-Functional Testing | Alan Bellon</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Functional vs. Non-Functional Testing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A few time ago, I landed a job at Banorte, a fairly large bank here in Mexico, and it wasn’t by chance or magic. It was the result of constant preparation, which was full of lessons, mistakes, and a compelling backstory. While I could tell you the whole story, I’d like to focus on the final piece that led to this job. I’m talking about Esteban Balvin’s “Software Testing from Scratch: All-in-One MasterClass (2025)” course on Udemy. Specifically, the video “Functional vs. Non-Functional Testing.”" />
+<meta property="og:description" content="A few time ago, I landed a job at Banorte, a fairly large bank here in Mexico, and it wasn’t by chance or magic. It was the result of constant preparation, which was full of lessons, mistakes, and a compelling backstory. While I could tell you the whole story, I’d like to focus on the final piece that led to this job. I’m talking about Esteban Balvin’s “Software Testing from Scratch: All-in-One MasterClass (2025)” course on Udemy. Specifically, the video “Functional vs. Non-Functional Testing.”" />
+<link rel="canonical" href="http://localhost:4000/Pruebas-funcionales-vs-no-funcionales" />
+<meta property="og:url" content="http://localhost:4000/Pruebas-funcionales-vs-no-funcionales" />
+<meta property="og:site_name" content="Alan Bellon" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2026-01-17T04:01:35-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Functional vs. Non-Functional Testing" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2026-01-17T00:00:00-06:00","datePublished":"2026-01-17T04:01:35-06:00","description":"A few time ago, I landed a job at Banorte, a fairly large bank here in Mexico, and it wasn’t by chance or magic. It was the result of constant preparation, which was full of lessons, mistakes, and a compelling backstory. While I could tell you the whole story, I’d like to focus on the final piece that led to this job. I’m talking about Esteban Balvin’s “Software Testing from Scratch: All-in-One MasterClass (2025)” course on Udemy. Specifically, the video “Functional vs. Non-Functional Testing.”","headline":"Functional vs. Non-Functional Testing","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/Pruebas-funcionales-vs-no-funcionales"},"url":"http://localhost:4000/Pruebas-funcionales-vs-no-funcionales"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<meta name="keywords" content="" />
+
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" href="/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" title="Alan Bellon - Blog personal de Alan Bellon sobre tecnología y desarrollo." href="/feed.xml" />
+<link rel="stylesheet" type="text/css" href="/assets/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/highlight.css" />
+<link rel="stylesheet" type="text/css" href="/assets/css/typography.css">
+
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async ></script>
+
+
+
+<script defer src="/assets/script/theme.js"></script>
+<script defer src="/assets/script/script.js"></script>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral', /* Tema más limpio y moderno */
+    securityLevel: 'loose',
+    fontFamily: 'arial, sans-serif'
+  });
+</script>
+
+</head>
+<body onload="onLoad()">
+  <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
+</select>
+
+  <div class="container-wrapper">
+    <header class="container-header">
+      <div class="header-info">
+  <span class="header-info-name"><a href="/">Alan Bellon</a></span>
+  <br>
+  <!-- <span class="header-info-desc">Blog personal de Alan Bellon sobre tecnología y desarrollo.</span> -->
+</div>
+<nav class="header-nav">
+  <ul class="header-main-nav">
+    
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/"
+          
+        >
+          
+            Blog
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/about"
+          
+        >
+          
+            About
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/categories"
+          
+        >
+          
+            Categories
+          
+        </a>
+      </li>
+    
+      
+      
+
+      
+
+      <li class="header-main-nav-item">
+        <a
+          href="/projects"
+          
+        >
+          
+            Projects
+          
+        </a>
+      </li>
+    
+  </ul>
+</nav>
+
+
+    </header>
+    <main class="container-main">
+      <article class="container-post">
+  <div class="post-title">
+    <h3>Functional vs. Non-Functional Testing</h3>
+  </div>
+  <div class="post-author">
+    <span>Alan Bellon</span>
+  </div>
+  <div class="post-content">
+    <p>A few time ago, I landed a job at Banorte, a fairly large bank here in Mexico, and it wasn’t by chance or magic. It was the result of constant preparation, which was full of lessons, mistakes, and a compelling backstory. While I could tell you the whole story, I’d like to focus on the final piece that led to this job. I’m talking about Esteban Balvin’s “Software Testing from Scratch: All-in-One MasterClass (2025)” course on Udemy. Specifically, the video “Functional vs. Non-Functional Testing.”</p>
+
+<p>I mention this because everything in the video was covered in the theoretical interview, which was the deciding factor in getting the job.</p>
+
+<h4 id="types-of-testing">Types of Testing</h4>
+<p>There are two types of testing: <strong>Functional Testing</strong> and <strong>Non-Functional Testing</strong>. Functional testing is the most common; it’s the traditional kind. Functional testing ensures that the software’s features and functionalities behave as expected. Non-functional testing focuses on other aspects such as security, stability, accessibility, etc.</p>
+
+<div class="mermaid">
+graph TD
+  %% Estilos para el nodo principal (Cuadrado y grande)
+  root[Tipos de Pruebas]:::principal
+  
+  %% Ramas Principales
+  root --&gt; Func[Funcionales]
+  root --&gt; NoFunc[No Funcionales]
+
+  %% Desglose Funcionales
+  Func --&gt; Unit[Unitarias]
+  Func --&gt; Int[Integración]
+  Func --&gt; Sis[Sistema]
+  Func --&gt; Acep[Aceptación]
+  Func --&gt; San[Sanidad]
+
+  %% Desglose No Funcionales
+  NoFunc --&gt; Rend[Rendimiento]
+  NoFunc --&gt; Seg[Seguridad]
+  NoFunc --&gt; Usab[Usabilidad]
+  NoFunc --&gt; Comp[Compatibilidad]
+
+  %% Sub-rama Rendimiento
+  Rend --&gt; Carga[Carga]
+  Rend --&gt; Estres[Estrés]
+
+  %% AQUI ESTA EL CAMBIO: Cambié #f9f (rosa) por #e5e5e5 (gris claro)
+  classDef principal fill:#e5e5e5,stroke:#333,stroke-width:2px,font-size:18px;
+</div>
+
+<h4 id="lets-delve-a-little-deeper-into-functional-testing">Let’s delve a little deeper into functional testing:</h4>
+<ul>
+  <li>
+    <p><strong>Unit Testing:</strong> Verifies that each individual component or unit of the source code functions correctly in isolation.</p>
+  </li>
+  <li>
+    <p><strong>Integration Testing:</strong> Evaluates how the different modules or components of a system interact and communicate with each other.</p>
+  </li>
+  <li>
+    <p><strong>Smoke Testing:</strong> A set of quick tests that ensure the most basic and critical functionalities of a new version operate without blocking errors.</p>
+  </li>
+  <li>
+    <p><strong>Regression Testing:</strong> Consists of retesting a previously analyzed system to ensure that recent changes have not introduced new defects.</p>
+  </li>
+  <li>
+    <p><strong>Acceptance Testing:</strong> Final validation performed by the user or client to determine if the software meets business requirements and can be accepted.</p>
+  </li>
+</ul>
+
+<h4 id="now-well-talk-about-non-functional-testing">Now we’ll talk about non-functional testing</h4>
+<ul>
+  <li>
+    <p><strong>Performance Testing:</strong> Determines the stability, speed, and scalability of an application under a specific workload.</p>
+  </li>
+  <li>
+    <p><strong>Load Testing:</strong> A type of performance test that measures system behavior when increasing the load of users or transactions to its expected limit.</p>
+  </li>
+  <li>
+    <p><strong>Stress Testing:</strong> Evaluates the robustness and breaking points of software by subjecting it to extreme conditions beyond its normal capacity.</p>
+  </li>
+  <li>
+    <p><strong>Security Testing:</strong> Activities focused on finding vulnerabilities to prevent attacks and protect the integrity of important information.</p>
+  </li>
+</ul>
+
+<p>The above are notes I took while taking the aforementioned course. I would like to thank Professor Esteban Balvin.</p>
+
+  </div>
+  <hr>
+  <div class="post-info">
+    <div class="post-date">
+      Written on 2026-01-17, updated at 2026-01-17.
+    </div>
+    <!-- <div class="post-categories">
+      <span>Categories: </span>
+      
+      <a href="/category/quality-assurance" class="post-category">Quality Assurance</a>
+      
+    </div> -->
+    <!-- <div class="post-tags">
+      <span>Tags: </span>
+      
+    </div> -->
+    <div class="post-tools">
+      
+      
+      <div>
+        <span>Previous: </span><a href="/La-Paradoja-de-Contar-tus-Metas">The Paradox of Announcing Your Goals</a>
+      </div>
+      
+    </div>
+    
+  </div>
+</article>
+    </main>
+    <footer class="container-footer">
+      <div class="footer-copyright">
+  <span class="footer-copyright-text float-left"
+    >Socials:
+    <a
+      href="https://www.linkedin.com/in/alan-bellon/"
+      target="_blank"
+      rel="noopener noreferrer"
+      >LinkedIn</a
+    >,
+    <a
+      href="https://github.com/123poralan"
+      target="_blank"
+      rel="noopener noreferrer"
+      >Github</a
+    ></span
+  >
+</div>
+
+    </footer>
+  </div>
+
+  <script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true });
+  document.querySelectorAll('pre > code.language-mermaid').forEach((codeBlock) => {
+    codeBlock.parentElement.outerHTML = `<pre class="mermaid">${codeBlock.textContent}</pre>`;
+  });
+</script>
+
+</body>
+</html>

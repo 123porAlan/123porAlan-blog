@@ -44,6 +44,16 @@
 <script defer src="/assets/script/theme.js"></script>
 <script defer src="/assets/script/script.js"></script>
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral', /* Tema más limpio y moderno */
+    securityLevel: 'loose',
+    fontFamily: 'arial, sans-serif'
+  });
+</script>
+
 </head>
 <body onload="onLoad()">
   <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
@@ -157,13 +167,16 @@
   }
 
   .posts-list-item-name a {
-    color: #222;
+    /* CORRECCIÓN: Usar la variable del tema en lugar de #222 */
+    color: var(--primary-text-color); 
     text-decoration: none;
   }
 
   .posts-list-item-name a:hover {
     text-decoration: underline;
-    color: #000;
+    /* CORRECCIÓN: Usar variable para que se vea en oscuro también */
+    color: var(--primary-text-color);
+    opacity: 0.8; /* Efecto sutil al pasar el mouse */
   }
 
   /* Fecha a la derecha */
@@ -173,7 +186,10 @@
     text-align: right;
     font-family: monospace;
     font-size: 1.25rem;       
-    color: #666;
+    /* CORRECCIÓN: Usamos el color principal pero con opacidad */
+    /* Esto se verá gris en modo claro y gris claro en modo oscuro */
+    color: var(--primary-text-color);
+    opacity: 0.6; 
     margin-top: 2px;
   }
 
@@ -183,9 +199,16 @@
     text-align: center;
     overflow: hidden;
     padding-top: 20px;
-    border-top: none;          /* <--- CAMBIO: Eliminada la línea superior */
+    border-top: none;          
     font-size: 1.1rem;
     font-family: monospace;
+    /* Aseguramos que el texto de la paginación también responda al tema */
+    color: var(--primary-text-color); 
+  }
+  
+  /* Aseguramos que los links de paginación también usen el color correcto */
+  .posts-list-pagination a {
+    color: var(--primary-text-color);
   }
 
   .float-left { float: left; }
@@ -211,6 +234,15 @@
 
 <div class="container-posts">
   
+  
+    <div class="posts-list-item">
+      <span class="posts-list-item-name">
+        <a href="/Lo-necesario-para-sobrevivir-con-git">The Essentials for Surviving with GIT</a>
+      </span>
+      <span class="posts-list-item-date">
+        2024-07-02
+      </span>
+    </div>
   
     <div class="posts-list-item">
       <span class="posts-list-item-name">

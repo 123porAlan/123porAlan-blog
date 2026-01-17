@@ -43,6 +43,16 @@
 <script defer src="/assets/script/theme.js"></script>
 <script defer src="/assets/script/script.js"></script>
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral', /* Tema más limpio y moderno */
+    securityLevel: 'loose',
+    fontFamily: 'arial, sans-serif'
+  });
+</script>
+
 </head>
 <body onload="onLoad()">
   <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
@@ -134,6 +144,8 @@
     <h1>Quality Assurance</h1>
   </div>
   <ul class="category-list">
+  
+    <li><span>Jan 17, 2026: </span><a href="/Pruebas-funcionales-vs-no-funcionales">Functional vs. Non-Functional Testing</a></li>
   
     <li><span>Oct 24, 2025: </span><a href="/How-Big-O-Notation-Made-Me-a-Better-QA">Why Big O Notation Isn't Just for Developers - A QA's Guide to Performance</a></li>
   

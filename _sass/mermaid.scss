@@ -1,6 +1,10 @@
-@charset "utf-8";
-
-code.language-mermaid {
-  display: block;
-  text-align: center;
+/* _sass/mermaid.scss */
+.mermaid {
+  display: flex;
+  justify-content: center; /* Centra el diagrama horizontalmente */
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f9f9f9; /* Fondo gris muy suave */
+  border-radius: 8px; /* Bordes redondeados */
+  overflow-x: auto; /* Permite scroll si el mapa es muy ancho */
 }

@@ -26,3 +26,13 @@
 
 <script defer src="{{"/assets/script/theme.js" | relative_url }}"></script>
 <script defer src="{{"/assets/script/script.js" | relative_url }}"></script>
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral', /* Tema más limpio y moderno */
+    securityLevel: 'loose',
+    fontFamily: 'arial, sans-serif'
+  });
+</script>

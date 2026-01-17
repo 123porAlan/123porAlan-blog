@@ -44,6 +44,16 @@
 <script defer src="/assets/script/theme.js"></script>
 <script defer src="/assets/script/script.js"></script>
 
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: 'neutral', /* Tema más limpio y moderno */
+    securityLevel: 'loose',
+    fontFamily: 'arial, sans-serif'
+  });
+</script>
+
 </head>
 <body onload="onLoad()">
   <select id='themeSelector' onchange="toggleTheme()" aria-label="Select theme">
@@ -216,6 +226,10 @@
       
     </div> -->
     <div class="post-tools">
+      
+      <div>
+        <span>Next: </span><a href="/Pruebas-funcionales-vs-no-funcionales">Functional vs. Non-Functional Testing</a>
+      </div>
       
       
       <div>
