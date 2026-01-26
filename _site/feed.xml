@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-17T14:25:09-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alan Bellon</title><subtitle>Blog personal de Alan Bellon sobre tecnología y desarrollo.</subtitle><entry><title type="html">Functional vs. Non-Functional Testing</title><link href="http://localhost:4000/Pruebas-funcionales-vs-no-funcionales" rel="alternate" type="text/html" title="Functional vs. Non-Functional Testing" /><published>2026-01-17T04:01:35-06:00</published><updated>2026-01-17T00:00:00-06:00</updated><id>http://localhost:4000/Pruebas-funcionales-vs-no-funcionales</id><content type="html" xml:base="http://localhost:4000/Pruebas-funcionales-vs-no-funcionales"><![CDATA[<p>A few time ago, I landed a job at Banorte, a fairly large bank here in Mexico, and it wasn’t by chance or magic. It was the result of constant preparation, which was full of lessons, mistakes, and a compelling backstory. While I could tell you the whole story, I’d like to focus on the final piece that led to this job. I’m talking about Esteban Balvin’s “Software Testing from Scratch: All-in-One MasterClass (2025)” course on Udemy. Specifically, the video “Functional vs. Non-Functional Testing.”</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-01-26T14:18:40-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Alan Bellon</title><subtitle>Blog personal de Alan Bellon sobre tecnología y desarrollo.</subtitle><entry><title type="html">Functional vs. Non-Functional Testing</title><link href="http://localhost:4000/Pruebas-funcionales-vs-no-funcionales" rel="alternate" type="text/html" title="Functional vs. Non-Functional Testing" /><published>2026-01-17T04:01:35-06:00</published><updated>2026-01-26T00:00:00-06:00</updated><id>http://localhost:4000/Pruebas-funcionales-vs-no-funcionales</id><content type="html" xml:base="http://localhost:4000/Pruebas-funcionales-vs-no-funcionales"><![CDATA[<p>A few time ago, I landed a job at Banorte, a fairly large bank here in Mexico, and it wasn’t by chance or magic. It was the result of constant preparation, which was full of lessons, mistakes, and a compelling backstory. While I could tell you the whole story, I’d like to focus on the final piece that led to this job. I’m talking about Esteban Balvin’s “Software Testing from Scratch: All-in-One MasterClass (2025)” course on Udemy. Specifically, the video “Functional vs. Non-Functional Testing.”</p>
 
 <p>I mention this because everything in the video was covered in the theoretical interview, which was the deciding factor in getting the job.</p>
 
@@ -8,28 +8,28 @@
 <div class="mermaid">
 graph TD
   %% Estilos para el nodo principal (Cuadrado y grande)
-  root[Tipos de Pruebas]:::principal
+  root[Software testing Types]:::principal
   
   %% Ramas Principales
-  root --&gt; Func[Funcionales]
-  root --&gt; NoFunc[No Funcionales]
+  root --&gt; Func[Functional]
+  root --&gt; NoFunc[Non-Functional]
 
   %% Desglose Funcionales
-  Func --&gt; Unit[Unitarias]
-  Func --&gt; Int[Integración]
-  Func --&gt; Sis[Sistema]
-  Func --&gt; Acep[Aceptación]
-  Func --&gt; San[Sanidad]
+  Func --&gt; Unit[Unit]
+  Func --&gt; Int[Integration]
+  Func --&gt; Sis[System]
+  Func --&gt; Acep[Acceptance]
+  Func --&gt; San[Sanity]
 
   %% Desglose No Funcionales
-  NoFunc --&gt; Rend[Rendimiento]
-  NoFunc --&gt; Seg[Seguridad]
-  NoFunc --&gt; Usab[Usabilidad]
-  NoFunc --&gt; Comp[Compatibilidad]
+  NoFunc --&gt; Rend[Perfomance]
+  NoFunc --&gt; Seg[Segurity]
+  NoFunc --&gt; Usab[Usability]
+  NoFunc --&gt; Comp[Compatibility]
 
   %% Sub-rama Rendimiento
-  Rend --&gt; Carga[Carga]
-  Rend --&gt; Estres[Estrés]
+  Rend --&gt; Carga[Load]
+  Rend --&gt; Estres[Stress]
 
   %% AQUI ESTA EL CAMBIO: Cambié #f9f (rosa) por #e5e5e5 (gris claro)
   classDef principal fill:#e5e5e5,stroke:#333,stroke-width:2px,font-size:18px;

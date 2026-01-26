@@ -2,7 +2,7 @@
 layout: post
 title: Functional vs. Non-Functional Testing
 date: 2026-01-17 13:01:35 +0300
-last_modified_at: 2026-01-17
+last_modified_at: 2026-01-26
 categories: [Quality Assurance]
 ---
 
@@ -17,28 +17,28 @@ There are two types of testing: **Functional Testing** and **Non-Functional Test
 <div class="mermaid">
 graph TD
   %% Estilos para el nodo principal (Cuadrado y grande)
-  root[Tipos de Pruebas]:::principal
+  root[Software testing Types]:::principal
   
   %% Ramas Principales
-  root --> Func[Funcionales]
-  root --> NoFunc[No Funcionales]
+  root --> Func[Functional]
+  root --> NoFunc[Non-Functional]
 
   %% Desglose Funcionales
-  Func --> Unit[Unitarias]
-  Func --> Int[Integración]
-  Func --> Sis[Sistema]
-  Func --> Acep[Aceptación]
-  Func --> San[Sanidad]
+  Func --> Unit[Unit]
+  Func --> Int[Integration]
+  Func --> Sis[System]
+  Func --> Acep[Acceptance]
+  Func --> San[Sanity]
 
   %% Desglose No Funcionales
-  NoFunc --> Rend[Rendimiento]
-  NoFunc --> Seg[Seguridad]
-  NoFunc --> Usab[Usabilidad]
-  NoFunc --> Comp[Compatibilidad]
+  NoFunc --> Rend[Perfomance]
+  NoFunc --> Seg[Segurity]
+  NoFunc --> Usab[Usability]
+  NoFunc --> Comp[Compatibility]
 
   %% Sub-rama Rendimiento
-  Rend --> Carga[Carga]
-  Rend --> Estres[Estrés]
+  Rend --> Carga[Load]
+  Rend --> Estres[Stress]
 
   %% AQUI ESTA EL CAMBIO: Cambié #f9f (rosa) por #e5e5e5 (gris claro)
   classDef principal fill:#e5e5e5,stroke:#333,stroke-width:2px,font-size:18px;
